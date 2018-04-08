@@ -2003,6 +2003,100 @@ fieldset[disabled] a.btn {
   pointer-events: none;
 }
 
+.btn-git {
+  color: #fff;
+  background-color: #6e5494;
+}
+
+.btn-git:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #605090;
+}
+
+.btn-git:focus, .btn-git.focus {
+  box-shadow: 0 0 0 0px rgba(0, 123, 255, 0.5);
+}
+
+.btn-git.disabled, .btn-git:disabled {
+  background-color: #007bff;
+}
+
+.btn-git:active, .btn-git.active,
+.show > .btn-git.dropdown-toggle {
+  color: #fff;
+  background-color: #605090;
+  background-image: none;
+}
+
+.text-fbm {
+  color: #0084ff !important;
+}
+
+a.text-fbm:focus, a.text-fbm:hover {
+  color: #1164df !important;
+}
+
+.btn-fbm {
+  color: #fff;
+  background-color: #0084ff;
+}
+
+.btn-fbm:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #1164df;
+}
+
+.btn-fbm:focus, .btn-fbm.focus {
+  box-shadow: 0 0 0 0px rgba(0, 123, 255, 0.5);
+}
+
+.btn-fbm.disabled, .btn-fbm:disabled {
+  background-color: #007bff;
+}
+
+.btn-fbm:active, .btn-fbm.active,
+.show > .btn-fbm.dropdown-toggle {
+  color: #fff;
+  background-color: #1164df;
+  background-image: none;
+}
+
+.text-link {
+  color: #0077b5 !important;
+}
+
+a.text-link:focus, a.text-link:hover {
+  color: #005695 !important;
+}
+
+.btn-in {
+  color: #fff;
+  background-color: #0077b5;
+}
+
+.btn-in:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #005695;
+}
+
+.btn-in:focus, .btn-in.focus {
+  box-shadow: 0 0 0 0px rgba(0, 123, 255, 0.5);
+}
+
+.btn-in.disabled, .btn-in:disabled {
+  background-color: #007bff;
+}
+
+.btn-in:active, .btn-in.active,
+.show > .btn-in.dropdown-toggle {
+  color: #fff;
+  background-color: #005695;
+  background-image: none;
+}
+
 .btn-primary {
   color: #495057;
   background-color: #fff;
@@ -8169,6 +8263,14 @@ a.bg-dark:focus, a.bg-dark:hover {
 
 .text-hud {
   color: #d1912a !important;
+}
+
+.text-git {
+  color: #6e5494 !important;
+}
+
+a.text-git:focus, a.text-git:hover {
+  color: #4e3464 !important;
 }
 
 a.text-primary:focus, a.text-primary:hover {
