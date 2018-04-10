@@ -50,3 +50,19 @@
 .sevenshrink {
   max-width: 500px !important;
 }
+
+.scrollmenu {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.scrolllist {
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.scrolllist:hover {
+  background-color: rgba(150, 150, 150, 0.1);
+}

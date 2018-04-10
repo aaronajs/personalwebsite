@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Aaron Suman | About Me</title>
+		<title>Aaron Suman</title>
 		<meta charset="utf-8">
 		<meta name="author" content="">
 		<meta name="description" content="" />
 		<meta property="og:type" content="website">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+		<link href="https://fonts.googleapis.com/css?family=Lobster|Quicksand" rel="stylesheet">
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=vMOJaabp5y">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=vMOJaabp5y">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=vMOJaabp5y">
+		<link rel="manifest" href="/site.webmanifest?v=vMOJaabp5y">
+		<link rel="mask-icon" href="/safari-pinned-tab.svg?v=vMOJaabp5y" color="#922b21">
+		<link rel="shortcut icon" href="/favicon.ico?v=vMOJaabp5y">
+		<meta name="apple-mobile-web-app-title" content="Aaron Suman">
+		<meta name="application-name" content="Aaron Suman">
+		<meta name="msapplication-TileColor" content="#922b21">
+		<meta name="theme-color" content="#ffffff">
 		<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/bootstrap.css">
@@ -17,15 +26,15 @@
 
 	<body>
 
-		<nav class="navbarY navbar navbar-expand-sm navbar-light bg-light">
+		<nav class="navbarY navbar navbar-expand-sm navbar-dark bg-dark" id="navbar">
 			<div class="container">
-				<a class="navbar-brand text-theme lobsterFont" href="index.html">Aaron Suman</a>
+				<a class="navbar-brand lobsterFont" href="index.html" id="brand">Aaron Suman</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="true" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse justify-content-end" id="navigation">
 					<div class="navbar-nav">
-						<a class="nav-item nav-link active" href="index.html">About Me</a>
+						<a class="nav-item nav-link active" href="index.html">About&nbsp;Me</a>
 						<a class="nav-item nav-link" href="experience.html">Experience</a>
             <a class="nav-item nav-link" href="education.html">Education</a>
 						<a class="nav-item nav-link" href="projects.html">Projects</a>
@@ -34,27 +43,97 @@
 			</div>
     </nav>
 
-		<br /><br /><br />
-		<div class="container" id="Personal Website">
+		<br /><br />
+		<div class="container" id="homepage">
 			<div class="row">
 				<div class="col-lg-9 col-md-8 col-sm-8">
-					<h1 class="text-theme lobsterFont">Aaron Suman</h1>
-					<h5 class="text-muted"><i class="fas fa-graduation-cap"></i> | Computer Science Student at King's College London</h5>
-					<h5 class="text-muted"><i class="fas fa-briefcase"></i>&nbsp; | Ambassador for JobLab</h5>
-					<hr align="left" width="30%">
-					<a role="button" class="btn btn-sm btn-theme" aria-pressed="true" href="experience.html">Experience</a>
-					<a role="button" class="btn btn-sm btn-theme" aria-pressed="true" href="education.html">Education</a>
-					<a role="button" class="btn btn-sm btn-theme" aria-pressed="true" href="projects.html">Projects</a>
-					<hr align="left" width="30%">
-					<p>I am an ambitious and enthusiastic 2nd year computer science student from King’s College London, seeking a role to employ my creative thinking, interpersonal and problem solving skills
+					<h1 class="text-theme lobsterFont text-mobileAdjust">Aaron Suman</h1>
+					<dl class="row text-muted homepage1">
+					  <dt class="col-1"><i class="fas fa-graduation-cap"></i></dt>
+					  <dd class="col-11"><h5>Computer Science Student at King's College London</h5></dd>
+						<dt class="col-1"><i class="fas fa-briefcase"></i></dt>
+					  <dd class="col-11"><h5>Ambassador for JobLab</h5></dd>
+					</dl>
+					<div class="text">
+						<hr align="left" width="65%">
+						<a role="button" class="btn btn-sm btn-theme" aria-pressed="true" href="experience.html">Experience</a>
+						<a role="button" class="btn btn-sm btn-theme" aria-pressed="true" href="education.html">Education</a>
+						<a role="button" class="btn btn-sm btn-theme" aria-pressed="true" href="projects.html">Projects</a>
+						<hr align="left" width="65%">
+					</div><br />
+					<p>I am an ambitious and enthusiastic 2nd year computer science student from King’s College London, seeking roles and projects to employ my creative thinking, interpersonal and problem solving skills
 							whilst further developing these skills in an energetic and fast-paced environment. <br /><br />
 							My current career goal is to actively contribute to a competitive team with a passion for excellence whilst continuing to explore my interests in technology and its applications. </p><br />
-					<br /><br />
+					<br />
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="card w-100">
+	              <div class="card-body">
+									<h4 class="text-center text-theme">Education</h4><hr><br />
+	                <h5 class="card-title text-theme">King's College London</h5>
+	                <h6 class="card-subtitle mb-2 text-muted">September 2016 - June 2020</h6>
+	                <hr>
+	                <h6 class="card-subtitle mb-2 text-theme">Computer Science MSci</h6>
+	                <hr style="margin-top: 0">
+	                <p class="card-text"> A four-year course with an initial focus on programming, databases and computer systems. <br />
+	                                      I'm focusing on artificial intelligence, security and software engineering in my third year.</p>
+
+									<p class="text-theme">First Class (81%)</p>
+	              	<hr><br />
+		              <h5 class="card-title text-theme">The Manchester Grammar School</h5>
+		              <h6 class="card-subtitle mb-2 text-muted">September 2009 - June 2016</h6>
+		              <hr>
+		              <h6 class="card-subtitle mb-2 text-theme">A-Levels & (i)GCSEs</h6>
+		              <hr style="margin-top: 0">
+		              <p class="card-text"> I spent seven years studying a wide variety of subjects including mathematics, English, sciences, modern and ancient foreign languages.</p>
+									<p class="text-theme">A*BBDb | 9A*s 2As</p>
+								</div>
+	              <div class="card-footer text-center">
+	                <a href="education.html#KCL" class="card-link text-theme">Read more</a><br/>
+	              </div>
+		          </div><br />
+						</div>
+						<div class="col-lg-6">
+							<div class="card w-100">
+						  	<div class="card-body">
+									<h4 class="text-center text-theme">Employment</h4><hr><br />
+									<h5 class="card-title text-theme">JobLab</h5>
+									<h6 class="card-subtitle mb-2 text-muted">February 2018 - present</h6>
+									<hr>
+	    						<h6 class="card-subtitle mb-2 text-theme">Ambassador</h6>
+	                <hr style="margin-top: 0">
+									<p class="card-text">I’m currently working as an ambassador for this London based startup. My role is primarily based within my university.</p>
+						  	</div>
+						  	<div class="card-footer text-center">
+									<a href="experience.html#JOBLAB" class="card-link text-theme">Read more</a>
+						  	</div>
+							</div><br />
+							<div class="card w-100">
+								<div class="card-body">
+									<h4 class="text-center text-theme">Latest Project</h4><hr><br />
+									<h5 class="card-title text-theme">Personal Website</h5>
+									<h6 class="card-subtitle mb-2 text-muted">2018</h6>
+									<hr>
+									<h6 class="card-subtitle mb-2 text-theme">Web Development</h6>
+									<hr style="margin-top: 0">
+									<p class="card-text">
+										Going beyond my CV, this website provides a more detailed showcase of my education, experience and projects that I’m working on, as well as information on how to get in touch with me.
+									</p>
+								</div>
+								<div class="card-footer text-center">
+									<a href="projects.html" class="text-theme">Read more</a>
+								</div>
+							</div>
+						</div>
+					</div><br /><br />
+					<h5 class="text-theme">Other Interests</h5><br />
+
 				</div>
 				<div class="col-lg-3 col-md-4 col-sm-4">
 					<div class="card w-100">
-					 	<img class="card-img-top" src="resources/images/aaron.jpg" alt="profile picture">
-				  	<div class="card-body"><br />
+					 	<img class="card-img-top d-none d-sm-block" src="resources/images/aaron.jpg" alt="profile picture">
+						<!-- <img class="card-img-top d-none d-sm-block" src="resources/images/bitmojismile2.png" alt="profile picture"> -->
+				  	<div class="card-body">
 							<h6 class="card-subtitle mb-2 text-muted">Want to know more about me or my projects?</h6>
 						</div>
 						<ul class="list-group list-group-flush">
@@ -70,10 +149,37 @@
 
 		<div class="container">
 			<hr>
-			<p class="text-muted">© Aaron Suman</p>
-      <br />
+			<div class="row">
+				<div class="col-10">
+					<p class="text-muted">© Aaron Suman</p>
+				</div>
+				<div class="col-2 text-theme text-right">
+					<!-- bonus feature. implement site wide + cache implementation later -->
+					<a onclick="navbarlight()"><i class="far fa-circle fa-lg"></i></a>
+					<a onclick="navbardark()"><i class="fas fa-circle fa-lg"></i></a>
+				</div>
+			</div>
+			<br />
 		</div>
 
+		<script>
+			function navbarlight(){
+				var navbar = document.getElementById('navbar');
+				navbar.classList.remove("bg-dark");
+				navbar.classList.remove("navbar-dark");
+				navbar.classList.add("bg-light");
+				navbar.classList.add("navbar-light");
+				document.getElementById('brand').classList.add("text-theme");
+			}
+			function navbardark(){
+				var navbar = document.getElementById('navbar');
+				navbar.classList.remove("bg-light");
+				navbar.classList.remove("navbar-light");
+				navbar.classList.add("bg-dark");
+				navbar.classList.add("navbar-dark");
+				document.getElementById('brand').classList.remove("text-theme");
+			}
+		</script>
 		<script src="http://code.jquery.com/jquery-2.1.1.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 		<script src="javascript/bootstrap.js"></script>
