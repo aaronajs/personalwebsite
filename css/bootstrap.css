@@ -88,7 +88,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: 'Open Sans', BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Open Sans', BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
@@ -117,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: .5rem;
 }
 
 abbr[title],
@@ -616,10 +616,6 @@ pre code {
   width: 100%;
 }
 
-.containerX {
-  width: 75%;
-}
-
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -628,19 +624,37 @@ pre code {
 
 @media (min-width: 768px) {
   .container {
-    max-width: 720px;
+    max-width: 710px;
+  }
+  .crushed {
+    max-width: 500px;
+  }
+  .smashed {
+    max-width: 350px;
   }
 }
 
 @media (min-width: 992px) {
   .container {
-    max-width: 960px;
+    max-width: 900px;
+  }
+  .crushed {
+    max-width: 700px;
+  }
+  .smashed {
+    max-width: 350px;
   }
 }
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1140px;
+    max-width: 1080px;
+  }
+  .crushed {
+    max-width: 700px;
+  }
+  .smashed {
+    max-width: 350px;
   }
 }
 
@@ -3355,6 +3369,7 @@ tbody.collapse.show {
 }
 
 .navbarY {
+  font-family: 'Quicksand', BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   padding: 1rem 2rem;
   position: relative;
 }
@@ -3385,10 +3400,8 @@ tbody.collapse.show {
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.75rem;
+  font-size: 2rem;
   line-height: inherit;
   white-space: nowrap;
 }
@@ -3780,8 +3793,12 @@ tbody.collapse.show {
   border-radius: 0.25rem;
 }
 
+.cardshadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .card-body {
-  font-family: 'Roboto', BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Quicksand', BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   -ms-flex: 1 1 auto;
       flex: 1 1 auto;
   padding: 1.25rem;
@@ -3877,7 +3894,7 @@ tbody.collapse.show {
   border-bottom-left-radius: calc(0.25rem - 1px);
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .card-deck {
     display: -ms-flexbox;
     display: flex;
@@ -3948,14 +3965,32 @@ tbody.collapse.show {
 
 @media (min-width: 576px) {
   .card-columns {
-    -webkit-column-count: 3;
-            column-count: 3;
+    -webkit-column-count: 1;
+            column-count: 1;
     -webkit-column-gap: 1.25rem;
             column-gap: 1.25rem;
   }
   .card-columns .card {
     display: inline-block;
     width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-columns {
+    -webkit-column-count: 2;
+            column-count: 2;
+    -webkit-column-gap: 1.25rem;
+            column-gap: 1.25rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-columns {
+    -webkit-column-count: 3;
+            column-count: 3;
+    -webkit-column-gap: 1.25rem;
+            column-gap: 1.25rem;
   }
 }
 
@@ -4204,13 +4239,13 @@ tbody.collapse.show {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 0rem;
-  background-color: #e9ecef;
-  border-radius: 0.3rem;
+  background-color: #fff;
+  /* border-radius: 0.3rem; */
 }
 
 @media (min-width: 576px) {
   .jumbotron {
-    padding: 1rem 2rem;
+    padding: 0rem 2rem;
   }
 }
 
@@ -4477,6 +4512,7 @@ tbody.collapse.show {
 }
 
 .list-group-flush .list-group-item {
+  font-family: 'Quicksand', BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   border-right: 0;
   border-left: 0;
   border-radius: 0;
@@ -5430,6 +5466,14 @@ a.bg-dark:focus, a.bg-dark:hover {
 
 .bg-white {
   background-color: #fff !important;
+}
+
+.bg-grey {
+  background-color: #f0f3f6 !important;
+}
+
+.bg-theme {
+  background-color: #8b2a24 !important;
 }
 
 .bg-translucent {
@@ -8262,20 +8306,48 @@ a.bg-dark:focus, a.bg-dark:hover {
   color: #002a5c !important;
 }
 
+.bg-mgs {
+  background-color: #002a5c !important;
+}
+
 .text-kcl {
   color: #ed0101 !important;
+}
+
+.bg-kcl {
+  background-color: #ed0101 !important;
 }
 
 .text-joblab {
   color: #0091d1 !important;
 }
 
+.bg-joblab {
+  background-color: #0091d1 !important;
+}
+
 .text-nota {
   color: #B20000 !important;
 }
 
+.bg-nota {
+  background-color: #B20000 !important;
+}
+
+.text-hud {
+  color: #d1912a !important;
+}
+
+.bg-hud {
+  background-color: #d1912a !important;
+}
+
 .text-theme {
   color: #8b2a24 !important;
+}
+
+a.text-theme:focus, a.text-theme:hover {
+  color: #671a14 !important;
 }
 
 .btn-theme {
@@ -8302,10 +8374,6 @@ a.bg-dark:focus, a.bg-dark:hover {
   color: #fff;
   background-color: #720B01;
   background-image: none;
-}
-
-.text-hud {
-  color: #d1912a !important;
 }
 
 .text-git {

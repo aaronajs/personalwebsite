@@ -19,18 +19,24 @@
   background-size: cover;
 }
 
+.latestProj {
+  background:url("../resources/images/min/laptop.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
 .shade {
 	box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
 }
 
-.roboto {
-	font-family: 'Roboto', sans-serif;
-}
 .lobster {
-	font-family : 'Lobster', sans-serif;
+	font-family : 'Lobster', sans-serif !important;
 }
 .quicksand {
-	font-family : 'Quicksand', sans-serif;
+	font-family : 'Quicksand', sans-serif !important;
 }
 
 .homeIcon:hover {
@@ -63,6 +69,12 @@
   text-decoration: none;
 }
 
-.scrolllist:hover {
-  background-color: rgba(150, 150, 150, 0.1);
+.sticky-sidebar {
+  position:fixed;
+  max-width: 20%;
+  margin-left: 5%;
+}
+
+.circle {
+  border-radius: 50%;
 }
