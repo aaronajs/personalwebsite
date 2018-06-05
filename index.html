@@ -133,11 +133,11 @@
 					<dd class="col-6">HTML + CSS</dd>
 					<dd class="col-6 text-right"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></dd>
 
-					<dd class="col-6">JavaScript</dd>
-					<dd class="col-6 text-right"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></dd>
-
 					<dd class="col-6">React Native</dd>
 					<dd class="col-6 text-right"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></dd>
+
+					<dd class="col-6">JavaScript</dd>
+					<dd class="col-6 text-right"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></dd>
 
 					<dd class="col-6">Ruby on Rails</dd>
 					<dd class="col-6 text-right"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></dd>
@@ -178,33 +178,32 @@
 			</div><br /><br />
 		</div><br />
 
-		<div class="jumbotron bg-grey quicksand text-center" id="contact me"><br /><br /><br />
-			<div class="container crushed"><br />
+		<div class="jumbotron bg-grey quicksand" id="contact me"><br /><br /><br />
+			<div class="container crushed text-center"><br />
 				<h4 class="text-theme"><i class="fas fa-comments fa-lg"></i> Contact Me</h4><br />
 				<h5>Want to know more about me or my projects?</h5><br /><br />
-				<dl class="row">
+				<dl class="row justify-content-center">
 					<dd class="col-sm-4 col-12"><a href="" class="text-theme"><i class="far fa-file fa-2x"></i><br /><h5>Curriculam Vitae</h5><a/></dd>
 					<dd class="col-sm-4 col-6"><a href="https://www.linkedin.com/in/aaronsuman" target="_blank" class="text-link"><i class="fab fa-linkedin fa-2x"></i><br /><h5>LinkedIn</h5></a></dd>
 					<dd class="col-sm-4 col-6"><a href="https://github.com/aaronajs" target="_blank" class="text-git"><i class="fab fa-github fa-2x"></i><br /><h5>GitHub</h5></a></dd>
-					<dd class="col-sm-6 col-6"><a href="mailto:oneaaronsuman@gmail.com" class="text-success"><i class="fas fa-envelope fa-2x"></i><br /><h5>Email</h5></a></dd>
-					<dd class="col-sm-6 col-6"><a href="http://m.me/ajsaaron" target="_blank" class="text-fbm"><i class="fab fa-facebook-messenger fa-2x"></i><br /><h5>Messenger</h5></a></dd>
+					<dd class="col-sm-4 col-6"><a href="mailto:oneaaronsuman@gmail.com" class="text-success"><i class="fas fa-envelope fa-2x"></i><br /><h5>Email</h5></a></dd>
+					<dd class="col-sm-4 col-6"><a href="http://m.me/ajsaaron" target="_blank" class="text-fbm"><i class="fab fa-facebook-messenger fa-2x"></i><br /><h5>Messenger</h5></a></dd>
 				</dl>
 			</div><br /><br />
-		</div>
-
-		<div class="container" id="footer">
-			<hr>
-			<div class="row">
-				<div class="col-8">
-					<p class="text-muted small">© Aaron Suman</p>
+			<div class="container" id="footer">
+				<hr>
+				<div class="row">
+					<div class="col-8">
+						<p class="text-muted small">© Aaron Suman</p>
+					</div>
+					<div class="col-4 text-theme text-right">
+						<!-- bonus feature. implement site wide + cache implementation later -->
+						<a onclick="navbarlight()"><i class="far fa-circle fa-lg"></i></a>
+						<a onclick="navbardark()"><i class="fas fa-circle fa-lg"></i></a>
+					</div>
 				</div>
-				<div class="col-4 text-theme text-right">
-					<!-- bonus feature. implement site wide + cache implementation later -->
-					<a onclick="navbarlight()"><i class="far fa-circle fa-lg"></i></a>
-					<a onclick="navbardark()"><i class="fas fa-circle fa-lg"></i></a>
-				</div>
+				<br />
 			</div>
-			<br />
 		</div>
 
 		<script>
