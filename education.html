@@ -8,23 +8,21 @@
 		<meta property="og:type" content="website">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Lobster|Quicksand" rel="stylesheet">
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=vMOJaabp5y">
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=vMOJaabp5y">
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=vMOJaabp5y">
-		<link rel="manifest" href="/site.webmanifest?v=vMOJaabp5y">
-		<link rel="mask-icon" href="/safari-pinned-tab.svg?v=vMOJaabp5y" color="#922b21">
-		<link rel="shortcut icon" href="/favicon.ico?v=vMOJaabp5y">
-		<meta name="apple-mobile-web-app-title" content="Aaron Suman">
-		<meta name="application-name" content="Aaron Suman">
-		<meta name="msapplication-TileColor" content="#922b21">
-		<meta name="theme-color" content="#ffffff">
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=oLd4BOnkoY">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=oLd4BOnkoY">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=oLd4BOnkoY">
+		<link rel="manifest" href="/site.webmanifest?v=oLd4BOnkoY">
+		<link rel="mask-icon" href="/safari-pinned-tab.svg?v=oLd4BOnkoY" color="#8b2a24">
+		<link rel="shortcut icon" href="/favicon.ico?v=oLd4BOnkoY">
+		<meta name="msapplication-TileColor" content="#8b2a24">
+		<meta name="theme-color" content="#8b2a24">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/bootstrap.css">
   </head>
 
 	<body>
 
-		<nav class="navbarY navbar navbar-expand-sm navbar-dark bg-dark">
+		<nav class="navbarY navbar navbar-expand-sm navbar-dark bg-theme">
 			<div class="container">
 				<a class="navbar-brand lobster" href="index.html">Aaron Suman</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="true" aria-label="Toggle navigation">
@@ -41,40 +39,33 @@
 			</div>
     </nav>
 
-		<br />
-		<div class="container">
-			<hr width="50%">
+		<div class="bg-dark quicksand">
 			<div class="scrollmenu text-center">
-			  <a class="scrolllist text-theme" href="#KCL">King's College London</a>
-			  <a class="scrolllist text-theme" href="#MGS">The Manchester Grammar School</a>
+			  <a class="scrolllist text-white" href="#KCL">King's College London</a>
+			  <a class="scrolllist text-white" href="#MGS">The Manchester Grammar School</a>
 			</div>
-			<hr width="50%">
-		</div>
-		<br />
+		</div><br /><br />
 
-    <div class="container" id="KCL"><br />
+	  <div class="container" id="KCL"><br />
       <div class="row">
         <div class="col-lg-4 col-md-5 col-sm-6">
-          <div class="card w-100">
-            <img class="card-img-top" src="resources/icons/kclw2.jpg" alt="Card image cap"/>
-            <div class="card-body">
-              <h5 class="card-title text-kcl">King's College London</h5>
-              <h6 class="card-subtitle mb-2 text-muted">September 2016 - June 2020</h6>
-            </div>
-						<ul class="list-group list-group-flush">
-							<li class="list-group-item">
-								<p class="text-kcl">Computer Science MSci</p>
-								<!-- <h6>First Class (81%)</h6> -->
-							</li>
-              <li class="list-group-item">Accredited by the British Computer Society for Chartered IT Professional, Chartered IT Professional Further Learning, Chartered Engineer and Chartered Scientist. </li>
-						</ul>
-          </div><br />
+					<div class="container">
+						<img class="curve" src="resources/icons/kclw2.jpg" width="100%"/><br /><br />
+					</div>
         </div>
         <div class="col-lg-8 col-md-7 col-sm-6 ">
-          <p> King’s College London is an internationally renowned university and is currently ranked as one of the top 25 universities in the world<sup><a href="#footnote">1</a></sup>.<br /><br />
-							A four-year course with an initial focus on programming, databases and computer systems. I'm focusing on artificial intelligence, security and software engineering in my third year. <br /><br />
-              The programme explores a variety of areas within computer science, including software engineering, artificial intelligence and security.
-              Alongside this, I also belonged to the KCL Tech Society and the KCL AI Society.</p>
+					<div class="quicksand">
+						<h4 class="text-kcl">King's College London</h4>
+						<h6 class="text-muted">September 2016 - June 2020</h6>
+					</div>
+					<hr>
+					<h6 class="text-kcl" style="margin-bottom: 0">Computer Science MSci</h6>
+					<hr>
+          <p class="tadsmaller"> King’s College London is an internationally renowned university and is currently ranked as one of the top 25 universities in the world<sup><a href="#footnote">1</a></sup>.<br /><br />
+							A four-year course with an initial focus on programming, databases and computer systems.
+							Accredited by the British Computer Society for Chartered IT Professional, Chartered IT Professional Further Learning, Chartered Engineer and Chartered Scientist.
+							I'm focusing on artificial intelligence, security and software engineering in my third year.
+              Alongside this, I also belong to the KCL Tech Society and the KCL AI Society. </p>
           <br />
           <nav class="nav nav-tabs">
               <a class="nav-item nav-link active text-kcl" id="yearOneToggle" data-toggle="list" href="#yearOne" role="tab" aria-controls="one">Year 1</a>
@@ -83,7 +74,7 @@
             <a class="nav-item nav-link text-kcl" id="yearFourToggle" data-toggle="list" href="#yearFour" role="tab" aria-controls="four">Year 4</a>
           </nav>
 
-          <div class="tab-content" id="kclyears">
+          <div class="tab-content tadsmaller" id="kclyears">
             <div class="tab-pane fade show active" id="yearOne" role="tabpanel" aria-labelledby="yearOneToggle"><br />
               <p> This year focused on programming, with some modules focused on computer systems, artificial intelligence and databases.
                   I undertook a group project in the final semester to create an application that organised and displayed detailed UFO sighting data using Java. <br /><br />
@@ -150,20 +141,22 @@
     <div class="container" id="MGS"><br />
       <div class="row">
         <div class="col-lg-4 col-md-5 col-sm-6">
-          <div class="card w-100">
-            <img class="card-img-top" src="resources/icons/mgsw.jpg" alt="Card image cap"/>
-            <div class="card-body">
-              <h5 class="card-title text-mgs">The Manchester Grammar School</h5>
-              <h6 class="card-subtitle mb-2 text-muted">September 2009 - June 2016</h6>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item"><p class="text-mgs">A-Levels: A*BBDb</p>Mathematics, Physics, Chemistry, Further Mathematics and Biology</li>
-              <li class="list-group-item"><p class="text-mgs">(i)GCSEs: 9A*s 2As</p>including Mathematics, English Language and Literature and an EPQ (Level 3) at A*<sup><a href="#footnote">2</a></sup></li>
-            </ul>
-          </div><br />
+					<div class="container">
+						<img class="curve" src="resources/icons/mgsw.jpg" width="100%"/><br /><br />
+					</div>
         </div>
         <div class="col-lg-8 col-md-7 col-sm-6 ">
-          <p> The Manchester Grammar School is a reputable independent private school in the North West of England.
+					<div class="quicksand">
+						<h4 class="text-mgs">The Manchester Grammar School</h4>
+						<h6 class="text-muted">September 2009 - June 2016</h6>
+					</div>
+					<hr>
+					<h6 class="text-mgs" style="margin-bottom: 0">A-Levels: A*BBDb</h6>
+					<p class="text-muted">Mathematics, Physics, Chemistry, Further Mathematics and Biology</p>
+					<h6 class="text-mgs" style="margin-bottom: 0">(i)GCSEs: 9A*s 2As</h6>
+					<p class="text-muted">including Mathematics, English Language and Literature and an EPQ (Level 3) at A*<sup><a class="text-mgs" href="#footnote">2</a></sup></p>
+					<hr>
+          <p class="tadsmaller"> The Manchester Grammar School is a reputable independent private school in the North West of England.
               It is the largest independent school for boys in the UK and it remains a predominantly academic school since it was founded, in 1515. <br /><br />
               I studied various subjects throughout my time at MGS. This included a wide variety of subjects including mathematics, English, sciences, modern and ancient foreign languages. Extended Project Qualification where I analysed Steve Jobs and the technological and financial contributions he made to Apple Inc and the cultural effect generated.
               I chose to study Mathematics, Further Mathematics, Physics, Chemistry and Biology for my A-Levels. <br /><br />

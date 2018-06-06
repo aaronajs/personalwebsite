@@ -479,6 +479,11 @@ small,
   font-weight: normal;
 }
 
+.tadsmaller {
+  font-size: 95%;
+  font-weight: normal;
+}
+
 mark,
 .mark {
   padding: 0.2em;
@@ -5450,7 +5455,7 @@ a.bg-light:focus, a.bg-light:hover {
 }
 
 .bg-dark {
-  background-color: #8b2a24 !important;
+  background-color: #2f353a !important;
 }
 
 a.bg-dark:focus, a.bg-dark:hover {
@@ -8295,6 +8300,10 @@ a.bg-dark:focus, a.bg-dark:hover {
 
 .text-white {
   color: #fff !important;
+}
+
+a.text-white:hover, a.text-white:focus {
+  color: #bbb !important;
 }
 
 .text-primary {
