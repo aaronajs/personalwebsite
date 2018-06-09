@@ -19,12 +19,11 @@
 		<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/bootstrap.css">
-		<link rel="stylesheet" href="css/swiper.css">
 	</head>
 
 	<body>
 
-		<nav class="navbarY navbar navbar-expand-sm navbar-dark bg-theme">
+		<nav class="navbarY navbar navbar-expand-sm navbar-dark bg-theme" id="top">
 			<div class="container">
 				<a class="navbar-brand lobster" href="index.html">Aaron Suman</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="true" aria-label="Toggle navigation">
@@ -41,278 +40,276 @@
 			</div>
     </nav>
 
-		<br /><br />
+		<a class="button btn btn-theme backtotop" href="#top" id="totop"><i class="text-white fas fa-angle-up fa-lg"></i></a>
 
-		<div class="swiper-container">
-	    <div class="swiper-wrapper">
-        <div class="swiper-slide" id="swift-2018">
-					<div class="card w-100">
-						<img class="card-img-top" src="resources/images/guitarw.jpg"/>
-						<div class="card-body">
-							<h5 class="card-title">Upcoming Swift Project</h5>
-							<h6 class="card-subtitle mb-2 text-muted">2018</h6>
-							<hr>
-							<h6 class="card-subtitle mb-2">Mobile Development</h6>
-							<span class="badge badge-pill badge-theme">Swift</span>
-							<hr>
-							<p class="card-text">
+		<div class="bg-dark quicksand">
+			<div class="scrollmenu text-center">
+			  <a class="scrolllist text-white" href="#upcomingswiftproject2018">Upcoming Swift Project</a>
+				<a class="scrolllist text-white" href="#personalwebsite2018jumbotron">Personal Website</a>
+				<a class="scrolllist text-white" href="#communicationssystem2018">Communications System</a>
+				<a class="scrolllist text-white" href="#studentforum2018">Student Forum</a>
+				<a class="scrolllist text-white" href="#taskmanager2018">Task Manager</a>
+				<a class="scrolllist text-white" href="#pepanditrassignments2017">Other 2nd Year Assignments</a>
+				<a class="scrolllist text-white" href="#ufotracking2018">1st Year Assignments</a>
+			</div>
+		</div><br /><br />
 
-							</p>
-						</div>
-						<div class="card-footer text-center text-muted">
-							<!-- <a href="">GitHub <i class="fab fa-github fa-lg"></i></a> -->
-						</div>
+		<div class="container projectpadding" id="upcomingswiftproject2018">
+			<div class="row">
+				<div class="col-lg-4 col-md-5 col-sm-6">
+					<div class="container">
+						<img class="curve" src="resources/images/guitarw.jpg" width="100%"/><br /><br />
 					</div>
 				</div>
-        <div class="swiper-slide" id="personalwebsite-2018">
-					<div class="card w-100">
-						<img class="card-img-top" src="resources/icons/Ar.jpg"/>
-						<div class="card-body">
-							<h5 class="card-title">Personal Website</h5>
-							<h6 class="card-subtitle mb-2 text-muted">2018</h6>
-							<hr>
-							<h6 class="card-subtitle mb-2">Web Development</h6>
+				<div class="col-lg-8 col-md-7 col-sm-6">
+					<div class="quicksand">
+						<h4>Upcoming Swift Project</h4>
+						<h5 class="text-muted">2018</h5>
+						<h6>Mobile Development</h6>
+						<span class="badge badge-pill badge-theme">Swift</span>
+					</div>
+					<hr>
+          <p class="tadsmaller"> Upcoming Swift project probably guitar related.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="jumbotron bg-grey projectpadding" id="personalwebsite2018jumbotron">
+			<div class="container" id="personalwebsite2018">
+				<div class="row">
+					<div class="col-lg-4 col-md-5 col-sm-6">
+						<div class="container">
+							<img class="curve" src="resources/icons/Ar.jpg" width="100%"/><br /><br />
+						</div>
+					</div>
+					<div class="col-lg-8 col-md-7 col-sm-6">
+						<div class="quicksand">
+							<h4>Personal Website</h4>
+							<h5 class="text-muted">2018</h5>
+							<h6>Web Development</h6>
 							<span class="badge badge-pill badge-theme">HTML</span>
 							<span class="badge badge-pill badge-theme">CSS</span>
 							<span class="badge badge-pill badge-theme">JavaScript</span>
-							<hr>
-							<p class="card-text">
-								Going beyond my CV, this website provides a more detailed showcase of my education, experience and projects that I’m working on, as well as information on how to get in touch with me.
-							</p>
 						</div>
-						<div class="card-footer text-center">
-							<a href="https://github.com/aaronajs/personalwebsite" class="text-git">GitHub <i class="fab fa-github fa-lg"></i></a>
+						<hr>
+	          <p class="tadsmaller"> Going beyond my CV, this website provides a more detailed showcase of my education, experience and projects that I’m working on, as well as information on how to get in touch with me.<br />
+							I used HTML, CSS and JavaScript to build the website, with elements of Bootstrap (the navbar and grid system in particular) to help me design the website with a clean and elegant aesthetic.
+							I used minimalistic icons from font awesome and full colour images were used to provide an immersive home page, and colour coordination is used throughout the site to provide a smooth flow between cards and matching sections.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container projectpadding" id="communicationssystem2018">
+			<div class="row">
+				<div class="col-lg-4 col-md-5 col-sm-6">
+					<div class="container">
+						<img class="curve" src="resources/images/commsw.jpg" width="100%"/><br /><br />
+					</div>
+				</div>
+				<div class="col-lg-8 col-md-7 col-sm-6">
+					<div class="quicksand">
+						<h4>Communications System</h4>
+						<h5 class="text-muted">2018</h5>
+						<h6>Mobile Development</h6>
+						<span class="badge badge-pill badge-secondary">University Group Project</span>
+						<span class="badge badge-pill badge-theme">React Native</span>
+					</div>
+					<hr>
+          <p class="tadsmaller"> This was the largest group project that I undertook at university.
+						Our task was to design a communications system from an admin controlled server-side website to a student multi-platform messages app.
+						I led the mobile application sub team, where we used React Native to create the app, and used JSON to transfer data between the server and client sides.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="jumbotron bg-grey projectpadding" id="segassignments2018jumbotron">
+			<div class="container" id="segassignments2018">
+				<div class="row">
+					<div class="col-sm-6 col-12">
+						<div class="container" id="studentforum2018">
+							<img class="curve" src="resources/images/forumw.jpg" style="max-width:300px" width="100%"/><br /><br />
+							<div class="quicksand">
+								<h4>Student Forum</h4>
+								<h5 class="text-muted">2018</h5>
+								<h6>Web Development</h6>
+								<span class="badge badge-pill badge-secondary">University Group Project</span>
+								<span class="badge badge-pill badge-theme">Ruby on Rails</span>
+							</div>
+							<hr>
+		          <p class="tadsmaller"> I led a team of four to build a student forum with a web based interface and database using Ruby on Rails.
+								Students would be able to login and signup to the platform, and could read, write and answer questions on the forum.</p>
+						</div><br /><br />
+					</div>
+					<div class="col-sm-6 col-12">
+						<div class="container" id="taskmanager2018">
+							<img class="curve" src="resources/images/guitarw.jpg" style="max-width:300px" width="100%" /><br /><br />
+							<div class="quicksand">
+								<h4>Task Manager</h4>
+								<h5 class="text-muted">2018</h5>
+								<h6>Desktop Development</h6>
+								<span class="badge badge-pill badge-secondary">University Group Project</span>
+								<span class="badge badge-pill badge-theme">Java</span>
+							</div>
+							<hr>
+		          <p class="tadsmaller"> I was part of a team of five that built a Java desktop application that allowed a project manager to create tasks with time and effort properties.
+								They could also assign tasks to people who were not currently undergoing tasks, as well as being able to produce a schedule gantt chart to visualise this information.</p>
 						</div>
 					</div>
 				</div>
-				<div class="swiper-slide" id="kcl-comms-2018">
-					<div class="card w-100">
-						<img class="card-img-top" src="resources/images/commsw.jpg"/>
-						<div class="card-body">
-							<h5 class="card-title">Communications System</h5>
-							<h6 class="card-subtitle mb-2 text-muted">2018</h6>
-							<hr>
-							<h6 class="card-subtitle mb-2">Mobile Development</h6>
-							<span class="badge badge-pill badge-secondary">University Group Project</span><br />
-							<span class="badge badge-pill badge-theme">React Native</span>
-							<hr>
-							<p class="card-text">
-								-
-							</p>
-						</div>
-						<div class="card-footer text-center text-muted">
-							<a href="">GitHub <i class="fab fa-github fa-lg"></i></a>
-						</div>
-					</div><br />
-				</div>
-        <div class="swiper-slide" id="kcl-forum-2017">
-					<div class="card w-100">
-						<img class="card-img-top" src="resources/images/forumw.jpg" alt="Card image cap"/>
-						<div class="card-body">
-							<h5 class="card-title">Student Forum</h5>
-							<h6 class="card-subtitle mb-2 text-muted">2017</h6>
-							<hr>
-							<h6 class="card-subtitle mb-2">Web Development</h6>
-							<span class="badge badge-pill badge-secondary">University Group Project</span><br />
-							<span class="badge badge-pill badge-theme">Ruby on Rails</span>
-							<hr>
-							<p class="card-text">
-								-
-							</p>
-						</div>
-						<div class="card-footer text-center text-muted">
-							<a href="">GitHub <i class="fab fa-github fa-lg"></i></a>
-						</div>
-					</div><br />
-				</div>
-				<div class="swiper-slide" id="kcl-tasks-2017">
-					<div class="card w-100">
-						<img class="card-img-top" src="resources/images/guitarw.jpg"/>
-						<div class="card-body">
-							<h5 class="card-title">Task Manager</h5>
-							<h6 class="card-subtitle mb-2 text-muted">2017</h6>
-							<hr>
-							<h6 class="card-subtitle mb-2">Desktop Development</h6>
-							<span class="badge badge-pill badge-secondary">University Group Project</span><br />
-							<span class="badge badge-pill badge-theme">Java</span>
-							<hr>
-							<p class="card-text">
-								-
-							</p>
-						</div>
-						<div class="card-footer text-center text-muted">
-							<a href="">GitHub <i class="fab fa-github fa-lg"></i></a>
-						</div>
-					</div><br />
-				</div>
-				<div class="swiper-slide" id="kcl-scala-2017">
-					<div class="card w-100">
-						<img class="card-img-top" src="resources/images/ktw.png"/>
-						<div class="card-body">
-							<h5 class="card-title">Scala Assignments</h5>
-							<h6 class="card-subtitle mb-2 text-muted">2017</h6>
-							<hr>
-							<h6 class="card-subtitle mb-2">Programming</h6>
-							<span class="badge badge-pill badge-secondary">University Assignments</span><br />
-							<span class="badge badge-pill badge-theme">Scala</span>
-							<hr>
-							<p class="card-text">
-								-
-							</p>
-						</div>
-						<div class="card-footer text-center text-muted">
-							<a href="">GitHub <i class="fab fa-github fa-lg"></i></a>
-						</div>
-					</div><br />
-				</div>
-				<div class="swiper-slide" id="kcl-c++-2017">
-					<div class="card w-100">
-						<img class="card-img-top" src="resources/images/sudokuw.jpg"/>
-						<div class="card-body">
-							<h5 class="card-title">C++ Assignments</h5>
-							<h6 class="card-subtitle mb-2 text-muted">2017</h6>
-							<hr>
-							<h6 class="card-subtitle mb-2">Programming</h6>
-							<span class="badge badge-pill badge-secondary">University Assignments</span><br />
-							<span class="badge badge-pill badge-theme">C++</span>
-							<hr>
-							<p class="card-text">
-								-
-							</p>
-						</div>
-						<div class="card-footer text-center text-muted">
-							<a href="">GitHub <i class="fab fa-github fa-lg"></i></a>
-						</div>
-					</div><br />
-				</div>
-				<div class="swiper-slide" id="kcl-matlab-2017">
-					<div class="card w-100">
-						<img class="card-img-top" src="resources/images/robotw.png"/>
-						<div class="card-body">
-							<h5 class="card-title">MATLAB Assignments</h5>
-							<h6 class="card-subtitle mb-2 text-muted">2017</h6>
-							<hr>
-							<h6 class="card-subtitle mb-2">Analysis</h6>
-							<span class="badge badge-pill badge-secondary">University Assignments</span><br />
-							<span class="badge badge-pill badge-theme">MATLAB</span>
-							<hr>
-							<p class="card-text">
-								-
-							</p>
-						</div>
-						<div class="card-footer text-center text-muted">
-							<a href="">GitHub <i class="fab fa-github fa-lg"></i></a>
-						</div>
-					</div><br />
-				</div>
-				<div class="swiper-slide" id="kcl-investment-2017">
-					<div class="card w-100">
-						<img class="card-img-top" src="resources/images/guitarw.jpg"/>
-						<div class="card-body">
-							<h5 class="card-title">Investment Analysis System</h5>
-							<h6 class="card-subtitle mb-2 text-muted">2017</h6>
-							<hr>
-							<h6 class="card-subtitle mb-2">Desktop Development</h6>
-							<span class="badge badge-pill badge-secondary">University Group Project</span><br />
-							<span class="badge badge-pill badge-theme">Java</span>
-							<hr>
-							<p class="card-text">
-								-
-							</p>
-						</div>
-						<div class="card-footer text-center text-muted">
-							<a href="">GitHub <i class="fab fa-github fa-lg"></i></a>
-						</div>
-					</div><br />
-				</div>
-				<div class="swiper-slide" id="kcl-ufotracking-2017">
-					<div class="card w-100">
-						<img class="card-img-top" src="resources/images/guitarw.jpg"/>
-						<div class="card-body">
-							<h5 class="card-title">UFO Sightings Tracker</h5>
-							<h6 class="card-subtitle mb-2 text-muted">2017</h6>
-							<hr>
-							<h6 class="card-subtitle mb-2">Desktop Development</h6>
-							<span class="badge badge-pill badge-secondary">University Group Project</span><br />
-							<span class="badge badge-pill badge-theme">Java</span>
-							<hr>
-							<p class="card-text">
-								-
-							</p>
-						</div>
-						<div class="card-footer text-center text-muted">
-							<a href="">GitHub <i class="fab fa-github fa-lg"></i></a>
-						</div>
-					</div><br />
-				</div>
-				<div class="swiper-slide" id="kcl-database-2017">
-					<div class="card w-100">
-						<img class="card-img-top" src="resources/images/databasew.png"/>
-						<div class="card-body">
-							<h5 class="card-title">Database Design and Implementation</h5>
-							<h6 class="card-subtitle mb-2 text-muted">2017</h6>
-							<hr>
-							<h6 class="card-subtitle mb-2">Database Development</h6>
-							<span class="badge badge-pill badge-secondary">University Assignment</span><br />
-							<span class="badge badge-pill badge-theme">MySQL</span>
-							<hr>
-							<p class="card-text">
-								-
-							</p>
-						</div>
-						<div class="card-footer text-center text-muted">
-							<a href="">GitHub <i class="fab fa-github fa-lg"></i></a>
-						</div>
-					</div><br />
-				</div>
-				<div class="swiper-slide" id="kcl-conquest-2017">
-					<div class="card w-100">
-						<img class="card-img-top" src="resources/images/conquestw.jpg"/>
-						<div class="card-body">
-							<h5 class="card-title">Conquest Planning</h5>
-							<h6 class="card-subtitle mb-2 text-muted">2017</h6>
-							<hr>
-							<h6 class="card-subtitle mb-2">AI Planning</h6>
-							<span class="badge badge-pill badge-secondary">University Group Project</span><br />
-							<span class="badge badge-pill badge-theme">PDDL</span>
-							<hr>
-							<p class="card-text">
-								-
-							</p>
-						</div>
-						<div class="card-footer text-center text-muted">
-							<a href="">GitHub <i class="fab fa-github fa-lg"></i></a>
-						</div>
-					</div><br />
-				</div>
-				<div class="swiper-slide" id="kcl-java-2016/7">
-					<div class="card w-100">
-						<img class="card-img-top" src="resources/images/battleshipsw.jpg"/>
-						<div class="card-body">
-							<h5 class="card-title">Java Assignments</h5>
-							<h6 class="card-subtitle mb-2 text-muted">2016-7</h6>
-							<hr>
-							<h6 class="card-subtitle mb-2">Programming</h6>
-							<span class="badge badge-pill badge-secondary">University Assignments</span><br />
-							<span class="badge badge-pill badge-theme">Java</span>
-							<hr>
-							<p class="card-text">
-								-
-							</p>
-						</div>
-						<div class="card-footer text-center text-muted">
-							<a href="">GitHub <i class="fab fa-github fa-lg"></i></a>
-						</div>
-					</div><br />
-				</div>
-	    </div><br /><br />
-    	<div class="swiper-pagination"></div>
-	    <div class="swiper-button-prev" id="leftButton"></div>
-	    <div class="swiper-button-next" id="rightButton"></div>
-			<!-- <div class="swiper-scrollbar"></div> -->
+			</div>
 		</div>
 
-		<div class="container">
+		<div class="container projectpadding" id="pepanditrassignments2017">
+			<div class="row">
+				<div class="col-lg-4 col-12">
+					<div class="container" id="c++assignments2018">
+						<div class="row">
+							<div class="col-lg-12 col-md-5 col-sm-6 col-12">
+								<img class="curve" src="resources/images/sudokuw.jpg" width="100%"/><br /><br />
+							</div>
+							<div class="col-lg-12 col-md-7 col-sm-6 col-12">
+								<div class="quicksand">
+									<h4>C++ Assignments</h4>
+									<h5 class="text-muted">2017</h5>
+									<h6>Programming</h6>
+									<span class="badge badge-pill badge-secondary">University Assignments</span>
+									<span class="badge badge-pill badge-theme">C++</span>
+								</div>
+								<hr>
+			          <p class="tadsmaller"> As part of the Practical Experience of Programming module in my second year, I worked on 6 individual assignments using C++.
+									The tasks involved in the assignments included implementing various data structures (circular buffer, stacks, linked lists, tree maps), some with iterators, and also a sudoku solver algorithm.</p>
+							</div><br /><br />
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 col-12">
+					<div class="container" id="scalaassignments2018">
+						<img class="curve" src="resources/images/ktw.png" width="100%"/><br /><br />
+						<div class="quicksand">
+							<h4>Scala Assignments</h4>
+							<h5 class="text-muted">2017</h5>
+							<h6>Programming</h6>
+							<span class="badge badge-pill badge-secondary">University Assignments</span>
+							<span class="badge badge-pill badge-theme">Scala</span>
+						</div>
+						<hr>
+	          <p class="tadsmaller"> As part of the Practical Experience of Programming module in my second year, I worked on three individual assignments using Scala in a functional paradigm.
+							The tasks involved in the assignments included a stocks and statistics program, a Knight's Tour calculator, a regular expression matcher and a Brainf**k interpreter.</p>
+					</div><br /><br />
+				</div>
+				<div class="col-lg-4 col-sm-6 col-12">
+					<div class="container" id="matlabassignments2018">
+						<img class="curve" src="resources/images/robotw.png" width="100%"/><br /><br />
+						<div class="quicksand">
+							<h4>MATLAB Assignments</h4>
+							<h5 class="text-muted">2017</h5>
+							<h6>Analysis</h6>
+							<span class="badge badge-pill badge-secondary">University Assignments</span>
+							<span class="badge badge-pill badge-theme">MATLAB</span>
+						</div>
+						<hr>
+	          <p class="tadsmaller"> As part of the Introduction to Robotics module in my second year, I worked on 2 individual assignments using MATLAB.
+							The tasks involved in the assignments included creating functions that allowed a three-link planar manipulator to follow the trajectory of a sine wave based on a Jacobian approach, using forward and inverse kinematics, as well as functions that calculated forces in a potential field around the manipulator to provide an object detection and avoidance mechanism.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="jumbotron bg-grey projectpadding" id="osdandppamajorassignments2017jumbotron">
+			<div class="container" id="osdandppamajorassignments2017">
+				<div class="row">
+					<div class="col-sm-6 col-12">
+						<div class="container" id="investmentanalysissystem2017">
+							<img class="curve" src="resources/images/guitarw.jpg" style="max-width:300px" width="100%"/><br /><br />
+							<div class="quicksand">
+								<h4>Investment Analysis System</h4>
+								<h5 class="text-muted">2017</h5>
+								<h6>Desktop Development</h6>
+								<span class="badge badge-pill badge-secondary">University Group Project</span>
+								<span class="badge badge-pill badge-theme">Java</span>
+							</div>
+							<hr>
+		          <p class="tadsmaller"> As part of the Object-Oriented Specification and Design module in my second year, I worked in a team of five, to create an investment analysis application in Java in order to showcase our understanding of this paradigm’s design and advantages.
+								The application could manage bonds within a portfolio as well as produce calculations on the Macaulay duration, sum of discounted payments and the internal rate of return.</p>
+						</div><br /><br />
+					</div>
+					<div class="col-sm-6 col-12">
+						<div class="container" id="ufotracking2018">
+							<img class="curve" src="resources/images/guitarw.jpg" style="max-width:300px" width="100%"/><br /><br />
+							<div class="quicksand">
+								<h4>UFO Sightings Tracker</h4>
+								<h5 class="text-muted">2017</h5>
+								<h6>Desktop Development</h6>
+								<span class="badge badge-pill badge-secondary">University Group Project</span>
+								<span class="badge badge-pill badge-theme">Java</span>
+							</div>
+							<hr>
+		          <p class="tadsmaller"> As part of the Programming Practice and Applications module in my first year, I worked on a major group assignment in Java in a team of four.
+								Our task was to design an application that managed UFO sightings using an external API.
+								The program included a welcome page allowing a user to select dates, a map showcasing sighting locations, a statistics page and also an ‘alien minesweeper’.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container projectpadding" id="ppadbsiaiassignments2017">
+			<div class="row">
+				<div class="col-lg-4 col-12">
+					<div class="container" id="javaassignments2016/7">
+						<div class="row">
+							<div class="col-lg-12 col-md-5 col-sm-6 col-12">
+								<img class="curve" src="resources/images/battleshipsw.jpg" width="100%"/><br /><br />
+							</div>
+							<div class="col-lg-12 col-md-7 col-sm-6 col-12">
+								<div class="quicksand">
+									<h4>Java Assignments</h4>
+									<h5 class="text-muted">2016 - 2017</h5>
+									<h6>Programming</h6>
+									<span class="badge badge-pill badge-secondary">University Assignments</span>
+									<span class="badge badge-pill badge-theme">Java</span>
+								</div>
+								<hr>
+			          <p class="tadsmaller"> As part of the Programming Practice and Applications module in my first year, I worked on several assignments in Java, both individually and in pairs to improve pair programming.
+									The tasks involved in the assignments included creating basic games for both battleships and a treasure hunt, utilising GUI elements from Java swing for more complex games, and creating a calendar and reminders program that utilised natural language processing.</p>
+							</div><br /><br />
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 col-12">
+					<div class="container" id="databasedesignandimplementation2017">
+						<img class="curve" src="resources/images/databasew.png" width="100%"/><br /><br />
+						<div class="quicksand">
+							<h4>Database Design and Implementation</h4>
+							<h5 class="text-muted">2017</h5>
+							<h6>Database Development</h6>
+							<span class="badge badge-pill badge-secondary">University Assignment</span>
+							<span class="badge badge-pill badge-theme">MySQL</span>
+						</div>
+						<hr>
+	          <p class="tadsmaller"> As part of the Database Systems module in my first year, I worked on an individual assignment to design the schema and relationships of a database required to run a small business and then implement it using MySQL.</p>
+					</div><br /><br />
+				</div>
+				<div class="col-lg-4 col-sm-6 col-12">
+					<div class="container" id="conquestplanning2017">
+						<img class="curve" src="resources/images/conquestw.jpg" width="100%"/><br /><br />
+						<div class="quicksand">
+							<h4>Conquest Planning</h4>
+							<h5 class="text-muted">2017</h5>
+							<h6>AI Planning</h6>
+							<span class="badge badge-pill badge-secondary">University Group Project</span>
+							<span class="badge badge-pill badge-theme">PDDL</span>
+						</div>
+						<hr>
+	          <p class="tadsmaller"> As part of the Introduction to Artificial Intelligence module in my first year, I worked in a team of four to create a planning problem that could be solved using the A* search algorithm in PDDL.
+							We chose a problem of a tank plotting the best course of action to take over enemy territories in a simulated world.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container" id="footer">
 			<hr>
 			<p class="text-muted small">© Aaron Suman</p>
       <br />
@@ -321,54 +318,6 @@
 		<script src="http://code.jquery.com/jquery-2.1.1.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 		<script src="javascript/bootstrap.js"></script>
-		<script src="javascript/swiper.js"></script>
-		<script>
-			var newSPV
-			if ($(window).width() < 600) newSPV = 1
-			else if ($(window).width() < 800) newSPV = 2
-			else if ($(window).width() < 1000) newSPV = 3
-			else newSPV = 4
-		  var mySwiper = new Swiper ('.swiper-container', {
-				initialSlide: 1,
-				autoHeight: false,
-		    loop: false,
-				slidesPerView: newSPV,
-		    spaceBetween: 30,
-				centeredSlides: true,
-				effect: 'slide', //coverflow option too
-		    pagination: {
-		      el: '.swiper-pagination',
-					dynamicBullets: false,
-					clickable: true,
-		    },
-		    navigation: {
-		      nextEl: '.swiper-button-next',
-		      prevEl: '.swiper-button-prev',
-		    },
-				keyboard: {
-		      enabled: true,
-		    },
-				on: {
-			    resize: function () {
-						if ($(window).width() < 600) mySwiper.params.slidesPerView = 1
-						else if ($(window).width() < 800) mySwiper.params.slidesPerView = 2
-						else if ($(window).width() < 1000) mySwiper.params.slidesPerView = 3
-					 	else mySwiper.params.slidesPerView = 4
-			    },
-					init: function () {
-						if ($(window).width() < 600) {
-							var leftButton = document.getElementById('leftButton')
-							var rightButton = document.getElementById('rightButton')
-							leftButton.classList.add("hidden")
-							rightButton.classList.add("hidden")
-							// var list = document.getElementsByClassName("swiper-slide");
-							// for (i = 0; i < list.length; i++) {
-							// 	list[i].classList.add("smallCarousel")
-							// }
-						}
-					}
-			  },
-		  })
-  	</script>
+		<script src="javascript/script.js"></script>
 	</body>
 </html>
