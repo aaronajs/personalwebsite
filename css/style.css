@@ -4,7 +4,6 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
 }
 
 .shade {
@@ -52,7 +51,6 @@
   bottom: 30px;
   right: 30px;
 }
-
 .btnvis {
   opacity: 1;
 }
