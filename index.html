@@ -8,12 +8,12 @@
 		<meta property="og:type" content="website">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Lobster|Quicksand" rel="stylesheet">
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=oLd4BOnkoY">
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=oLd4BOnkoY">
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=oLd4BOnkoY">
-		<link rel="manifest" href="/site.webmanifest?v=oLd4BOnkoY">
-		<link rel="mask-icon" href="/safari-pinned-tab.svg?v=oLd4BOnkoY" color="#8b2a24">
-		<link rel="shortcut icon" href="/favicon.ico?v=oLd4BOnkoY">
+		<link rel="apple-touch-icon" sizes="180x180" href="resources/favicon/apple-touch-icon.png?v=oLd4BOnkoY">
+		<link rel="icon" type="image/png" sizes="32x32" href="resources/favicon/favicon-32x32.png?v=oLd4BOnkoY">
+		<link rel="icon" type="image/png" sizes="16x16" href="resources/favicon/favicon-16x16.png?v=oLd4BOnkoY">
+		<link rel="manifest" href="resources/favicon/site.webmanifest?v=oLd4BOnkoY">
+		<link rel="mask-icon" href="resources/favicon/safari-pinned-tab.svg?v=oLd4BOnkoY" color="#8b2a24">
+		<link rel="shortcut icon" href="resources/favicon/favicon.ico?v=oLd4BOnkoY">
 		<meta name="msapplication-TileColor" content="#8b2a24">
 		<meta name="theme-color" content="#8b2a24">
 		<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
@@ -41,10 +41,8 @@
 			</div>
     </nav>
 
-
-
-		<div class="jumbotron bg-theme" id="header"><br /><br />
-			<div class="container">
+		<div class="jumbotron bg-theme" id="header">
+			<div class="container mobileSpace">
 				<h1 class="text-white lobster text-center display-3">Aaron Suman</h1>
 				<hr class="bg-white" width="10%">
 				<div class="text-white text-center quicksand">
@@ -64,7 +62,7 @@
 			</div>
 		</div>
 
-		<div class="jumbotron" id="the latest"><br /><br />
+		<div class="jumbotron" id="thelatest"><br /><br />
 			<div class="row justify-content-center">
 				<div class="col-lg-5 col-md-5 col-sm-12"><br />
 					<h4 class="text-theme"><i class="fas fa-university fa-lg"></i> Current Education</h4><br />
@@ -108,7 +106,7 @@
 			</div>
 		</div><br /><br /><br /><br />
 
-		<div class="jumbotron bg-grey quicksand" id="coding languages"><br /><br /><br />
+		<div class="jumbotron bg-grey quicksand" id="codinglanguages"><br /><br /><br />
 			<div class="container crushed">
 				<h4 class="text-center text-theme"><i class="fas fa-code fa-lg"></i> Coding Languages</h4><br />
 				<p class="text-center">
@@ -150,7 +148,7 @@
 			</div><br />
 		</div>
 
-		<div class="jumbotron container" id="other interests"><br /><br /><br />
+		<div class="jumbotron container" id="otherinterests"><br /><br /><br />
 			<h4 class="text-center text-theme"><i class="fas fa-headphones fa-lg"></i> Other Interests</h4><br />
 			<div class="row">
 				<div class="col-lg-4 col-md-4 col-sm-12"><br />
@@ -179,18 +177,19 @@
 			</div><br /><br />
 		</div><br />
 
-		<div class="jumbotron bg-grey quicksand" id="contact me"><br /><br /><br />
+		<div class="jumbotron bg-grey quicksand" id="contactme"><br /><br /><br />
 			<div class="container crushed text-center"><br />
 				<h4 class="text-theme"><i class="fas fa-comments fa-lg"></i> Contact Me</h4><br />
 				<h5>Want to know more about me or my projects?</h5><br /><br />
 				<dl class="row justify-content-center">
-					<dd class="col-sm-4 col-12"><a href="" class="text-theme"><i class="far fa-file fa-2x"></i><br /><h5>Curriculam Vitae</h5><a/></dd>
+					<dd class="col-sm-4 col-12"><a href="resources/files/asuman_cv.pdf" target="_blank" class="text-theme"><i class="far fa-file fa-2x"></i><br /><h5>Curriculam Vitae</h5><a/></dd>
 					<dd class="col-sm-4 col-6"><a href="https://www.linkedin.com/in/aaronsuman" target="_blank" class="text-link"><i class="fab fa-linkedin fa-2x"></i><br /><h5>LinkedIn</h5></a></dd>
 					<dd class="col-sm-4 col-6"><a href="https://github.com/aaronajs" target="_blank" class="text-git"><i class="fab fa-github fa-2x"></i><br /><h5>GitHub</h5></a></dd>
 					<dd class="col-sm-4 col-6"><a href="mailto:oneaaronsuman@gmail.com" class="text-success"><i class="fas fa-envelope fa-2x"></i><br /><h5>Email</h5></a></dd>
 					<dd class="col-sm-4 col-6"><a href="http://m.me/ajsaaron" target="_blank" class="text-fbm"><i class="fab fa-facebook-messenger fa-2x"></i><br /><h5>Messenger</h5></a></dd>
 				</dl>
 			</div><br /><br />
+
 			<div class="container" id="footer">
 				<hr>
 				<div class="row">
@@ -198,27 +197,16 @@
 						<p class="text-muted small">© Aaron Suman</p>
 					</div>
 					<div class="col-4 text-theme text-right">
-						<!-- bonus feature. implement site wide + cache implementation later -->
-						<a onclick="navbarcolourswitch()"><i id="icon" class="far fa-circle fa-lg"></i></a>
+						<img width="30px" src="resources/icons/A.png" />
 					</div>
 				</div>
 				<br />
 			</div>
 		</div>
 
-		<script>
-			function navbarcolourswitch(){
-				var navbar = document.getElementById('navbar')
-				navbar.classList.toggle("bg-light")
-				navbar.classList.toggle("navbar-light")
-				navbar.classList.toggle("bg-theme")
-				navbar.classList.toggle("navbar-dark")
-				document.getElementById('brand').classList.toggle("text-theme")
-			}
-		</script>
 		<script src="http://code.jquery.com/jquery-2.1.1.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-		<script src="javascript/bootstrap.js"></script>
-		<script src="javascript/script.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/script.js"></script>
 	</body>
 </html>

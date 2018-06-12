@@ -8,17 +8,18 @@
 		<meta property="og:type" content="website">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Lobster|Quicksand" rel="stylesheet">
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=oLd4BOnkoY">
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=oLd4BOnkoY">
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=oLd4BOnkoY">
-		<link rel="manifest" href="/site.webmanifest?v=oLd4BOnkoY">
-		<link rel="mask-icon" href="/safari-pinned-tab.svg?v=oLd4BOnkoY" color="#8b2a24">
-		<link rel="shortcut icon" href="/favicon.ico?v=oLd4BOnkoY">
+		<link rel="apple-touch-icon" sizes="180x180" href="resources/favicon/apple-touch-icon.png?v=oLd4BOnkoY">
+		<link rel="icon" type="image/png" sizes="32x32" href="resources/favicon/favicon-32x32.png?v=oLd4BOnkoY">
+		<link rel="icon" type="image/png" sizes="16x16" href="resources/favicon/favicon-16x16.png?v=oLd4BOnkoY">
+		<link rel="manifest" href="resources/favicon/site.webmanifest?v=oLd4BOnkoY">
+		<link rel="mask-icon" href="resources/favicon/safari-pinned-tab.svg?v=oLd4BOnkoY" color="#8b2a24">
+		<link rel="shortcut icon" href="resources/favicon/favicon.ico?v=oLd4BOnkoY">
 		<meta name="msapplication-TileColor" content="#8b2a24">
 		<meta name="theme-color" content="#8b2a24">
 		<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/hamburgers.css">
 	</head>
 
 	<body>
@@ -26,8 +27,8 @@
 		<nav class="navbarY navbar navbar-expand-sm navbar-dark bg-theme" id="top">
 			<div class="container">
 				<a class="navbar-brand lobster" href="index.html">Aaron Suman</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="true" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
+				<button id="navicon" class="hamburger hamburger--collapse navbar-toggler" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="true" aria-label="Toggle navigation">
+				  <span class="hamburger-box"><span class="hamburger-inner"></span></span>
 				</button>
 				<div class="collapse navbar-collapse justify-content-end" id="navigation">
 					<div class="navbar-nav">
@@ -42,7 +43,10 @@
 
 		<a class="button btn btn-theme backtotop" href="#top" id="totop"><i class="text-white fas fa-angle-up fa-lg"></i></a>
 
-		<div class="bg-dark quicksand" id="subnavbar">
+		<div class="bg-dark quicksand" id="subnavbar" style="padding-top:15px; padding-bottom:3px">
+			<div class="text-white text-center">
+				<h4>Projects & Assignments</h4>
+			</div>
 			<div class="scrollmenu text-center">
 			  <a class="scrolllist text-white" href="#upcomingswiftproject2018">Upcoming Swift Project</a>
 				<a class="scrolllist text-white" href="#personalwebsite2018jumbotron">Personal Website</a>
@@ -52,9 +56,9 @@
 				<a class="scrolllist text-white" href="#pepanditrassignments2017">Other 2nd Year Assignments</a>
 				<a class="scrolllist text-white" href="#ufotracking2018">1st Year Assignments</a>
 			</div>
-		</div><br /><br />
+		</div>
 
-		<div class="container projectpadding" id="upcomingswiftproject2018">
+		<div class="container controlledpadding" id="upcomingswiftproject2018">
 			<div class="row">
 				<div class="col-lg-4 col-md-5 col-sm-6">
 					<div class="container">
@@ -74,7 +78,7 @@
 			</div>
 		</div>
 
-		<div class="jumbotron bg-grey projectpadding" id="personalwebsite2018jumbotron">
+		<div class="jumbotron bg-grey controlledpadding" id="personalwebsite2018jumbotron">
 			<div class="container" id="personalwebsite2018">
 				<div class="row">
 					<div class="col-lg-4 col-md-5 col-sm-6">
@@ -94,13 +98,14 @@
 						<hr>
 	          <p class="tadsmaller"> Going beyond my CV, this website provides a more detailed showcase of my education, experience and projects that I’m working on, as well as information on how to get in touch with me.<br />
 							I used HTML, CSS and JavaScript to build the website, with elements of Bootstrap (the navbar and grid system in particular) to help me design the website with a clean and elegant aesthetic.
-							I used minimalistic icons from font awesome and full colour images were used to provide an immersive home page, and colour coordination is used throughout the site to provide a smooth flow between cards and matching sections.</p>
+							I used minimalistic icons from font awesome and full colour images were used to provide an immersive home page, and colour coordination is used throughout the site to provide a smooth flow between cards and matching sections.</p><br />
+						<a class="button btn btn-sm btn-git text-white" href="https://github.com/aaronajs/personalwebsite" target="_blank"><i class="fab fa-github fa-lg"></i> GitHub</a>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="container projectpadding" id="communicationssystem2018">
+		<div class="container controlledpadding" id="communicationssystem2018">
 			<div class="row">
 				<div class="col-lg-4 col-md-5 col-sm-6">
 					<div class="container">
@@ -123,7 +128,7 @@
 			</div>
 		</div>
 
-		<div class="jumbotron bg-grey projectpadding" id="segassignments2018jumbotron">
+		<div class="jumbotron bg-grey controlledpadding" id="segassignments2018jumbotron">
 			<div class="container" id="segassignments2018">
 				<div class="row">
 					<div class="col-sm-6 col-12">
@@ -160,63 +165,66 @@
 			</div>
 		</div>
 
-		<div class="container projectpadding" id="pepanditrassignments2017">
-			<div class="row">
-				<div class="col-lg-4 col-12">
-					<div class="container" id="c++assignments2018">
-						<div class="row">
-							<div class="col-lg-12 col-md-5 col-sm-6 col-12">
-								<img class="curve" src="resources/images/sudokuw.jpg" width="100%"/><br /><br />
-							</div>
-							<div class="col-lg-12 col-md-7 col-sm-6 col-12">
-								<div class="quicksand">
-									<h4>C++ Assignments</h4>
-									<h5 class="text-muted">2017</h5>
-									<h6>Programming</h6>
-									<span class="badge badge-pill badge-secondary">University Assignments</span>
-									<span class="badge badge-pill badge-theme">C++</span>
+		<div class="container controlledpadding" id="pepanditrassignments2017">
+				<div class="row">
+					<div class="col-lg-4 col-12">
+						<div class="container" id="c++assignments2018">
+							<div class="row">
+								<div class="col-lg-12 col-md-5 col-sm-6 col-12">
+									<img class="curve" src="resources/images/sudokuw.jpg" width="100%"/><br /><br />
 								</div>
-								<hr>
-			          <p class="tadsmaller"> As part of the Practical Experience of Programming module in my second year, I worked on 6 individual assignments using C++.
-									The tasks involved in the assignments included implementing various data structures (circular buffer, stacks, linked lists, tree maps), some with iterators, and also a sudoku solver algorithm.</p>
-							</div><br /><br />
+								<div class="col-lg-12 col-md-7 col-sm-6 col-12">
+									<div class="quicksand">
+										<h4>C++ Assignments</h4>
+										<h5 class="text-muted">2017</h5>
+										<h6>Programming</h6>
+										<span class="badge badge-pill badge-secondary">University Assignments</span>
+										<span class="badge badge-pill badge-theme">C++</span>
+									</div>
+									<hr>
+				          <p class="tadsmaller"> As part of the Practical Experience of Programming module in my second year, I worked on 6 individual assignments using C++.
+										The tasks involved in the assignments included implementing various data structures (circular buffer, stacks, linked lists, tree maps), some with iterators, and also a sudoku solver algorithm.</p><br />
+									<a class="button btn btn-sm btn-git text-white" href="https://github.com/aaronajs/cplusplusassignments_kcl_yeartwo" target="_blank"><i class="fab fa-github fa-lg"></i> GitHub</a><br /><br /><br />
+								</div><br /><br />
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-lg-4 col-sm-6 col-12">
-					<div class="container" id="scalaassignments2018">
-						<img class="curve" src="resources/images/ktw.png" width="100%"/><br /><br />
-						<div class="quicksand">
-							<h4>Scala Assignments</h4>
-							<h5 class="text-muted">2017</h5>
-							<h6>Programming</h6>
-							<span class="badge badge-pill badge-secondary">University Assignments</span>
-							<span class="badge badge-pill badge-theme">Scala</span>
+					<div class="col-lg-4 col-sm-6 col-12">
+						<div class="container" id="scalaassignments2018">
+							<img class="curve" src="resources/images/ktw.png" width="100%"/><br /><br />
+							<div class="quicksand">
+								<h4>Scala Assignments</h4>
+								<h5 class="text-muted">2017</h5>
+								<h6>Programming</h6>
+								<span class="badge badge-pill badge-secondary">University Assignments</span>
+								<span class="badge badge-pill badge-theme">Scala</span>
+							</div>
+							<hr>
+		          <p class="tadsmaller"> As part of the Practical Experience of Programming module in my second year, I worked on three individual assignments using Scala in a functional paradigm.
+								The tasks involved in the assignments included a stocks and statistics program, a Knight's Tour calculator, a regular expression matcher and a Brainf**k interpreter.</p><br />
+							<a class="button btn btn-sm btn-git text-white" href="https://github.com/aaronajs/scalaassignments_kcl_yeartwo" target="_blank"><i class="fab fa-github fa-lg"></i> GitHub</a>
+						</div><br /><br />
+					</div>
+					<div class="col-lg-4 col-sm-6 col-12">
+						<div class="container" id="matlabassignments2018">
+							<img class="curve" src="resources/images/robotw.png" width="100%"/><br /><br />
+							<div class="quicksand">
+								<h4>MATLAB Assignments</h4>
+								<h5 class="text-muted">2017</h5>
+								<h6>Analysis</h6>
+								<span class="badge badge-pill badge-secondary">University Assignments</span>
+								<span class="badge badge-pill badge-theme">MATLAB</span>
+							</div>
+							<hr>
+		          <p class="tadsmaller"> As part of the Introduction to Robotics module in my second year, I worked on 2 individual assignments using MATLAB.
+								The tasks involved in the assignments included creating functions that allowed a three-link planar manipulator to follow the trajectory of a sine wave based on a Jacobian approach, using forward and inverse kinematics, as well as functions that calculated forces in a potential field around the manipulator to provide an object detection and avoidance mechanism.</p><br />
+							<a class="button btn btn-sm btn-git text-white" href="https://github.com/aaronajs/matlabassignments_kcl_yeartwo" target="_blank"><i class="fab fa-github fa-lg"></i> GitHub</a>
 						</div>
-						<hr>
-	          <p class="tadsmaller"> As part of the Practical Experience of Programming module in my second year, I worked on three individual assignments using Scala in a functional paradigm.
-							The tasks involved in the assignments included a stocks and statistics program, a Knight's Tour calculator, a regular expression matcher and a Brainf**k interpreter.</p>
-					</div><br /><br />
-				</div>
-				<div class="col-lg-4 col-sm-6 col-12">
-					<div class="container" id="matlabassignments2018">
-						<img class="curve" src="resources/images/robotw.png" width="100%"/><br /><br />
-						<div class="quicksand">
-							<h4>MATLAB Assignments</h4>
-							<h5 class="text-muted">2017</h5>
-							<h6>Analysis</h6>
-							<span class="badge badge-pill badge-secondary">University Assignments</span>
-							<span class="badge badge-pill badge-theme">MATLAB</span>
-						</div>
-						<hr>
-	          <p class="tadsmaller"> As part of the Introduction to Robotics module in my second year, I worked on 2 individual assignments using MATLAB.
-							The tasks involved in the assignments included creating functions that allowed a three-link planar manipulator to follow the trajectory of a sine wave based on a Jacobian approach, using forward and inverse kinematics, as well as functions that calculated forces in a potential field around the manipulator to provide an object detection and avoidance mechanism.</p>
 					</div>
 				</div>
 			</div>
-		</div>
 
-		<div class="jumbotron bg-grey projectpadding" id="osdandppamajorassignments2017jumbotron">
+		<div class="jumbotron bg-grey controlledpadding" id="osdandppamajorassignments2017jumbotron">
 			<div class="container" id="osdandppamajorassignments2017">
 				<div class="row">
 					<div class="col-sm-6 col-12">
@@ -254,7 +262,7 @@
 			</div>
 		</div>
 
-		<div class="container projectpadding" id="ppadbsiaiassignments2017">
+		<div class="container controlledpadding" id="ppadbsiaiassignments2017">
 			<div class="row">
 				<div class="col-lg-4 col-12">
 					<div class="container" id="javaassignments2016/7">
@@ -272,7 +280,8 @@
 								</div>
 								<hr>
 			          <p class="tadsmaller"> As part of the Programming Practice and Applications module in my first year, I worked on several assignments in Java, both individually and in pairs to improve pair programming.
-									The tasks involved in the assignments included creating basic games for both battleships and a treasure hunt, utilising GUI elements from Java swing for more complex games, and creating a calendar and reminders program that utilised natural language processing.</p>
+									The tasks involved in the assignments included creating basic games for both battleships and a treasure hunt, utilising GUI elements from Java swing for more complex games, and creating a calendar and reminders program that utilised natural language processing.</p><br />
+								<a class="button btn btn-sm btn-git text-white" href="https://github.com/aaronajs/javaassignments_kcl_yearone" target="_blank"><i class="fab fa-github fa-lg"></i> GitHub</a><br /><br /><br />
 							</div><br /><br />
 						</div>
 					</div>
@@ -288,7 +297,8 @@
 							<span class="badge badge-pill badge-theme">MySQL</span>
 						</div>
 						<hr>
-	          <p class="tadsmaller"> As part of the Database Systems module in my first year, I worked on an individual assignment to design the schema and relationships of a database required to run a small business and then implement it using MySQL.</p>
+	          <p class="tadsmaller"> As part of the Database Systems module in my first year, I worked on an individual assignment to design the schema and relationships of a database required to run a small business and then implement it using MySQL.</p><br />
+						<a class="button btn btn-sm btn-git text-white" href="https://github.com/aaronajs/databaseassignment_kcl_yearone" target="_blank"><i class="fab fa-github fa-lg"></i> GitHub</a>
 					</div><br /><br />
 				</div>
 				<div class="col-lg-4 col-sm-6 col-12">
@@ -303,7 +313,8 @@
 						</div>
 						<hr>
 	          <p class="tadsmaller"> As part of the Introduction to Artificial Intelligence module in my first year, I worked in a team of four to create a planning problem that could be solved using the A* search algorithm in PDDL.
-							We chose a problem of a tank plotting the best course of action to take over enemy territories in a simulated world.</p>
+							We chose a problem of a tank plotting the best course of action to take over enemy territories in a simulated world.</p><br />
+						<a class="button btn btn-sm btn-git text-white" href="https://github.com/aaronajs/aiplanningassignment_kcl_yearone" target="_blank"><i class="fab fa-github fa-lg"></i> GitHub</a>
 					</div>
 				</div>
 			</div>
@@ -311,13 +322,22 @@
 
 		<div class="container" id="footer">
 			<hr>
-			<p class="text-muted small">© Aaron Suman</p>
-      <br />
+			<div class="row">
+				<div class="col-8">
+					<p class="text-muted small">© Aaron Suman</p>
+				</div>
+				<div class="col-4 text-theme text-right">
+					<img width="30px" src="resources/icons/A.png" />
+				</div>
+			</div>
+			<br />
 		</div>
+
+
 
 		<script src="http://code.jquery.com/jquery-2.1.1.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-		<script src="javascript/bootstrap.js"></script>
-		<script src="javascript/script.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/script.js"></script>
 	</body>
 </html>

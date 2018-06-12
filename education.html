@@ -8,17 +8,18 @@
 		<meta property="og:type" content="website">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Lobster|Quicksand" rel="stylesheet">
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=oLd4BOnkoY">
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=oLd4BOnkoY">
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=oLd4BOnkoY">
-		<link rel="manifest" href="/site.webmanifest?v=oLd4BOnkoY">
-		<link rel="mask-icon" href="/safari-pinned-tab.svg?v=oLd4BOnkoY" color="#8b2a24">
-		<link rel="shortcut icon" href="/favicon.ico?v=oLd4BOnkoY">
+		<link rel="apple-touch-icon" sizes="180x180" href="resources/favicon/apple-touch-icon.png?v=oLd4BOnkoY">
+		<link rel="icon" type="image/png" sizes="32x32" href="resources/favicon/favicon-32x32.png?v=oLd4BOnkoY">
+		<link rel="icon" type="image/png" sizes="16x16" href="resources/favicon/favicon-16x16.png?v=oLd4BOnkoY">
+		<link rel="manifest" href="resources/favicon/site.webmanifest?v=oLd4BOnkoY">
+		<link rel="mask-icon" href="resources/favicon/safari-pinned-tab.svg?v=oLd4BOnkoY" color="#8b2a24">
+		<link rel="shortcut icon" href="resources/favicon/favicon.ico?v=oLd4BOnkoY">
 		<meta name="msapplication-TileColor" content="#8b2a24">
 		<meta name="theme-color" content="#8b2a24">
 		<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/hamburgers.css">
   </head>
 
 	<body>
@@ -26,8 +27,8 @@
 		<nav class="navbarY navbar navbar-expand-sm navbar-dark bg-theme" id="top">
 			<div class="container">
 				<a class="navbar-brand lobster" href="index.html">Aaron Suman</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="true" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
+				<button id="navicon" class="hamburger hamburger--collapse navbar-toggler" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="true" aria-label="Toggle navigation">
+				  <span class="hamburger-box"><span class="hamburger-inner"></span></span>
 				</button>
 				<div class="collapse navbar-collapse justify-content-end" id="navigation">
 					<div class="navbar-nav">
@@ -42,14 +43,18 @@
 
 		<a class="button btn btn-theme backtotop" href="#top" id="totop"><i class="text-white fas fa-angle-up fa-lg"></i></a>
 
-		<div class="bg-dark quicksand" id="subnavbar">
+		<div class="bg-dark quicksand" id="subnavbar" style="padding-top:15px; padding-bottom:3px">
+			<div class="text-white text-center">
+				<h4>Education & Qualifications</h4>
+			</div>
 			<div class="scrollmenu text-center">
 			  <a class="scrolllist text-white" href="#KCL">King's College London</a>
+				<a class="scrolllist text-white" href="#googledigitalgarage">Google Digital Garage</a>
 			  <a class="scrolllist text-white" href="#MGS">The Manchester Grammar School</a>
 			</div>
-		</div><br /><br />
+		</div>
 
-	  <div class="container" id="KCL"><br />
+  	<div class="container controlledpadding" id="KCL">
       <div class="row">
         <div class="col-lg-4 col-md-5 col-sm-6">
 					<div class="container">
@@ -139,36 +144,58 @@
       </div>
     </div>
 
-    <br /><br />
-
-    <div class="container" id="MGS"><br />
-      <div class="row">
-        <div class="col-lg-4 col-md-5 col-sm-6">
+		<div class="container controlledpadding" id="googledigitalgarage">
+			<div class="row">
+				<div class="col-lg-4 col-md-5 col-sm-6">
 					<div class="container">
-						<img class="curve" src="resources/icons/mgsw.jpg" width="100%"/><br /><br />
+						<img class="curve" src="resources/icons/googledgw.jpg" width="100%"/><br /><br />
 					</div>
-        </div>
-        <div class="col-lg-8 col-md-7 col-sm-6 ">
+				</div>
+				<div class="col-lg-8 col-md-7 col-sm-6">
 					<div class="quicksand">
-						<h4 class="text-mgs">The Manchester Grammar School</h4>
-						<h6 class="text-muted">September 2009 - June 2016</h6>
+						<h4 class="text-dark">Google Digital Garage</h4>
+						<h5 class="text-dark">The Online Marketing Fundamentals</h5>
+						<h6 class="text-muted">October 2017</h6>
+						<span class="badge badge-pill badge-secondary">Web Analytics</span>
+						<span class="badge badge-pill badge-secondary">Marketing and Advertising</span>
+						<span class="badge badge-pill badge-secondary">Social Media</span>
 					</div>
 					<hr>
-					<h6 class="text-mgs" style="margin-bottom: 0">A-Levels: A*BBDb</h6>
-					<p class="text-muted">Mathematics, Physics, Chemistry, Further Mathematics and Biology</p>
-					<h6 class="text-mgs" style="margin-bottom: 0">(i)GCSEs: 9A*s 2As</h6>
-					<p class="text-muted">including Mathematics, English Language and Literature and an EPQ (Level 3) at A*<sup><a class="text-mgs" href="#footnote">2</a></sup></p>
-					<hr>
-          <p class="tadsmaller"> The Manchester Grammar School is a reputable independent private school in the North West of England.
-              It is the largest independent school for boys in the UK and it remains a predominantly academic school since it was founded, in 1515. <br /><br />
-              I studied various subjects throughout my time at MGS. This included a wide variety of subjects including mathematics, English, sciences, modern and ancient foreign languages. Extended Project Qualification where I analysed Steve Jobs and the technological and financial contributions he made to Apple Inc and the cultural effect generated.
-              I chose to study Mathematics, Further Mathematics, Physics, Chemistry and Biology for my A-Levels. <br /><br />
-              I was a committee member of the school’s oldest society, PhilSoc (Natural Philosophy - Science), as the Head of Design and Publicity and also participated in Science Society, Engineering Society and Tae-Kwon Do throughout MGS. </p>
-        </div>
+					<p class="tadsmaller"> I successfully completed a 26 module online course regarding businesses using online marketing and the digital platforms and tools that are available.
+						This course allowed me to improve my digital skills and provide me with a thorough understanding of online marketing which I hope to utilise in the future. </p><br />
+					<a class="button btn btn-sm btn-theme text-white" href="resources/files/asuman_gdgtomf.pdf" target="_blank">Certificate</i></a>
+				</div>
+			</div>
+		</div>
+
+  	<div class="container controlledpadding" id="MGS">
+    <div class="row">
+      <div class="col-lg-4 col-md-5 col-sm-6">
+				<div class="container">
+					<img class="curve" src="resources/icons/mgsw.jpg" width="100%"/><br /><br />
+				</div>
+      </div>
+      <div class="col-lg-8 col-md-7 col-sm-6 ">
+				<div class="quicksand">
+					<h4 class="text-mgs">The Manchester Grammar School</h4>
+					<h6 class="text-muted">September 2009 - June 2016</h6>
+				</div>
+				<hr>
+				<h6 class="text-mgs" style="margin-bottom: 0">A-Levels: A*BBDb</h6>
+				<p class="text-muted">Mathematics, Physics, Chemistry, Further Mathematics and Biology</p>
+				<h6 class="text-mgs" style="margin-bottom: 0">(i)GCSEs: 9A*s 2As</h6>
+				<p class="text-muted">including Mathematics, English Language and Literature and an EPQ (Level 3) at A*<sup><a class="text-mgs" href="#footnote">2</a></sup></p>
+				<hr>
+        <p class="tadsmaller"> The Manchester Grammar School is a reputable independent private school in the North West of England.
+            It is the largest independent school for boys in the UK and it remains a predominantly academic school since it was founded, in 1515. <br /><br />
+            I studied various subjects throughout my time at MGS. This included a wide variety of subjects including mathematics, English, sciences, modern and ancient foreign languages. Extended Project Qualification where I analysed Steve Jobs and the technological and financial contributions he made to Apple Inc and the cultural effect generated.
+            I chose to study Mathematics, Further Mathematics, Physics, Chemistry and Biology for my A-Levels. <br /><br />
+            I was a committee member of the school’s oldest society, PhilSoc (Natural Philosophy - Science), as the Head of Design and Publicity and also participated in Science Society, Engineering Society and Tae-Kwon Do throughout MGS. </p>
       </div>
     </div>
+  </div>
 
-		<br /><br /><br />
+		<br />
 
 		<div class="container">
 			<hr>
@@ -176,13 +203,19 @@
         1. From QS University Rankings; see the <a class="underline" href="https://www.topuniversities.com/university-rankings/world-university-rankings/2018">QS World University rankings 2018</a> for more information.<br />
         2. An A* at Level 3 is equivalent to an A* at AS-Level
       </p>
-			<p class="text-muted small">© Aaron Suman</p>
-      <br />
+			<div class="row">
+				<div class="col-8">
+					<p class="text-muted small">© Aaron Suman</p>
+				</div>
+				<div class="col-4 text-theme text-right">
+					<img width="30px" src="resources/icons/A.png" />
+				</div>
+			</div><br />
 		</div>
 
 		<script src="http://code.jquery.com/jquery-2.1.1.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-		<script src="javascript/bootstrap.js"></script>
-		<script src="javascript/script.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/script.js"></script>
 	</body>
 </html>
