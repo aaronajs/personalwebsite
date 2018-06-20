@@ -26,6 +26,6 @@ $(document).on('click', 'a[href^="#"]', function(e) {
   if ($id.length === 0) return
   e.preventDefault()
   var position = $id.offset().top
-  if (!id.includes('year')) position -= 45
+  if (!id.includes('year')) position -= 90
   $('body, html').animate({scrollTop: position})
 })
