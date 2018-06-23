@@ -16,6 +16,9 @@
 .quicksand {
 	font-family : 'Quicksand', sans-serif !important;
 }
+.opensans {
+  font-family : 'Open Sans', sans-serif !important;
+}
 
 .scrollmenu {
   overflow: auto;
