@@ -3,7 +3,7 @@
 I decided to create my own personal website to showcase more about what I’ve done and am currently doing in my life.
 Going beyond my CV, this website provides a more detailed showcase of my education, experience and projects that I’m working on, as well as information on how to get in touch with me.
 
-I used _HTML_, _CSS_ and _JavaScript_ to build the website, designing it with a clean and elegant aesthetic in mind.
+I used HTML, CSS and JavaScript to build the website, designing it with a clean and elegant aesthetic in mind.
 Minimalistic icons and full colour images were used to provide clear pages, and colour coordination is used throughout the site to provide a smooth flow between each section.
 
 * **Bootstrap**: I used the navbar, grid systems and certain style elements within the Bootstrap library.
