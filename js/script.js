@@ -25,7 +25,7 @@ $(document).on('click', 'a[href^="#"]', function(e) {
   var $id = $(id)
   if ($id.length === 0) return
   e.preventDefault()
-  var position = $id.offset().top - 50
-  if (id === '#studentforum2018' || id === '#projectmanager2018') position -= 50
+  var position = $id.offset().top - 40
+  if (id === '#studentforum2018' || id === '#projectmanager2018') position -= 60
   if (!id.includes('year')) $('body, html').animate({scrollTop: position})
 })
