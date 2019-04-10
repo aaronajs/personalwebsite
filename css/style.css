@@ -41,8 +41,8 @@
 }
 
 .controlledpadding {
-  padding-top: 85px !important;
-  padding-bottom: 65px !important;
+  padding-top: 45px !important;
+  padding-bottom: 35px !important;
 }
 
 .backtotop {
@@ -62,8 +62,124 @@
   padding-top: 10px;
 }
 
+.centreright {
+  text-align: left;
+}
+
+.deviconajs {
+  font-size: 400%;
+}
+
+.sidebar {
+  position: fixed;
+  margin-top: 10vh;
+  margin-left: 30px;
+  height: 100vh;
+  background: none;
+}
+
 @media (min-width: 576px) {
   .mobileSpace {
     padding-top: 60px;
   }
+}
+
+@media (min-width: 768px) {
+  .centreright {
+    text-align: right;
+  }
+}
+
+.text-as {
+  color: #343a40 !important;
+}
+
+.text-lseg {
+  color: #806734 !important;
+}
+
+.bg-lseg {
+  background-color: #806734 !important;
+}
+
+.text-mgs {
+  color: #002a5c !important;
+}
+
+.bg-mgs {
+  background-color: #002a5c !important;
+}
+
+.text-kcl {
+  color: #ed0101 !important;
+}
+
+.bg-kcl {
+  background-color: #ed0101 !important;
+}
+
+.text-joblab {
+  color: #0091d1 !important;
+}
+
+.bg-joblab {
+  background-color: #0091d1 !important;
+}
+
+.text-nota {
+  color: #B20000 !important;
+}
+
+.bg-nota {
+  background-color: #B20000 !important;
+}
+
+.text-hud {
+  color: #d1912a !important;
+}
+
+.bg-hud {
+  background-color: #d1912a !important;
+}
+
+.text-theme {
+  color: #8b2a24 !important;
+}
+
+a.text-theme:focus, a.text-theme:hover {
+  color: #671a14 !important;
+}
+
+.btn-theme {
+  color: #fff;
+  background-color: #8b2a24;
+}
+
+.btn-theme:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #720B01;
+}
+
+.btn-theme:focus, .btn-theme.focus {
+  box-shadow: 0 0 0 0px rgba(0, 123, 255, 0.5);
+}
+
+.btn-theme.disabled, .btn-theme:disabled {
+  background-color: #007bff;
+}
+
+.btn-theme:active, .btn-theme.active,
+.show > .btn-theme.dropdown-toggle {
+  color: #fff;
+  background-color: #720B01;
+  background-image: none;
+}
+
+.text-git {
+  color: #6e5494 !important;
+}
+
+a.text-git:focus, a.text-git:hover {
+  color: #4e3464 !important;
 }

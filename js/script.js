@@ -11,14 +11,6 @@ $(document).on('click', 'button[id="navicon"]', function() {
   icon.classList.toggle("is-active")
 })
 
-// stick secondary navbar to top of pageYOffset
-window.onscroll = function() {stick()}
-var sub = document.getElementById("subnavbar")
-function stick() {
-  if (window.pageYOffset >= sub.offsetTop) sub.classList.add("sticky-top")
-  else sub.classList.remove("sticky-top")
-}
-
 //animated slide code. Original from Valentin Sarychev, I made some slight modifications to accommodate my needs.
 $(document).on('click', 'a[href^="#"]', function(e) {
   var id = $(this).attr('href')
