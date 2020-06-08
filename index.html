@@ -1,448 +1,562 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Aaron Suman</title>
-		<meta charset="utf-8">
-		<meta name="author" content="">
-		<meta name="description" content="" />
-		<meta property="og:type" content="website">
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<link href="https://fonts.googleapis.com/css?family=Lobster|Quicksand" rel="stylesheet">
-		<link rel="apple-touch-icon" sizes="180x180" href="resources/favicon/apple-touch-icon.png?v=oLd4BOnkoY">
-		<link rel="icon" type="image/png" sizes="32x32" href="resources/favicon/favicon-32x32.png?v=oLd4BOnkoY">
-		<link rel="icon" type="image/png" sizes="16x16" href="resources/favicon/favicon-16x16.png?v=oLd4BOnkoY">
-		<link rel="manifest" href="resources/favicon/site.webmanifest?v=oLd4BOnkoY">
-		<link rel="mask-icon" href="resources/favicon/safari-pinned-tab.svg?v=oLd4BOnkoY" color="#8b2a24">
-		<link rel="shortcut icon" href="resources/favicon/favicon.ico?v=oLd4BOnkoY">
-		<meta name="msapplication-TileColor" content="#8b2a24">
-		<meta name="theme-color" content="#8b2a24">
-		<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
-		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/bootstrap.css">
-		<link rel="stylesheet" href="css/hamburgers.css">
-  </head>
 
-	<body>
+<head>
+	<title>Aaron Suman</title>
+	<meta charset="utf-8">
+	<meta name="author" content="">
+	<meta name="description" content="" />
+	<meta property="og:type" content="website">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Lobster|Quicksand" rel="stylesheet">
+	<link rel="apple-touch-icon" sizes="180x180" href="resources/favicon/apple-touch-icon.png?v=oLd4BOnkoY">
+	<link rel="icon" type="image/png" sizes="32x32" href="resources/favicon/favicon-32x32.png?v=oLd4BOnkoY">
+	<link rel="icon" type="image/png" sizes="16x16" href="resources/favicon/favicon-16x16.png?v=oLd4BOnkoY">
+	<link rel="manifest" href="resources/favicon/site.webmanifest?v=oLd4BOnkoY">
+	<link rel="mask-icon" href="resources/favicon/safari-pinned-tab.svg?v=oLd4BOnkoY" color="#8b2a24">
+	<link rel="shortcut icon" href="resources/favicon/favicon.ico?v=oLd4BOnkoY">
+	<meta name="msapplication-TileColor" content="#8b2a24">
+	<meta name="theme-color" content="#8b2a24">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js"
+		integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
+		crossorigin="anonymous"></script>
+	<link rel="stylesheet"
+		href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/hamburgers.css">
+</head>
 
-		<nav class="navbarY navbar navbar-expand-sm navbar-dark bg-theme" id="navbar">
-			<div class="container">
-				<a class="navbar-brand lobster" href="index.html" id="brand">A</a>
-				<button id="navicon" class="hamburger hamburger--collapse navbar-toggler" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="true" aria-label="Toggle navigation">
-				  <span class="hamburger-box"><span class="hamburger-inner"></span></span>
-				</button>
-				<div class="collapse navbar-collapse justify-content-end" id="navigation">
-					<div class="navbar-nav">
-						<a class="nav-item nav-link active" href="index.html">About&nbsp;Me</a>
-						<!-- <a class="nav-item nav-link" href="resume.html">Résumé</a> -->
-						<a class="nav-item nav-link" href="projects.html">Projects</a>
-					</div>
+<body>
+
+	<nav class="navbarY navbar navbar-expand-sm navbar-dark bg-theme" id="top">
+		<div class="container">
+			<a class="navbar-brand lobster" href="index.html" id="brand">A</a>
+			<button id="navicon" class="hamburger hamburger--collapse navbar-toggler" data-toggle="collapse"
+				data-target="#navigation" aria-controls="navigation" aria-expanded="true"
+				aria-label="Toggle navigation">
+				<span class="hamburger-box"><span class="hamburger-inner"></span></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-end" id="navigation">
+				<div class="navbar-nav">
+					<a class="nav-item nav-link active" href="index.html">About Me</a>
+					<a class="nav-item nav-link" href="projects.html">Projects</a>
+					<a class="nav-item nav-link" href="#contactme" data-toggle="modal"
+						data-target="#contactModal">Contact</a>
 				</div>
 			</div>
-    </nav>
-
-		<div class="jumbotron bg-theme" id="header">
-			<div class="container mobileSpace">
-				<h1 class="text-white lobster text-center display-3">Aaron Suman</h1>
-				<hr class="bg-white" width="10%">
-				<div class="text-white text-center quicksand">
-					<h5>Computer Science Student at King's College London</h5>
-					<h5>Teaching Assistant at King's College London</h5>
-				</div><br /><br />
-			</div><br />
 		</div>
+	</nav>
 
-		<div class="jumbotron bg-grey" id="intro"><br /><br /><br />
-			<div class="container crushed quicksand text-center">
-				<img class="circle" width="130px" src="resources/images/aaronsq.jpg"><br /><br /><br />
-				<p>I'm an ambitious and enthusiastic 3rd year computer science student at King’s College London, seeking a role to employ my creative thinking, interpersonal and problem solving skills whilst further developing these skills in an energetic and fast-paced environment. <br /><br />
-					 My current career goal is to actively contribute to a competitive team with a passion for excellence whilst continuing to explore my interests in technology. </p><br />
-				<br /><br />
-			</div>
+	<!-- <a class="button btn btn-theme backtotop" href="#top" id="totop"><i class="text-white fas fa-angle-up fa-lg"></i></a> -->
+
+	<div class="jumbotron bg-theme" id="header">
+		<div class="container mobileSpace">
+			<h1 class="text-white lobster text-center display-3">Aaron Suman</h1>
+			<hr class="bg-white" width="10%">
+			<div class="text-white text-center quicksand">
+				<h5>Computer Science Student <span class="text-muted"> and </span> Teaching Assistant <span
+						class="text-muted"> at King's College London </span></h5>
+				<h5><span class="text-muted">Former</span> Technology Intern <span class="text-muted"> at London Stock
+						Exchange Group </span></h5>
+			</div><br /><br />
+		</div><br />
+	</div>
+
+	<div class="jumbotron bg-grey" id="intro"><br /><br /><br />
+		<div class="container crushed quicksand text-center">
+			<img class="circle" width="130px" src="resources/images/aaronsq1.jpg"><br /><br /><br />
+			<p>I'm an ambitious and enthusiastic final year computer science student at King’s College London, seeking a
+				role to employ my creative thinking, interpersonal and problem solving skills whilst further developing
+				these skills in an energetic and fast-paced environment. <br /><br />
+				My current career goal is to actively contribute to a competitive team with a passion for excellence
+				whilst continuing to explore my interests in technology. </p><br />
+			<br /><br />
 		</div>
+	</div>
 
-		<div class="jumbotron bg-grey" id="thelatest"><br /><br /><br />
-			<h4 class="text-center text-theme quicksand"><i class="fas fa-university fa-lg"></i> King's College London</h4><br />
+	<div class="jumbotron bg-grey" id="thelatest"><br /><br /><br />
+		<div class="container">
+			<h4 class="text-center text-theme quicksand"><i class="fas fa-university fa-lg"></i> King's College London
+			</h4><br />
 			<div class="row justify-content-center">
 				<div class="col-lg-5 col-md-5 col-sm-12 centreright"><br />
-					<h5 class="card-title text-theme">3rd Year MSci Computer Science</h5>
+					<h5 class="card-title text-theme">4th Year MSci Computer Science</h5>
 					<h6 class="card-subtitle mb-2 text-muted">September 2016 - June 2020</h6>
 					<hr>
 					<h6 class="card-subtitle mb-2 text-theme">Current Grade: First Class</h6>
-					<p class="card-text"> Focusing on artificial intelligence, cryptography and software engineering this year. Developing a system for argumentative human discussions using argumentation theory for my individual project this year.</p><br />
+					<p class="card-text"> Focusing on machine learning, data and software engineering this year.
+						Developing a system for argumentative human discussions using argumentation theory for my
+						individual project this year.</p><br />
 				</div>
 
 				<div class="col-lg-5 col-md-5 col-sm-12"><br />
-					<h5 class="card-title text-theme"> Teaching Assistant</h5>
+					<h5 class="card-title text-theme"> Undergraduate Teaching Assistant</h5>
 					<h6 class="card-subtitle mb-2 text-muted">September 2018 - Present</h6>
 					<hr>
-					<h6 class="card-subtitle mb-2 text-theme">Software Engineering, Programming Practice, Programming Language Design Paradigms</h6>
-					<p class="card-text"> Teaching three modules this year: first year programming module practical sessions on Java and object-oriented programming; second-year software engineering projects module on HTML, CSS, PHP and development skills; second year programming language design paradigms module.</p><br />
+					<h6 class="card-subtitle mb-2 text-theme">First and Second Year Practical Sessions</h6>
+					<p class="card-text"> Teaching three modules this year: first year programming practice, second year
+						software engineering projects, second year programming language design paradigms.</p><br />
 				</div>
 			</div><br />
-			<!-- <a href="resume.html"><h6 class="text-center text-theme">Résumé <i class="fas fa-chevron-circle-right"></i></h6></a> -->
-			<!-- <br /><br /><br /> -->
+		</div>
+	</div>
+
+	<div class="bg-white" id="expedu"><br /><br /><br />
+		<div class="container">
+			<h4 class="text-center text-theme quicksand"><i class="fas fa-briefcase fa-lg"></i> Résumé<br /><br /><a
+					href="resources/files/cv.pdf" target="_blank" class="btn btn-theme btn-sm">Curriculum Vitae</a></h4>
+			<br />
+			<hr><br />
 		</div>
 
-		<div class="jumbotron" id="expedu"><br /><br /><br />
-			<h4 class="text-center text-theme quicksand"><i class="fas fa-briefcase fa-lg"></i> Résumé</h4><br />
-			<div>
-				<div class="container" style="padding-left:50px;" id="experience">
-	        <hr>
-	        <h3 class="text-theme quicksand">Experience</h3>
-	      </div>
+		<div class="faded sticky-top"><br /> <!-- Set translucent blur filter -->
+			<nav class="nav nav-pills quicksand justify-content-center">
+				<a class="nav-item nav-link text-theme active" id="expToggle" data-toggle="list" href="#experience"
+					role="tab" aria-controls="one">Experience</a>
+				<a class="nav-item nav-link text-theme" id="eduToggle" data-toggle="list" href="#education" role="tab"
+					aria-controls="two">Education</a>
+			</nav><br />
+		</div>
+		<!-- Add coding languages and interests to tabs? -->
+		<div class="container">
+			<div class="tab-content" id="projects">
+				<div class="tab-pane fade show active" id="experience" role="tabpanel"
+					aria-labelledby="experienceToggle"><br />
 
-				<!-- <div class="container controlledpadding" id="LSEG">
-	        <div class="containerx">
-	    			<div class="row">
-	    				<div class="col-lg-3 col-md-4 col-12">
-	    					<div class="container">
-	    						<img class="curve" src="resources/icons/lsegw2.jpg" width="100%"/><br /><br />
-	    					</div>
-	    				</div>
-	    				<div class="col-lg-9 col-md-8 col-12">
-	    					<div class="quicksand">
-	    						<h4 class="text-lseg">Technology Intern</h4>
-	    						<h5 class="text-lseg">London Stock Exchange Group</h5>
-	    						<h6 class="text-muted">June 2019 - Present</h6>
-	    						<span class="badge badge-pill badge-secondary">Teamwork</span>
-	    						<span class="badge badge-pill badge-secondary">Adaptability</span>
-	    						<span class="badge badge-pill badge-secondary">Communication</span>
-	    					</div>
-	    					<hr>
-	    					<p class="crushed">
-	                Modules I teach: Programming Practice and Applications (1st year), Software Engineering Group Project (2nd year), Programming Language Design Paradigms (2nd year).<br /><br />
-	                I supervise 1st and 2nd year students in practical sessions, coordinate group tasks and discussions whilst evaluating their work and providing feedback.
-	                We work with several different languages and skills including Java, git and JUnit testing. I also had to learn PHP as the language used had changed from previous years.
-	              </p>
-	    				</div>
-	    			</div>
-	        </div>
-	  		</div> -->
-
-	      <div class="container controlledpadding" id="KCLTA">
-	        <div class="containerx">
-	    			<div class="row">
-	    				<div class="col-lg-3 col-md-4 col-12">
-	    					<div class="container">
-	    						<img class="curve" src="resources/icons/kclw2.jpg" width="100%"/><br /><br />
-	    					</div>
-	    				</div>
-	    				<div class="col-lg-9 col-md-8 col-12">
-	    					<div class="quicksand">
-	    						<h4 class="text-kcl">Teaching Assistant</h4>
-	    						<h5 class="text-kcl">King's College London</h5>
-	    						<h6 class="text-muted">September 2018 - Present</h6>
-	    						<span class="badge badge-pill badge-secondary">Leadership</span>
-	    						<span class="badge badge-pill badge-secondary">Adaptability</span>
-	    						<span class="badge badge-pill badge-secondary">Communication</span>
-	    					</div>
-	    					<hr>
-	    					<p class="crushed">
-	                Modules I teach: Programming Practice and Applications (1st year), Software Engineering Group Project (2nd year), Programming Language Design Paradigms (2nd year).<br /><br />
-	                I supervise 1st and 2nd year students in practical sessions, coordinate group tasks and discussions whilst evaluating their work and providing feedback.
-	                We work with several different languages and skills including Java, git and JUnit testing. I also had to learn PHP as the language used had changed from previous years.
-	              </p>
-	    				</div>
-	    			</div>
-	        </div>
-	  		</div>
-
-	      <div class="container controlledpadding" id="JOBLAB">
-	        <div class="row">
-	          <div class="col-lg-3 col-md-4 col-12">
-	            <div class="container">
-	              <img class="curve" src="resources/icons/joblabw.jpg" width="100%"/><br /><br />
-	            </div>
-	          </div>
-	          <div class="col-lg-9 col-md-8 col-12">
-	            <div class="quicksand">
-	              <h4 class="text-joblab">Student Ambassador</h4>
-	              <h5 class="text-joblab">JobLab</h5>
-	              <h6 class="text-muted">February 2018 - May 2018</h6>
-	              <span class="badge badge-pill badge-secondary">Public Speaking</span>
-	              <span class="badge badge-pill badge-secondary">Teamwork</span>
-	              <span class="badge badge-pill badge-secondary">Communication</span>
-	            </div>
-	            <hr>
-	            <p class=" crushed">
-	              I worked in a team of three to advertise the startup at university by: organising pop up stalls throughout campuses, creating social media posts to generate interest, initiating a society at university to promote startup culture.
-	            </p>
-	          </div>
-	        </div>
-	      </div>
-
-	      <div class="container controlledpadding" id="NOTA">
-	        <div class="row">
-	          <div class="col-lg-3 col-md-4 col-12">
-	            <div class="container">
-	              <img class="curve" src="resources/icons/notaw.jpg" width="100%"/><br /><br />
-	            </div>
-	          </div>
-	          <div class="col-lg-9 col-md-8 col-12">
-	            <div class="quicksand">
-	              <h4 class="text-nota">Co-Founder | CTO & CDO</h4>
-	              <h5 class="text-nota">NOTA</h5>
-	              <h6 class="text-muted">October 2014 - January 2017</h6>
-	              <span class="badge badge-pill badge-secondary">Organisation</span>
-	              <span class="badge badge-pill badge-secondary">Creative Thinking</span>
-	              <span class="badge badge-pill badge-secondary">Marketing</span>
-	            </div>
-	            <hr>
-	            <p class=" crushed">
-	              Created a startup with a school colleague to provide a revision guide application for GCSE students.
-	              I designed a responsive website and achieved over 3 million views on social media.
-	              We also carreid out public surveys to gain feedback and presented prototypes to local high schools.
-	            </p>
-	          </div>
-	        </div>
-	      </div>
-
-	      <div class="container controlledpadding" id="HUD">
-	        <div class="row">
-	          <div class="col-lg-3 col-md-4 col-12">
-	            <div class="container">
-	              <img class="curve" src="resources/icons/hudw.jpg" width="100%"/><br /><br />
-	            </div>
-	          </div>
-	          <div class="col-lg-9 col-md-8 col-12">
-	            <div class="quicksand">
-	              <h4 class="text-hud">Office Assistant</h4>
-	              <h5 class="text-hud">University of Huddersfield</h5>
-	              <h6 class="text-muted">July 2015</h6>
-	              <span class="badge badge-pill badge-secondary">Analytical Thinking</span>
-	              <span class="badge badge-pill badge-secondary">Time Management</span>
-	              <span class="badge badge-pill badge-secondary">Quick Learner</span>
-	            </div>
-	            <hr>
-	            <p class=" crushed">
-	              I assisted the CAD/IT department with presentations, inventory checks and facility tours.
-	              I also worked with 3D printers, laser cutters and designed elements of the office for renovation.
-	            </p>
-	          </div>
-	        </div>
-	      </div>
-
-				<br /><br />
-	      <div class="container" style="padding-left:50px;" id="education">
-	        <hr>
-	        <h3 class="text-theme quicksand">Education</h3>
-	      </div>
-
-	      <div class="container controlledpadding" id="KCL">
-	        <div class="row">
-	          <div class="col-lg-3 col-md-4 col-12">
-	  					<div class="container">
-	  						<img class="curve" src="resources/icons/kclw2.jpg" width="100%"/><br /><br />
-	  					</div>
-	          </div>
-	          <div class="col-lg-9 col-md-8 col-12">
-							<div class="quicksand">
-		  					<h4 class="text-kcl">MSci Computer Science (Hons)</h4>
-		            <h5 class="text-kcl">King's College London</h5>
-		  					<h6 class="text-muted">September 2016 - June 2020</h6>
-		  					<hr>
-		  					<h6 class="text-kcl">Current Grade: First Class</h6><br />
+					<div class="controlledpadding" id="LSEG">
+						<div class="row">
+							<div class="col-lg-3 col-md-4 col-12">
+								<img class="curve" src="resources/icons/lsegw4.jpg" width="100%" /><br /><br />
 							</div>
-	            <nav class="nav nav-tabs">
-	                <a class="nav-item nav-link active text-kcl" id="yearOneToggle" data-toggle="list" href="#yearOne" role="tab" aria-controls="one">Year 1</a>
-	                <a class="nav-item nav-link text-kcl" id="yearTwoToggle" data-toggle="list" href="#yearTwo" role="tab" aria-controls="two">Year 2</a>
-	                <a class="nav-item nav-link text-kcl" id="yearThreeToggle" data-toggle="list" href="#yearThree" role="tab" aria-controls="three">Year 3</a>
-	              <a class="nav-item nav-link text-kcl" id="yearFourToggle" data-toggle="list" href="#yearFour" role="tab" aria-controls="four">Year 4</a>
-	            </nav>
-	            <div class="tab-content" id="kclyears">
-	              <div class="tab-pane fade show active" id="yearOne" role="tabpanel" aria-labelledby="yearOneToggle"><br />
-	                <p>
-	                    Module List: Computer Systems, Elementary Logic and Applications, Foundations of Computing, Database Systems, Data Structures, Introducation to Artificial Intelligence, Programming Practice and Applications.<br /><br />
-	                    I undertook a group project in the final semester to create an application that organised and displayed detailed UFO sighting data using Java.
-	  							</p>
-	              </div>
-	              <div class="tab-pane fade" id="yearTwo" role="tabpanel" aria-labelledby="yearTwoToggle"><br />
-	                <p>
-	                    Module List: Practical Experiences of Programming, Introduction to Robotics, Object-Oriented Specification and Design, Programming Language Design Paradigms, Foundations of Computing 2, Operating Systems and Concurrency, Software Engineering Group Project.<br /><br />
-	                    I undertook three group projects this year, two of which I held leadership positions.
-	                    The project in my final semester was to create a communications system between admins and students via a website and mobile applications.
-	                    I led the mobile team, using React Native to create the apps.
-	  							</p>
-	              </div>
-	              <div class="tab-pane fade" id="yearThree" role="tabpanel" aria-labelledby="yearThreeToggle"><br />
-	  							<p>
-	  							 	Module List: Artificial Intelligence, Cryptography and Information Security, Computer Graphics Systems, Network Security, Optimisation Methods, Pattern Recognition. <br/><br />
-	                  My individual project this year is on designing a system for argumentative human discussions using abstract argumentation theory.
-	                </p>
-	              </div>
-	              <div class="tab-pane fade" id="yearFour" role="tabpanel" aria-labelledby="yearFourToggle"><br />
-	  							<p>
-										Module List: Advanced Software Engineering, Security Engineering, Philosophy and Ethics of Artificial Intelligence, Big Data, Computer Forensics and Cybercrime, Data Mining.
-	                </p>
-	              </div>
-	            </div>
-	          </div>
-	        </div>
-	      </div>
-
-	  		<div class="container controlledpadding" id="googledigitalgarage">
-	  			<div class="row">
-	  				<div class="col-lg-3 col-md-4 col-12">
-	  					<div class="container">
-	  						<img class="curve" src="resources/icons/googledgw.jpg" width="100%"/><br /><br />
-	  					</div>
-	  				</div>
-	  				<div class="col-lg-9 col-md-8 col-12">
-							<div class="quicksand">
-		  					<h4 class="text-dark">The Online Marketing Fundamentals</h4>
-		  					<h5 class="text-dark">Google Digital Garage</h5>
-		  					<h6 class="text-muted">October 2017</h6>
-		  					<hr>
+							<div class="col-lg-9 col-md-8 col-12">
+								<div class="quicksand">
+									<h4 class="text-lseg">Technology Intern</h4>
+									<h5 class="text-lseg">London Stock Exchange Group</h5>
+									<h6 class="text-muted">June 2019 - August 2019</h6>
+									<span class="badge badge-pill badge-secondary">Financial Services</span>
+									<span class="badge badge-pill badge-secondary">Decision Making</span>
+									<span class="badge badge-pill badge-secondary">Adaptability</span>
+								</div>
+								<hr>
+								<p>A nine week internship consisting of one week of financial training and two four week
+									rotations at different areas of the company.</p>
+								<p><span class="text-lseg">Rotation 1: DevOps (CI/CD)</span><br />
+									Worked primarily with TypeScript to solve various problems and create solutions in
+									the
+									Swapclear department of London Clearing House.
+									Developed a validation script to check code that was run frequently on production
+									servers.
+									Worked with Jenkins to automate tasks and helped to begin the transition of UI based
+									Jenkins pipelines to scripted pipelines.</p>
+								<p><span class="text-lseg">Rotation 2: Quantitative Surveillance</span><br />
+									Developed a Python based algorithm to detect a specific form of orderbook
+									manipulation
+									on cryptocurrency exchanges as a proof of concept for the Capital Markets division.
+									The algorithm was adaptable to work across multiple cryptocurrencies on different
+									exchanges.</p>
 							</div>
-	  					<p>
-								Relevant Topics: Data Analysis and Insights, Search Engine Optimisation and Marketing, Strategy. <br /><br />
-	  						This course allowed me to improve my digital skills and provide me with a thorough understanding of online marketing which I hope to utilise in the future. </p>
-	  					<a class="button btn btn-sm btn-theme text-white" href="resources/files/asuman_gdgtomf.pdf" target="_blank">Certificate</i></a>
-	  				</div>
-	  			</div><br />
-	  		</div>
+						</div>
+					</div>
 
-	    	<div class="container controlledpadding" id="MGS">
-	  	    <div class="row">
-	  	      <div class="col-lg-3 col-md-4 col-12">
-	  					<div class="container">
-	  						<img class="curve" src="resources/icons/mgsw.jpg" width="100%"/><br /><br />
-	  					</div>
-	  	      </div>
-	  	      <div class="col-lg-9 col-md-8 col-12">
-							<div class="quicksand">
-		            <h4 class="text-mgs">A Levels, Level 3, (i)GCSEs</h4>
-		            <h5 class="text-mgs">The Manchester Grammar School</h5>
-		  					<h6 class="text-muted">September 2009 - June 2016</h6>
-		  					<hr>
+					<div class="controlledpadding" id="KCLTA">
+						<div class="row">
+							<div class="col-lg-3 col-md-4 col-12">
+								<img class="curve" src="resources/icons/kclw2.jpg" width="100%" /><br /><br />
 							</div>
-	  					<p class="text-mgs" style="margin-bottom: 0">A-Levels: A*BBDb</p>
-	  					<p class="text-muted">Mathematics, Physics, Chemistry, Further Mathematics and Biology</p>
-	            <p class="text-mgs" style="margin-bottom: 0">Level 3: A*</p>
-	            <p class="text-muted">Extended Project Qualification: "Steve Jobs: An Analysis of the technological and financial contributions he made to Apple and the cultural effect it generated."</p>
-	            <p class="text-mgs" style="margin-bottom: 0">(i)GCSEs: 8A*s 2As</p>
-	  					<p class="text-muted">Mathematics, Sciences, Electronics, English Language and Literature, French, Greek, Latin</p>
-	  	      </div>
-	  	    </div>
-	  	  </div>
-			</div>
-		</div>
-
-		<div class="jumbotron bg-grey quicksand" id="codinglanguages"><br /><br /><br />
-			<div class="container crushed">
-				<h4 class="text-center text-theme"><i class="fas fa-code fa-lg"></i> Coding Languages</h4><br />
-			</div>
-			<div class="container smashed">
-				<dl class="row">
-					<dd class="col-6 text-theme"><h5>Language</h5></dd>
-					<dd class="col-6 text-theme text-right"><h5>Proficiency</h5></dd>
-
-					<dd class="col-6">Java</dd>
-					<dd class="col-6 text-right"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></dd>
-
-					<dd class="col-6">Python</dd>
-					<dd class="col-6 text-right"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></dd>
-
-					<dd class="col-6">C++</dd>
-					<dd class="col-6 text-right"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></dd>
-
-					<dd class="col-6">React Native</dd>
-					<dd class="col-6 text-right"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></dd>
-
-					<dd class="col-6">HTML + CSS</dd>
-					<dd class="col-6 text-right"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></dd>
-
-					<dd class="col-6">JavaScript</dd>
-					<dd class="col-6 text-right"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></dd>
-
-					<dd class="col-6">Ruby on Rails</dd>
-					<dd class="col-6 text-right"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></dd>
-				</dl>
-			</div>
-
-			<div class="container crushed">
-				<p class="text-center">
-					I also have some experience with Scala, SQL, PHP, PDDL, Assembly and MATLAB.
-				</p><br /><br />
-			</div><br />
-		</div>
-
-		<div class="jumbotron" id="interests"><br /><br /><br />
-			<div class="container">
-				<h4 class="text-center text-theme quicksand"><i class="fas fa-headphones fa-lg"></i> Interests</h4><br />
-				<div class="row">
-					<div class="col-lg-6 col-md-6 col-sm-12"><br />
-						<h6 class="text-theme quicksand">Technology</h6>
-						<hr style="margin-top: 0">
-						<p>
-							I’m enthusiastic about software and consumer technology.
-							I attend hackathons and watch keynote speeches about the latest consumer technology such as WWDC and Google I/O.
-						</p>
+							<div class="col-lg-9 col-md-8 col-12">
+								<div class="quicksand">
+									<h4 class="text-kcl">Teaching Assistant</h4>
+									<h5 class="text-kcl">King's College London</h5>
+									<h6 class="text-muted">September 2018 - Present</h6>
+									<span class="badge badge-pill badge-secondary">Leadership</span>
+									<span class="badge badge-pill badge-secondary">Communication</span>
+									<span class="badge badge-pill badge-secondary">Multitasking</span>
+								</div>
+								<hr>
+								<p><span class="text-kcl">Modules List:</span> Programming Practice and Applications
+									(1st
+									year), Software Engineering Group Project (2nd year), Programming Language Design
+									Paradigms (2nd year).</p>
+								<p>
+									I supervise 1st and 2nd year students in practical sessions, coordinate group tasks
+									and
+									discussions whilst evaluating their work and providing feedback.
+									We work with several different languages and skills including Java, git and JUnit
+									testing.
+								</p>
+							</div>
+						</div>
 					</div>
 
-					<div class="col-lg-6 col-md-6 col-sm-12"><br />
-						<h6 class="text-theme quicksand">Music</h6>
-						<hr style="margin-top: 0">
-						<p>
-							I clocked in over 60,000 minutes on Spotify in 2017, listening to a variety of genres.
-							I can play the piano at grade 5 standard and I'm teaching myself how to play both acoustic and electric guitar.
-						</p>
+					<div class="controlledpadding" id="JOBLAB">
+						<div class="row">
+							<div class="col-lg-3 col-md-4 col-12">
+								<img class="curve" src="resources/icons/joblabw.jpg" width="100%" /><br /><br />
+							</div>
+							<div class="col-lg-9 col-md-8 col-12">
+								<div class="quicksand">
+									<h4 class="text-joblab">Student Ambassador</h4>
+									<h5 class="text-joblab">JobLab</h5>
+									<h6 class="text-muted">February 2018 - May 2018</h6>
+									<span class="badge badge-pill badge-secondary">Public Speaking</span>
+									<span class="badge badge-pill badge-secondary">Teamwork</span>
+									<span class="badge badge-pill badge-secondary">Marketing</span>
+								</div>
+								<hr>
+								<p>
+									I worked in a team of three to advertise the startup at university by: organising
+									pop up
+									stalls throughout campuses, creating social media posts to generate interest,
+									initiating
+									a society at university to promote startup culture.
+								</p>
+							</div>
+						</div>
 					</div>
 
-					<div class="col-lg-6 col-md-6 col-sm-12"><br />
-						<h6 class="text-theme quicksand">Design</h6>
-						<hr style="margin-top: 0">
-						<p>
-							I use Pixelmator to edit photos and create designs and other images.
-							I've designed icons and mockups for websites and apps as well as creating posters for my old PhilSoc society.
-						</p>
+					<div class="controlledpadding" id="NOTA">
+						<div class="row">
+							<div class="col-lg-3 col-md-4 col-12">
+								<img class="curve" src="resources/icons/notaw.jpg" width="100%" /><br /><br />
+							</div>
+							<div class="col-lg-9 col-md-8 col-12">
+								<div class="quicksand">
+									<h4 class="text-nota">Co-Founder | CTO & CDO</h4>
+									<h5 class="text-nota">NOTA</h5>
+									<h6 class="text-muted">October 2014 - January 2017</h6>
+									<span class="badge badge-pill badge-secondary">Organisation</span>
+									<span class="badge badge-pill badge-secondary">Creative Thinking</span>
+									<span class="badge badge-pill badge-secondary">Promoting</span>
+								</div>
+								<hr>
+								<p>
+									Created a startup with a school colleague to provide a revision guide application
+									for
+									GCSE students.
+									I designed a responsive website and achieved over 3 million views on social media.
+									We also carried out public surveys to gain feedback and presented prototypes to
+									local
+									high schools.
+								</p>
+							</div>
+						</div>
 					</div>
 
-					<div class="col-lg-6 col-md-6 col-sm-12"><br />
-						<h6 class="text-theme quicksand">Philosophy and Psychology</h6>
-						<hr style="margin-top: 0">
-						<p>I occasionally attend lectures on philosophy and psychology, two subjects that intrigue me due to their complexity and importance in modern day society.</p>
+					<div class="controlledpadding" id="HUD">
+						<div class="row">
+							<div class="col-lg-3 col-md-4 col-12">
+								<img class="curve" src="resources/icons/hudw.jpg" width="100%" /><br /><br />
+							</div>
+							<div class="col-lg-9 col-md-8 col-12">
+								<div class="quicksand">
+									<h4 class="text-hud">Office Assistant</h4>
+									<h5 class="text-hud">University of Huddersfield</h5>
+									<h6 class="text-muted">July 2015</h6>
+									<span class="badge badge-pill badge-secondary">Analytical Thinking</span>
+									<span class="badge badge-pill badge-secondary">Time Management</span>
+									<span class="badge badge-pill badge-secondary">Quick Learner</span>
+								</div>
+								<hr>
+								<p>
+									I assisted the CAD/IT department with presentations, inventory checks and facility
+									tours.
+									I also worked with 3D printers, laser cutters and designed elements of the office
+									for
+									renovation.
+								</p>
+							</div>
+						</div>
 					</div>
-				</div><br /><br /><br />
-			</div>
-		</div>
 
-		<div class="jumbotron bg-grey quicksand" id="contactme"><br /><br /><br />
-			<div class="container text-center"><br />
-				<div class="row">
-					<div class="col-md-6 col-12">
-						<h4 class="text-theme"><i class="fas fa-comments fa-lg"></i> Contact Me</h4><br />
-						<h5>Want to know more about me or my projects?</h5><br /><br />
-					</div>
-					<div class="col-md-6 col-12">
-						<dl class="row justify-content-center">
-							<dd class="col-4"><a href="mailto:oneaaronsuman@gmail.com" class="text-success"><i class="fas fa-envelope fa-2x"></i><br /><h5>Email</h5></a></dd>
-							<dd class="col-4"><a href="https://www.linkedin.com/in/aaronsuman" target="_blank" class="text-link"><i class="fab fa-linkedin fa-2x"></i><br /><h5>LinkedIn</h5></a></dd>
-							<dd class="col-4"><a href="http://m.me/ajsaaron" target="_blank" class="text-fbm"><i class="fab fa-facebook-messenger fa-2x"></i><br /><h5>Messenger</h5></a></dd>
-						</dl>
-					</div>
-			</div><br /><br />
+				</div>
 
-			<div class="container" id="footer">
-				<hr>
-				<div class="row">
-					<div class="col-8">
-						<p class="text-muted text-left small">&copy;
-							<script>document.write(new Date().getFullYear())</script>
-							Aaron Suman</p>
+				<div class="tab-pane fade" id="education" role="tabpanel" aria-labelledby="educationToggle"><br />
+
+					<div class="controlledpadding" id="KCL">
+						<div class="row">
+							<div class="col-lg-3 col-md-4 col-12">
+								<img class="curve" src="resources/icons/kclw2.jpg" width="100%" /><br /><br />
+							</div>
+							<div class="col-lg-9 col-md-8 col-12">
+								<div class="quicksand">
+									<h4 class="text-kcl">MSci Computer Science (Hons)</h4>
+									<h5 class="text-kcl">King's College London</h5>
+									<h6 class="text-muted">September 2016 - June 2020</h6>
+									<hr>
+									<h6 class="text-kcl">Current Grade: First Class</h6>
+									<h6 class="text-kcl">Final Year Student Representative</h6><br />
+								</div>
+								<nav class="nav nav-tabs">
+									<a class="nav-item nav-link text-kcl" id="yearOneToggle" data-toggle="list"
+										href="#yearOne" role="tab" aria-controls="one">Year 1</a>
+									<a class="nav-item nav-link text-kcl" id="yearTwoToggle" data-toggle="list"
+										href="#yearTwo" role="tab" aria-controls="two">Year 2</a>
+									<a class="nav-item nav-link text-kcl" id="yearThreeToggle" data-toggle="list"
+										href="#yearThree" role="tab" aria-controls="three">Year 3</a>
+									<a class="nav-item nav-link text-kcl active" id="yearFourToggle" data-toggle="list"
+										href="#yearFour" role="tab" aria-controls="four">Year 4</a>
+								</nav>
+								<div class="tab-content" id="kclyears">
+									<div class="tab-pane fade" id="yearOne" role="tabpanel"
+										aria-labelledby="yearOneToggle">
+										<br />
+										<p><span class="text-kcl">Module List:</span> Computer Systems, Elementary Logic
+											and
+											Applications, Foundations of Computing, Database Systems, Data Structures,
+											Introducation to Artificial Intelligence, Programming Practice and
+											Applications.
+										</p>
+										<p>I undertook a group project in the final semester to create an application
+											that
+											organised and displayed detailed UFO sighting data using Java.</p>
+									</div>
+									<div class="tab-pane fade" id="yearTwo" role="tabpanel"
+										aria-labelledby="yearTwoToggle">
+										<br />
+										<p><span class="text-kcl">Module List:</span> Practical Experiences of
+											Programming,
+											Introduction to Robotics, Object-Oriented Specification and Design,
+											Programming
+											Language Design Paradigms, Foundations of Computing 2, Operating Systems and
+											Concurrency, Software Engineering Group Project.</p>
+										<p>I undertook three group projects this year, two of which I held leadership
+											positions.
+											The project in my final semester was to create a communications system
+											between
+											admins and students via a website and mobile applications.
+											I led the mobile team, using React Native to create the apps.</p>
+									</div>
+									<div class="tab-pane fade" id="yearThree" role="tabpanel"
+										aria-labelledby="yearThreeToggle"><br />
+										<p><span class="text-kcl">Module List:</span> Artificial Intelligence,
+											Cryptography
+											and Information Security, Computer Graphics Systems, Network Security,
+											Optimisation Methods, Pattern Recognition.</p>
+										<p>My dissertation this year was titled "An Application of Abstract
+											Argumentation
+											Theory in Online Debating".
+											This <a class="text-kcl" href="projects.html#3prj">individual project</a>
+											was to
+											design a system for argumentative human discussions using abstract
+											argumentation
+											theory.</p>
+									</div>
+									<div class="tab-pane fade show active" id="yearFour" role="tabpanel"
+										aria-labelledby="yearFourToggle"><br />
+										<p><span class="text-kcl">Module List:</span> Advanced Software Engineering,
+											Security Engineering, Philosophy and Ethics of Artificial Intelligence, Big
+											Data, Distributed Ledgers and Cryptocurrencies, Data Mining.</p>
+										<p>My dissertation this year was titled "Social Bipolar Abstract Argumentation
+											Theory".
+											This <a class="text-kcl" href="projects.html#4prj">individual project</a>
+											was to
+											design a new form of argumentation theory tailored to the domain of online
+											debating.</p>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
-					<div class="col-4 text-theme text-right">
-						<img width="30px" src="resources/icons/A.png" />
+
+					<div class="controlledpadding" id="googledigitalgarage">
+						<div class="row">
+							<div class="col-lg-3 col-md-4 col-12">
+								<img class="curve" src="resources/icons/googledgw.jpg" width="100%" /><br /><br />
+							</div>
+							<div class="col-lg-9 col-md-8 col-12">
+								<div class="quicksand">
+									<h4 class="text-dark">The Online Marketing Fundamentals</h4>
+									<h5 class="text-dark">Google Digital Garage</h5>
+									<h6 class="text-muted">October 2017</h6>
+									<hr>
+								</div>
+								<p><span class="text-dark">Relevant Topics:</span> Data Analysis and Insights, Search
+									Engine
+									Optimisation and Marketing, Strategy.</p>
+								<p>This course allowed me to improve my digital skills and provide me with a thorough
+									understanding of online marketing which I hope to utilise in the future.</p>
+								<a class="button btn btn-sm btn-theme text-white" href="resources/files/omf.pdf"
+									target="_blank">Certificate</a>
+							</div>
+						</div><br />
+					</div>
+
+					<div class="controlledpadding" id="MGS">
+						<div class="row">
+							<div class="col-lg-3 col-md-4 col-12">
+								<img class="curve" src="resources/icons/mgsw.jpg" width="100%" /><br /><br />
+							</div>
+							<div class="col-lg-9 col-md-8 col-12">
+								<div class="quicksand">
+									<h4 class="text-mgs">A Levels, Level 3, (i)GCSEs</h4>
+									<h5 class="text-mgs">The Manchester Grammar School</h5>
+									<h6 class="text-muted">September 2009 - June 2016</h6>
+									<hr>
+								</div>
+								<p><span class="text-mgs">A-Levels:</span> Mathematics, Physics, Chemistry, Further
+									Mathematics and Biology</p>
+								<p><span class="text-mgs">Level 3:</span> Extended Project Qualification: "Steve Jobs:
+									An
+									Analysis of the technological and financial contributions he made to Apple and the
+									cultural effect it generated."</p>
+								<p><span class="text-mgs">(i)GCSEs:</span> Mathematics, Sciences, Electronics, English
+									Language and Literature, French, Greek, Latin</p>
+							</div>
+						</div>
 					</div>
 				</div>
-				<br />
+			</div>
+		</div>
+	</div>
+
+	<div class="jumbotron bg-grey quicksand" id="codinglanguages"><br /><br /><br />
+		<div class="container crushed">
+			<h4 class="text-center text-theme"><i class="fas fa-code fa-lg"></i> Coding Languages</h4><br />
+		</div>
+		<div class="container smashed">
+			<dl class="row">
+				<dd class="col-6 text-theme">
+					<h5>Language</h5>
+				</dd>
+				<dd class="col-6 text-theme text-right">
+					<h5>Proficiency</h5>
+				</dd>
+
+				<dd class="col-6">Java</dd>
+				<dd class="col-6 text-right"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+						class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></dd>
+
+				<dd class="col-6">Python</dd>
+				<dd class="col-6 text-right"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+						class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></dd>
+
+				<dd class="col-6">C++</dd>
+				<dd class="col-6 text-right"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+						class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></dd>
+
+				<dd class="col-6">React Native</dd>
+				<dd class="col-6 text-right"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+						class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></dd>
+
+				<dd class="col-6">HTML + CSS</dd>
+				<dd class="col-6 text-right"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+						class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></dd>
+
+				<dd class="col-6">JavaScript/TypeScript</dd>
+				<dd class="col-6 text-right"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+						class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></dd>
+
+				<dd class="col-6">Ruby on Rails</dd>
+				<dd class="col-6 text-right"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+						class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></dd>
+			</dl>
+		</div>
+
+		<div class="container crushed">
+			<p class="text-center">
+				I also have some experience with Scala, SQL, PHP, PDDL, Assembly and MATLAB.
+			</p><br /><br />
+		</div><br />
+	</div>
+
+	<div class="jumbotron bg-grey" id="interests"><br /><br /><br />
+		<div class="container">
+			<h4 class="text-center text-theme quicksand"><i class="fas fa-headphones fa-lg"></i> Interests</h4><br />
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12"><br />
+					<h6 class="text-theme quicksand">Technology</h6>
+					<hr style="margin-top: 0">
+					<p>
+						I’m enthusiastic about software and consumer technology.
+						I attend hackathons and watch keynote speeches about the latest consumer technology such as WWDC
+						and Google I/O.
+					</p>
+				</div>
+
+				<div class="col-lg-6 col-md-6 col-sm-12"><br />
+					<h6 class="text-theme quicksand">Music</h6>
+					<hr style="margin-top: 0">
+					<p>
+						I clocked in over 50,000 minutes on Apple Music in 2018, listening to a variety of genres.
+						I'm teaching myself how to play both acoustic and electric guitar and I can play the piano at
+						grade 5 standard.
+					</p>
+				</div>
+
+				<div class="col-lg-6 col-md-6 col-sm-12"><br />
+					<h6 class="text-theme quicksand">Football</h6>
+					<hr style="margin-top: 0">
+					<p>
+						I've supported Manchester United since I was ten years old.
+						I frequently watch Premier League and Champions League games, and I take part in an FPL.
+					</p>
+				</div>
+
+				<div class="col-lg-6 col-md-6 col-sm-12"><br />
+					<h6 class="text-theme quicksand">Philosophy and Psychology</h6>
+					<hr style="margin-top: 0">
+					<p>I occasionally attend lectures on philosophy and psychology, two subjects that intrigue me due to
+						their complexity and importance in modern day society.</p>
+				</div>
+			</div><br /><br /><br />
+		</div>
+	</div>
+
+	<div class="jumbotron bg-grey quicksand" id="contactme"><br /><br /><br />
+
+		<div class="modal fade" tabindex="-1" role="contact" id="contactModal">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title text-theme"><i class="fas fa-comments fa-lg"></i> Contact Me</h4><br />
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body justify-content-center">
+						<h5>Want to know more about me or my projects?</h5><br />
+						<div class="row text-center">
+							<div class="col-md-6 col-12">
+								<a href="https://www.linkedin.com/in/aaronsuman" target="_blank" class="text-link">
+									<p><i class="fab fa-linkedin fa-2x"></i> @aaronsuman</p>
+								</a>
+							</div>
+							<div class="col-md-6 col-12">
+								<a href="mailto:oneaaronsuman@gmail.com" class="text-success">
+									<p><i class="fas fa-envelope fa-2x"></i> @mail</p>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 
-		<script src="http://code.jquery.com/jquery-2.1.1.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-		<script src="js/bootstrap.js"></script>
-		<script src="js/script.js"></script>
-	</body>
+		<div class="container" id="footer">
+			<hr>
+			<div class="row">
+				<div class="col-8">
+					<p class="text-muted text-left small">&copy;
+						<script>document.write(new Date().getFullYear())</script>
+						Aaron Suman
+					</p>
+				</div>
+				<div class="col-4 text-theme text-right">
+					<img width="30px" src="resources/icons/A.png" />
+				</div>
+			</div>
+			<br />
+		</div>
+	</div>
+
+	<script src="http://code.jquery.com/jquery-2.1.1.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+		integrity="sha384b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+		crossorigin="anonymous"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
 </html>

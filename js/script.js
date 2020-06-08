@@ -12,12 +12,12 @@ $(document).on('click', 'button[id="navicon"]', function() {
 })
 
 //animated slide code. Original from Valentin Sarychev, I made some slight modifications to accommodate my needs.
-$(document).on('click', 'a[href^="#"]', function(e) {
-  var id = $(this).attr('href')
-  var $id = $(id)
-  if ($id.length === 0) return
-  e.preventDefault()
-  var position = $id.offset().top - 40
-  if (id === '#studentforum2018' || id === '#projectmanager2018') position -= 60
-  if (!id.includes('year')) $('body, html').animate({scrollTop: position})
-})
+// $(document).on('click', 'a[href^="#"]', function(e) {
+//   var id = $(this).attr('href')
+//   var $id = $(id)
+//   if ($id.length === 0) return
+//   e.preventDefault()
+//   var position = $id.offset().top - 40
+//   if (id === '#studentforum2018' || id === '#projectmanager2018') position -= 60
+//   if (!id.includes('year')) $('body, html').animate({scrollTop: position})
+// })

@@ -1,3 +1,7 @@
+.faded {
+  background-image: linear-gradient(to top, rgba(255,255,255,0.5), rgba(255,255,255,1));
+}
+
 .latestProj {
   background:url("../resources/icons/Aw.png") no-repeat center center;
   -webkit-background-size: cover;
