@@ -39,29 +39,28 @@
 			</button>
 			<div class="collapse navbar-collapse justify-content-end" id="navigation">
 				<div class="navbar-nav">
-					<a class="nav-item nav-link" href="index.html">About Me</a>
-					<a class="nav-item nav-link active" href="projects.html">Projects</a>
-					<a class="nav-item nav-link" href="#contactme" data-toggle="modal"
-						data-target="#contactModal">Contact</a>
+					<a class="nav-item nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
+					<a class="nav-item nav-link active" href="projects.html"><i class="fas fa-code-branch"></i> Portfolio</a>
+					<a class="nav-item nav-link darkmodeToggle" href="#"><i class="fas fa-moon"></i> Dark Mode</a>
 				</div>
 			</div>
 		</div>
 	</nav>
 
-	<div class="bg-grey">
-		<div class="faded sticky-top"><br />
-			<nav class="nav nav-pills quicksand justify-content-center">
-				<a class="nav-item nav-link text-theme active" id="personalToggle" data-toggle="list" href="#personal"
-					role="tab" aria-controls="one">Personal Projects</a>
-				<a class="nav-item nav-link text-theme" id="universityToggle" data-toggle="list" href="#university"
-					role="tab" aria-controls="two">University Work</a>
-			</nav><br />
+	<div class="bg-white" id="main">
+		<div class="bg-theme sticky-top" style="padding-top: 10px; padding-bottom: 10px">
+			<nav class="navbar quicksand justify-content-center" id="resumebar">
+				<ul class="nav nav-case">
+					<a class="nav-item nav-link text-white active" id="personalToggle" data-toggle="list" href="#personal" role="tab" aria-controls="one"><i class="fas fa-user"></i> Personal</a>
+					<a class="nav-item nav-link text-white" id="universityToggle" data-toggle="list" href="#university" role="tab" aria-controls="two"><i class="fas fa-university"></i> University</a>
+				</ul>
+			</nav>
 		</div>
 
-		<div class="tab-content bg-grey" id="projects">
+		<div class="tab-content" id="projects">
 			<!-- PERSONAL -->
-			<div class="tab-pane fade show active" id="personal" role="tabpanel" aria-labelledby="personalToggle"><br />
-				<div class="jumbotron bg-grey controlledpadding" id="bsltranslator">
+			<div class="tab-pane fade show active" id="personal" role="tabpanel" aria-labelledby="personalToggle">
+				<div class="controlledpadding" id="bsltranslator">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-3 col-md-4 col-sm-6">
@@ -74,6 +73,7 @@
 									<div class="quicksand">
 										<h4>Sign Language Translator</h4>
 										<h6>Image Recognition</h6>
+										<span class="badge badge-pill badge-theme">Python</span>
 										<span class="badge badge-pill badge-theme">Computer Vision</span>
 										<span class="badge badge-pill badge-theme">Machine Learning</span>
 									</div>
@@ -87,7 +87,7 @@
 					</div>
 				</div>
 
-				<div class="jumbotron bg-grey controlledpadding" id="monopoly">
+				<div class="controlledpadding" id="monopoly">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-3 col-md-4 col-sm-6">
@@ -113,7 +113,7 @@
 					</div>
 				</div>
 
-				<!-- <div class="jumbotron bg-grey controlledpadding" id="guitartuner">
+				<!-- <div class="controlledpadding" id="guitartuner">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-3 col-md-4 col-sm-6">
@@ -139,7 +139,7 @@
 					</div>
 				</div> -->
 
-				<div class="jumbotron bg-grey controlledpadding" id="personalwebsite">
+				<div class="controlledpadding" id="personalwebsite">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-3 col-md-4 col-sm-6">
@@ -172,18 +172,18 @@
 			</div>
 
 			<!-- UNIVERSITY -->
-			<div class="tab-pane fade" id="university" role="tabpanel" aria-labelledby="universityToggle"><br />
-				<div class="jumbotron bg-grey controlledpadding" id="4prj">
+			<div class="tab-pane fade" id="university" role="tabpanel" aria-labelledby="universityToggle">
+				<div class="controlledpadding" id="4prj">
 					<div class="container">
 						<h4>4th Year Individual Project (74%)</h4>
 						<hr class="bg-theme" width="20%" style="margin-left:0px">
 						<br />
 						<div class="quicksand">
 							<h4>Social Bipolar Abstract Argumentation Theory</h4>
-							<h6>University Dissertation</h6>
+							<h6>Argumentation Theory</h6>
 							<span class="badge badge-pill badge-theme">Research</span>
 							<span class="badge badge-pill badge-theme">Python</span>
-							<span class="badge badge-pill badge-secondary">University Dissertation</span>
+							<span class="badge badge-pill badge-secondary">Dissertation</span>
 						</div>
 						<hr>
 						<p><u><i>Abstract</i></u>: There are various forms of argumentation, some of which can be
@@ -198,20 +198,90 @@
 					</div>
 				</div>
 
-				<div class="jumbotron bg-grey controlledpadding" id="3prj">
+				<div class="controlledpadding" id="4th">
+					<div class="container">
+						<h4>4th Year Assignments</h4>
+						<hr class="bg-theme" width="20%" style="margin-left:0px">
+						<br />
+						<div class="row">
+							<div class="col-xl-4 col-md-6 col-12">
+								<div id="security2020">
+									<div class="quicksand">
+										<h4>Break Through Challenge</h4>
+										<h6>Hacking and Analysis</h6>
+										<span class="badge badge-pill badge-theme">Bash</span>
+										<span class="badge badge-pill badge-theme">C</span>
+										<span class="badge badge-pill badge-theme">Assembly</span>
+										<span class="badge badge-pill badge-secondary">Individual Coursework</span>
+									</div>
+									<hr>
+									<p>	Using C code, bash scripts and Assembly code I gained a higher level of user access on
+										a remote desktop with 10 levels of access. This was done by identifying flaws in a file at each level
+										and exploiting them to gain root access.
+									</p>
+								</div><br /><br />
+							</div>
+							<div class="col-xl-4 col-md-6 col-12">
+								<div id="data2020">
+									<div class="quicksand">
+										<h4>Data Mining Assignments</h4>
+										<h6>Machine Learning, Natural Language and Image Processing</h6>
+										<span class="badge badge-pill badge-theme">Python</span>
+										<span class="badge badge-pill badge-secondary">Individual Coursework</span>
+									</div>
+									<hr>
+									<p>	I used Python to carry out classification and clustering algorithms on huge datasets and analysed
+										their effectiveness. I also performed natural language processing techniques and image processing
+										techniques on a text corpus and image library.</p>
+								</div><br /><br />
+							</div>
+							<div class="col-xl-4 col-md-6 col-12">
+								<div id="bdt2020">
+									<div class="quicksand">
+										<h4>Big Data Assignments</h4>
+										<h6>Databases and Apache Tools</h6>
+										<span class="badge badge-pill badge-theme">NoSQL</span>
+										<span class="badge badge-pill badge-theme">Python</span>
+										<span class="badge badge-pill badge-secondary">Individual Coursework</span>
+									</div>
+									<hr>
+									<p>	I used Python code to perform various big data techniques including MapReduce and complex joins.
+										I also used Apache Sqoop to collect data, Apache Spark to catagorise data, Apache Hive to manage data, 
+										and MongoDB to perform NoSQL queries.
+									</p>
+								</div><br /><br />
+							</div>
+							<div class="col-xl-4 col-md-6 col-12">
+								<div id="dlc2020">
+									<div class="quicksand">
+										<h4>Distributed Ledger Game</h4>
+										<h6>Blockchain</h6>
+										<span class="badge badge-pill badge-theme">Ethereum</span>
+										<span class="badge badge-pill badge-secondary">Individual Coursework</span>
+									</div>
+									<hr>
+									<p>	We used the Ethereum Blockchain technology to develop a secure smart contract for the game "21".
+										The notion of betting was added to provide further complexity to the game. </p>
+								</div><br /><br />
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="controlledpadding" id="3prj">
 					<div class="container">
 						<h4>3rd Year Individual Project (77%)</h4>
 						<hr class="bg-theme" width="20%" style="margin-left:0px">
 						<br />
 						<div class="quicksand">
 							<h4>An Application of Abstract Argumentation Theory in Online Debating</h4>
-							<h6>University Dissertation</h6>
+							<h6>Argumentation Theory</h6>
 							<span class="badge badge-pill badge-theme">Ruby on Rails</span>
 							<span class="badge badge-pill badge-theme">Python</span>
 							<span class="badge badge-pill badge-theme">HTML</span>
 							<span class="badge badge-pill badge-theme">CSS</span>
 							<span class="badge badge-pill badge-theme">JavaScript</span>
-							<span class="badge badge-pill badge-secondary">University Dissertation</span>
+							<span class="badge badge-pill badge-secondary">Dissertation</span>
 						</div>
 						<hr>
 						<p><u><i>Abstract</i></u>: Online debating frequently occurs all over the internet. It relies on
@@ -226,63 +296,70 @@
 					</div>
 				</div>
 
-				<div class="jumbotron bg-grey controlledpadding" id="3rd">
+				<div class="controlledpadding" id="3rd">
 					<div class="container">
 						<h4>3rd Year Assignments</h4>
 						<hr class="bg-theme" width="20%" style="margin-left:0px">
 						<br />
 						<div class="row">
-							<div class="col-md-6 col-12">
-								<div id="c++assignments2018">
+							<div class="col-xl-4 col-md-6 col-12">
+								<div id="ai2019">
 									<div class="quicksand">
-										<h4>Artificial Intelligence Assignments</h4>
-										<h6>Programming</h6>
+										<h4>Automated Pacman</h4>
+										<h6>Artificial Intelligence</h6>
 										<span class="badge badge-pill badge-theme">Python</span>
-										<span class="badge badge-pill badge-secondary">University Assignments</span>
+										<span class="badge badge-pill badge-secondary">Individual Coursework</span>
 									</div>
 									<hr>
 									<p>I created two different agents to control Pacman. One behaved as a simple reflex
-										agent, the other used Markovian decision processes.</p>
+										agent that actively searched for food and avoided ghosts. The other agent used 
+										Markovian decision processes to calculate the next best direction based on the current environment.</p>
 								</div><br /><br />
 							</div>
-							<div class="col-md-6 col-12">
-								<div id="scalaassignments2018">
+							<div class="col-xl-4 col-md-6 col-12">
+								<div id="pattern2019">
 									<div class="quicksand">
 										<h4>Pattern Recognition Assignments</h4>
-										<h6>Programming</h6>
+										<h6>Machine Learning</h6>
 										<span class="badge badge-pill badge-theme">MATLAB</span>
-										<span class="badge badge-pill badge-secondary">University Assignments</span>
+										<span class="badge badge-pill badge-secondary">Individual Coursework</span>
 									</div>
 									<hr>
-									<p>I used MATLAB to perforn principal component analysis and feature extraction on
-										datasets, as well as create a state vector machine to classify data points.</p>
-								</div>
+									<p>	I used MATLAB to perform principal component analysis and feature extraction on
+										datasets, as well as create a state vector machine to classify data points.
+										The programs produced a series of classifications where possible in an attempt to
+										catagorise new data points.</p>
+								</div><br /><br />
 							</div>
 						</div>
 					</div>
 				</div>
 
-				<div class="jumbotron bg-grey controlledpadding" id="2nd">
+				<div class="controlledpadding" id="2nd">
 					<div class="container">
 						<h4>2nd Year Assignments</h4>
 						<hr class="bg-theme" width="20%" style="margin-left:0px">
-						<br />
-						<div class="quicksand">
-							<h4>Communications System</h4>
-							<h6>Mobile Development</h6>
-							<span class="badge badge-pill badge-theme">React Native</span>
-							<span class="badge badge-pill badge-theme">CSS</span>
-							<span class="badge badge-pill badge-secondary">University Group Project</span>
-						</div>
-						<hr>
-						<p> This was the largest group project that I undertook at university.
-							Our task was to design a communications system from an admin controlled server-side website
-							to a student multi-platform messages app.
-							I led the mobile application sub team, where we used React Native to create the app, and
-							used JSON to transfer data between the server and client sides.</p><br /><br />
-
+						<br />				
 						<div class="row">
-							<div class="col-md-6 col-12">
+							<div class="col-xl-4 col-md-6 col-12">
+								<div id="segmajor">
+									<!-- <img class="curve" src="resources/images/forumw.jpg" style="max-width:300px" width="100%"/><br /><br /> -->
+									<div class="quicksand">
+										<h4>Communications System</h4>
+										<h6>Mobile Development</h6>
+										<span class="badge badge-pill badge-theme">React Native</span>
+										<span class="badge badge-pill badge-theme">CSS</span>
+										<span class="badge badge-pill badge-secondary">Group Project</span>
+									</div>
+									<hr>
+									<p> This was the largest group project that I undertook at university.
+										Our task was to design a communications system from an admin controlled server-side website
+										to a student multi-platform messages app.
+										I led the mobile application sub team, where we used React Native to create the app, and
+										used JSON to transfer data between the server and client sides.</p>		
+								</div><br /><br />
+							</div>
+							<div class="col-xl-4 col-md-6 col-12">
 								<div id="studentforum2018">
 									<!-- <img class="curve" src="resources/images/forumw.jpg" style="max-width:300px" width="100%"/><br /><br /> -->
 									<div class="quicksand">
@@ -291,7 +368,7 @@
 										<span class="badge badge-pill badge-theme">Ruby on Rails</span>
 										<span class="badge badge-pill badge-theme">HTML</span>
 										<span class="badge badge-pill badge-theme">CSS</span>
-										<span class="badge badge-pill badge-secondary">University Group Project</span>
+										<span class="badge badge-pill badge-secondary">Group Project</span>
 									</div>
 									<hr>
 									<p>I led a team of four to build a student forum with a web based interface and
@@ -299,14 +376,14 @@
 										platform, and could read, write and answer questions on the forum.</p>
 								</div><br /><br />
 							</div>
-							<div class="col-md-6 col-12">
+							<div class="col-xl-4 col-md-6 col-12">
 								<div id="projectmanager2018">
 									<!-- <img class="curve" src="resources/images/projectw.jpg" style="max-width:300px" width="100%" /><br /><br /> -->
 									<div class="quicksand">
 										<h4>Project Manager</h4>
 										<h6>Desktop Development</h6>
 										<span class="badge badge-pill badge-theme">Java</span>
-										<span class="badge badge-pill badge-secondary">University Group Project</span>
+										<span class="badge badge-pill badge-secondary">Group Project</span>
 									</div>
 									<hr>
 									<p>I was part of a team of five that built a Java application for project managers
@@ -315,13 +392,13 @@
 										information.</p>
 								</div><br /><br />
 							</div>
-							<div class="col-md-6 col-12">
+							<div class="col-xl-4 col-md-6 col-12">
 								<div id="c++assignments2018">
 									<div class="quicksand">
 										<h4>Data Structures Assignments</h4>
 										<h6>Programming</h6>
 										<span class="badge badge-pill badge-theme">C++</span>
-										<span class="badge badge-pill badge-secondary">University Assignments</span>
+										<span class="badge badge-pill badge-secondary">Individual Coursework</span>
 									</div>
 									<hr>
 									<p>I worked on six individual assignments using C++. The tasks included implementing
@@ -329,13 +406,13 @@
 										with iterators, and also a sudoku solver algorithm.</p>
 								</div><br /><br />
 							</div>
-							<div class="col-md-6 col-12">
+							<div class="col-xl-4 col-md-6 col-12">
 								<div id="scalaassignments2018">
 									<div class="quicksand">
 										<h4>Programming Assignments</h4>
 										<h6>Programming</h6>
 										<span class="badge badge-pill badge-theme">Scala</span>
-										<span class="badge badge-pill badge-secondary">University Assignments</span>
+										<span class="badge badge-pill badge-secondary">Individual Coursework</span>
 									</div>
 									<hr>
 									<p>I worked on three individual assignments using Scala in a functional paradigm.
@@ -343,13 +420,13 @@
 										a regular expression matcher and a Brainf**k interpreter.</p>
 								</div><br /><br />
 							</div>
-							<div class="col-md-6 col-12">
+							<div class="col-xl-4 col-md-6 col-12">
 								<div id="matlabassignments2018">
 									<div class="quicksand">
 										<h4>Robotics Assignments</h4>
 										<h6>Analysis</h6>
 										<span class="badge badge-pill badge-theme">MATLAB</span>
-										<span class="badge badge-pill badge-secondary">University Assignments</span>
+										<span class="badge badge-pill badge-secondary">Individual Coursework</span>
 									</div>
 									<hr>
 									<p>I worked on two individual assignments using MATLAB. The tasks included creating
@@ -358,13 +435,13 @@
 										detection.</p>
 								</div><br /><br />
 							</div>
-							<div class="col-md-6 col-12">
+							<div class="col-xl-4 col-md-6 col-12">
 								<div id="investmentanalysissystem2017">
 									<div class="quicksand">
 										<h4>Investment Analysis System</h4>
 										<h6>Desktop Development</h6>
 										<span class="badge badge-pill badge-theme">Java</span>
-										<span class="badge badge-pill badge-secondary">University Group Project</span>
+										<span class="badge badge-pill badge-secondary">Group Project</span>
 									</div>
 									<hr>
 									<p>I worked in a team of five to create an investment analysis application in Java
@@ -376,19 +453,19 @@
 					</div>
 				</div>
 
-				<div class="jumbotron bg-grey controlledpadding" id="1st">
+				<div class="controlledpadding" id="1st">
 					<div class="container">
 						<h4>1st Year Assignments</h4>
 						<hr class="bg-theme" width="20%" style="margin-left:0px">
 						<br />
 						<div class="row">
-							<div class="col-md-6 col-12">
+							<div class="col-xl-4 col-md-6 col-12">
 								<div id="ufotracking2018">
 									<div class="quicksand">
 										<h4>UFO Sightings Tracker</h4>
 										<h6>Desktop Development</h6>
 										<span class="badge badge-pill badge-theme">Java</span>
-										<span class="badge badge-pill badge-secondary">University Group Project</span>
+										<span class="badge badge-pill badge-secondary">Group Project</span>
 									</div>
 									<hr>
 									<p>I worked on a group assignment in a team of four. Our task was to implement an
@@ -396,13 +473,13 @@
 									</p>
 								</div><br /><br />
 							</div>
-							<div class="col-md-6 col-12">
+							<div class="col-xl-4 col-md-6 col-12">
 								<div id="javaassignments2016/7">
 									<div class="quicksand">
 										<h4>Programming Assignments</h4>
 										<h6>Programming</h6>
 										<span class="badge badge-pill badge-theme">Java</span>
-										<span class="badge badge-pill badge-secondary">University Assignments</span>
+										<span class="badge badge-pill badge-secondary">Individual Coursework</span>
 									</div>
 									<hr>
 									<p>I worked on several Java assignments, both individually and in pairs to improve
@@ -410,10 +487,10 @@
 										program that utilised natural language processing.</p>
 								</div><br /><br />
 							</div>
-							<div class="col-md-6 col-12">
+							<div class="col-xl-4 col-md-6 col-12">
 								<div id="databasedesignandimplementation2017">
 									<div class="quicksand">
-										<h4>Database Assignment</h4>
+										<h4>Database for a Business</h4>
 										<h6>Database Design and Implementation</h6>
 										<span class="badge badge-pill badge-theme">MySQL</span>
 										<span class="badge badge-pill badge-secondary">University Assignment</span>
@@ -423,47 +500,18 @@
 										database required to run a small business and then implement it using MySQL.</p>
 								</div><br /><br />
 							</div>
-							<div class="col-md-6 col-12">
+							<div class="col-xl-4 col-md-6 col-12">
 								<div id="conquestplanning2017">
 									<div class="quicksand">
 										<h4>Conquest Planning</h4>
 										<h6>Artificial Intelligence Planning</h6>
 										<span class="badge badge-pill badge-theme">PDDL</span>
-										<span class="badge badge-pill badge-secondary">University Group Project</span>
+										<span class="badge badge-pill badge-secondary">Group Project</span>
 									</div>
 									<hr>
 									<p>I worked in a team of four to create a enemy territroy planning problem that
 										could be solved using the A* search algorithm in PDDL.</p>
 								</div><br /><br />
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="modal fade quicksand" tabindex="-1" role="contact" id="contactModal">
-			<div class="modal-dialog modal-dialog-centered">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h4 class="modal-title text-theme"><i class="fas fa-comments fa-lg"></i> Contact Me</h4>
-						<br />
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-							<span aria-hidden="true">&times;</span>
-						</button>
-					</div>
-					<div class="modal-body justify-content-center">
-						<h5>Want to know more about me or my projects?</h5><br />
-						<div class="row text-center">
-							<div class="col-md-6 col-12">
-								<a href="https://www.linkedin.com/in/aaronsuman" target="_blank" class="text-link">
-									<p><i class="fab fa-linkedin fa-2x"></i> @aaronsuman</p>
-								</a>
-							</div>
-							<div class="col-md-6 col-12">
-								<a href="mailto:oneaaronsuman@gmail.com" class="text-success">
-									<p><i class="fas fa-envelope fa-2x"></i> @mail</p>
-								</a>
 							</div>
 						</div>
 					</div>

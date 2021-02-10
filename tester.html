@@ -39,11 +39,17 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/hamburgers.css">
+	<style>
+        body {
+            height: 100vh;
+        }
+    </style>
+	<link rel="stylesheet" href="css/adjustSize.css">
 </head>
 
 <body>
 
-	<nav class="navbarY navbar navbar-expand-sm navbar-dark" id="top">
+	<nav class="navbarY navbar navbar-expand-sm navbar-dark bg-theme" id="top">
 		<div class="container">
 			<a class="navbar-brand lobster" href="index.html" id="brand">A</a>
 			<button id="navicon" class="hamburger hamburger--collapse navbar-toggler" data-toggle="collapse"
@@ -53,65 +59,56 @@
 			</button>
 			<div class="collapse navbar-collapse justify-content-end" id="navigation">
 				<div class="navbar-nav">
-					<a class="nav-item nav-link active" href="index.html"><i class="fas fa-home"></i> Home</a>
-					<a class="nav-item nav-link" href="projects.html"><i class="fas fa-code-branch"></i> Portfolio</a>
-					<a class="nav-item nav-link darkmodeToggle" href="#"><i class="fas fa-moon"></i> Dark Mode</a>
+					<a class="nav-item nav-link active" href="index.html">About Me</a>
+					<a class="nav-item nav-link" href="projects.html">Projects</a>
+					<a class="nav-item nav-link" href="#contactme">Contact</a>
 				</div>
 			</div>
 		</div>
 	</nav>
 
-	<div class="bg-theme mobileSpace" id="header">
-		<div class="container">
-			<h1 class="text-white lobster text-center display-3">Aaron Suman</h1>
-			<hr class="bg-white" width="50%">
-			<div class="text-white text-center quicksand">
-				<h5>First Class Honours MSci Computer Science Graduate</h5>
-			</div><br /><br />
+	<!-- <a class="button btn btn-theme backtotop" href="#top" id="totop"><i class="text-white fas fa-angle-up fa-lg"></i></a> -->
+
+	<div class="jumbotron bg-theme" id="header">
+		<div class="container mobileSpace">
+			<div class="row justify-content-center">
+				<div class="col-lg-2 col-md-3 col-12 centreright"><br />
+					<img class="circle" width="140px" src="resources/images/aaronsq1.jpg"><br />
+				</div>
+				<div class="col-lg-6 col-md-9 col-12"><br />
+					<h1 class="text-white lobster text-left display-3">Aaron Suman</h1>
+					<hr class="bg-white" width="35%" align="left">
+					<div class="text-white text-left quicksand">
+						<h5>First Class Honours MSci Computer Science Graduate</h5>
+					</div><br /><br />
+				</div>
+			</div>
 		</div><br />
 	</div>
 
-	<div class="bg-white" id="main">
+	<div class="jumbotron bg-grey" id="intro"><br /><br />
+		<div class="container crushed quicksand text-center">
+			<p>I'm an ambitious and enthusiastic computer science graduate from King’s College London, seeking a role to
+				employ my creative thinking, interpersonal and problem solving skills whilst further developing these
+				skills in an energetic and fast-paced environment. </p>
+			<p>My current career goal is to actively contribute to a competitive team with a passion for excellence
+				whilst continuing to explore my interests in technology. </p><br /><br />
+		</div>
+	</div>
 
-		<div class="bg-theme sticky-top" style="margin-top: -40px; padding-top: 10px; padding-bottom: 10px">
-			<nav class="navbar nav-fill quicksand justify-content-center" id="resumebar" style="padding-left: 20px; padding-right: 20px">
-				<ul class="nav nav-case row ">
-					<a class="nav-item nav-link text-white" id="exp" href="#about"><span class="d-none d-lg-block"><i class="fas fa-user"></i> About Me</span><span class="d-lg-none"><i class="fas fa-user fa-lg"></i></span></a>
-					<a class="nav-item nav-link text-white" id="exp" href="#experience"><span class="d-none d-lg-block"><i class="fas fa-laptop"></i> Experience</span><span class="d-lg-none"><i class="fas fa-laptop fa-lg"></i></span></a>
-					<a class="nav-item nav-link text-white" id="edu" href="#education"><span class="d-none d-lg-block"><i class="fas fa-university"></i> Education</span><span class="d-lg-none"><i class="fas fa-university fa-lg"></i></span></a>
-					<a class="nav-item nav-link text-white" id="dev" href="#development"><span class="d-none d-lg-block"><i class="fas fa-paper-plane"></i> Development</span><span class="d-lg-none"><i class="fas fa-paper-plane fa-lg"></i></span></a>
-					<a class="nav-item nav-link text-white" id="ski" href="#skills"><span class="d-none d-lg-block"><i class="fas fa-code"></i> Skills</span><span class="d-lg-none"><i class="fas fa-code fa-lg"></i></span></a>
-					<a class="nav-item nav-link text-white" id="int" href="#interests"><span class="d-none d-lg-block"><i class="fas fa-music"></i> Interests</span><span class="d-lg-none"><i class="fas fa-music fa-lg"></i></span></a>
-					<a class="nav-item nav-link text-white" id="con" href="#contactme"><span class="d-none d-lg-block"><i class="fas fa-comments"></i> Contact</span><span class="d-lg-none"><i class="fas fa-comments fa-lg"></i></span></a>
-				</ul>
-			</nav>
+	<div class="bg-white" id="expeducer"><br /><br /><br />
+		<div class="container">
+			<h3 class="text-center text-theme quicksand"><i class="fas fa-briefcase fa-lg"></i> Résumé<br /><br /><a
+					href="resources/files/Aaron_Suman_CV.pdf" target="_blank" class="btn btn-theme btn-sm">Curriculum
+					Vitae</a></h3>
+			<br />
+			<hr><br />
 		</div>
 
-		<div class="container" data-spy="scroll" data-target="#resumebar" data-offset="0">
-			<div class="tab-content" id="resume"><br /><br /><br />
+		<div class="container">
+			<div class="tab-content" id="resume">
 
-				<!-- ABOUT -->
-				<h4 class="text-theme text-center quicksand" id="about"><i class="fas fa-user fa-lg"></i> About Me</h4><hr class="bg-theme" width="30%">
-				<div class="controlledpadding">
-					<div class="quicksand">
-						<div class="row justify-content-center">
-							<div class="col-lg-2 col-md-3 col-12 centreright"><br />
-								<img class="circle" width="130px" src="resources/images/aaronsq1.jpg"><br />
-							</div>
-							<div class="col-lg-8 col-md-9 col-12"><br />
-								<p>I'm an ambitious and enthusiastic computer science graduate seeking a role to
-									employ my creative thinking, interpersonal and problem solving skills whilst further developing them
-									in an energetic and fast-paced environment. </p>
-								<p>My current career goal is to actively contribute to a competitive team with a passion for excellence
-									whilst continuing to explore my interests in technology. </p><br />
-								<p>I also have a more conventional <u><a href="resources/files/Aaron_Suman_CV.pdf" target="_blank" class="text-theme">Curriculum Vitae</a></u></u></p>
-							</div>
-						</div>
-					</div><br />
-				</div><br /><br /><br />
-
-				<!-- EXPERIENCE -->
-				<h4 class="text-theme text-center quicksand" id="experience"><i class="fas fa-laptop fa-lg"></i> Experience</h4><hr class="bg-theme" width="30%">
+				<h4 class="text-theme quicksand"><i class="fas fa-laptop fa-lg"></i> Experience</h4>
 
 				<div class="controlledpadding" id="KCLTA">
 					<div class="row">
@@ -130,7 +127,7 @@
 							<hr>
 							<p><span class="text-kcl">Topics:</span> Programming, Software Engineering, Data Structures,
 								Databases, Cryptography</p>
-							<p>I supervised students in over 300 practical sessions, coordinated group tasks and discussions
+							<p>I supervised students in practical sessions, coordinated group tasks and discussions
 								whilst evaluating their work and providing feedback. We worked with several different
 								languages and skills including Java, git and testing.</p>
 						</div>
@@ -177,7 +174,7 @@
 							</div>
 							<hr>
 							<p>I worked in a team of three to advertise the startup at university by: organising pop up
-								stalls throughout campuses, creating social media posts to generate interest, and initiating
+								stalls throughout campuses, creating social media posts to generate interest, initiating
 								a society at university to promote startup culture.</p>
 						</div>
 					</div>
@@ -207,9 +204,7 @@
 				</div>
 				<br /><br /><br />
 
-
-				<!-- EDUCATION -->
-				<h4 class="text-theme text-center quicksand" id="education"><i class="fas fa-university fa-lg"></i> Education</h4><hr class="bg-theme" width="30%">
+				<h4 class="text-theme quicksand"><i class="fas fa-university fa-lg"></i> Education</h4>
 
 				<div class="controlledpadding" id="KCL">
 					<div class="row">
@@ -267,10 +262,7 @@
 				</div>
 				<br /><br /><br />
 
-
-
-				<!-- DEVELOPMENT -->
-				<h4 class="text-theme text-center quicksand" id="development"><i class="fas fa-paper-plane fa-lg"></i> Development</h4><hr class="bg-theme" width="30%">
+				<h4 class="text-theme quicksand"><i class="fas fa-university fa-lg"></i> Professional Development</h4>
 
 				<div class="controlledpadding" id="cvdcoursera">
 					<div class="row">
@@ -399,121 +391,83 @@
 						</div>
 					</div><br />
 				</div>
-				<br /><br /><br />
-
-
-				<!-- SKILLS -->
-				<h4 class="text-theme text-center quicksand" id="skills"><i class="fas fa-code fa-lg"></i> Skills</h4><hr class="bg-theme" width="30%">
-
-				<div class="controlledpadding container crushed">
-					<dl class="row">
-						<dd class="col-3 quicksand text-theme"><h5>Language</h5><hr></dd>
-						<dd class="col-4 quicksand text-theme text-center"><h5>Years of Experience</h5><hr></dd>
-						<dd class="col-5 quicksand text-theme text-right"><h5>Type</h5><hr></dd>
+				<hr><br />
+			</div>
+		</div>
 	
-						<dd class="col-3">Java</dd>
-						<dd class="col-4 text-center">5+</dd>
-						<dd class="col-5 text-right">Personal & University</dd>
 	
-						<dd class="col-3">SQL</dd>
-						<dd class="col-4 text-center">5+</dd>
-						<dd class="col-5 text-right">University & Industry</dd>
-	
-						<dd class="col-3">HTML + CSS</dd>
-						<dd class="col-4 text-center">5+</dd>
-						<dd class="col-5 text-right">Personal & University</dd>
-	
-						<dd class="col-3">Python</dd>
-						<dd class="col-4 text-center">3</dd>
-						<dd class="col-5 text-right">Personal, University & Industry</dd>
-	
-						<dd class="col-3">Ruby on Rails</dd>
-						<dd class="col-4 text-center">2</dd>
-						<dd class="col-5 text-right">University</dd>
-	
-						<dd class="col-3">JavaScript/TypeScript</dd>
-						<dd class="col-4 text-center">2</dd>
-						<dd class="col-5 text-right">Industry</dd>
-					</dl>
-
-					<p>I also have some experience with React Native, C++, Scala, PHP, Assembly and MATLAB.</p>
-					<br /><br />
-					<p><span class="text-theme">Software: </span>Git, Bootstrap, Jira, Jenkins, GitHub, BitBucket, IntelliJ, VSCode</p>
-					<p><span class="text-theme">Office: </span>Microsoft Office Suite (Word, Excel, Powerpoint), iWork Suite, LaTeX</p>
-					<p><span class="text-theme">OS: </span>MacOS, Linux</p>
+		<div class="quicksand" id="skills"><br /><br />
+			<div class="container">
+				<h3 class="text-center text-theme"><i class="fas fa-code-branch fa-lg"></i> Professional Skills</h3>
+				<br />
+			</div>
+			<div>
+				<div class="bg-white canvas">
+					<div class="quicksand text-white" id="yourID" height="100vh">
 				</div>
-				<br /><br /><br />
+				<p class="text-center">I also have some experience with Scala, PHP, PDDL, Assembly and MATLAB.</p>
+				<br /><br />
+			</div><br />
+		</div>
 
+		<div class="jumbotron" id="interests"><br /><br /><br />
+			<div class="container">
+				<h3 class="text-center text-theme quicksand"><i class="fas fa-headphones fa-lg"></i> Interests</h3>
+				<br />
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-12"><br />
+						<h6 class="text-theme quicksand">Technology</h6>
+						<hr style="margin-top: 0">
+						<p>I’m enthusiastic about software and consumer technology. I attend hackathons and watch
+							keynote
+							speeches about the latest consumer technology such as WWDC and Google I/O.</p>
+					</div>
 
-				<!-- INTERESTS -->
-				<h4 class="text-theme text-center quicksand" id="interests"><i class="fas fa-music fa-lg"></i> Interests</h4><hr class="bg-theme" width="30%">
+					<div class="col-lg-6 col-md-6 col-sm-12"><br />
+						<h6 class="text-theme quicksand">Music</h6>
+						<hr style="margin-top: 0">
+						<p>I clocked in over 50,000 minutes on Apple Music in 2018, listening to a variety of genres.
+							I'm
+							teaching myself how to play both acoustic and electric guitar and I can play the piano at
+							grade
+							5 standard.</p>
+					</div>
 
-				<div class="controlledpadding">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-6 col-md-6 col-sm-12"><br />
-								<h6 class="text-theme quicksand">Technology</h6>
-								<hr style="margin-top: 0">
-								<p>I’m enthusiastic about software and consumer technology. I attend hackathons and watch
-									keynote
-									speeches about the latest consumer technology such as WWDC and Google I/O.</p>
-							</div>
-		
-							<div class="col-lg-6 col-md-6 col-sm-12"><br />
-								<h6 class="text-theme quicksand">Music</h6>
-								<hr style="margin-top: 0">
-								<p>I clocked in over 50,000 minutes on Apple Music in 2018, listening to a variety of genres.
-									I'm
-									teaching myself how to play both acoustic and electric guitar and I can play the piano at
-									grade
-									5 standard.</p>
-							</div>
-		
-							<div class="col-lg-6 col-md-6 col-sm-12"><br />
-								<h6 class="text-theme quicksand">Football</h6>
-								<hr style="margin-top: 0">
-								<p>I've supported Manchester United since I was ten years old. I frequently watch Premier League
-									games, and I take part in fantasy premier league.</p>
-							</div>
-		
-							<div class="col-lg-6 col-md-6 col-sm-12"><br />
-								<h6 class="text-theme quicksand">Philosophy and Psychology</h6>
-								<hr style="margin-top: 0">
-								<p>I occasionally attend lectures on philosophy and psychology, two subjects that intrigue me
-									due to
-									their complexity and importance in modern day society.</p>
-							</div>
-						</div><br /><br /><br />
+					<div class="col-lg-6 col-md-6 col-sm-12"><br />
+						<h6 class="text-theme quicksand">Football</h6>
+						<hr style="margin-top: 0">
+						<p>I've supported Manchester United since I was ten years old. I frequently watch Premier League
+							games, and I take part in fantasy premier league.</p>
+					</div>
+
+					<div class="col-lg-6 col-md-6 col-sm-12"><br />
+						<h6 class="text-theme quicksand">Philosophy and Psychology</h6>
+						<hr style="margin-top: 0">
+						<p>I occasionally attend lectures on philosophy and psychology, two subjects that intrigue me
+							due to
+							their complexity and importance in modern day society.</p>
+					</div>
+				</div><br /><br /><br />
+			</div>
+		</div>
+
+		<div class="jumbotron quicksand text-center" id="contactme"><br /><br /><br />
+			<div class="container">
+				<h3 class="text-theme"><i class="fas fa-comments fa-lg"></i> Contact Me</h3><br />
+				<h5>Want to know more about me or my projects?</h5><br />
+				<div class="row text-center">
+					<div class="col-md-6 col-12">
+						<a href="https://www.linkedin.com/in/aaronsuman" target="_blank" class="text-link">
+							<p><i class="fab fa-linkedin fa-2x"></i> @aaronsuman</p>
+						</a>
+					</div>
+					<div class="col-md-6 col-12">
+						<a href="mailto:oneaaronsuman@gmail.com" class="text-success">
+							<p><i class="fas fa-envelope fa-2x"></i> @mail</p>
+						</a>
 					</div>
 				</div>
-
-
-				<!-- CONTACT -->
-				<div class="quicksand text-center" id="contactme"><br /><br /><br />
-					<div class="container">
-						<h4 class="text-theme"><i class="fas fa-comments fa-lg"></i> Contact Me</h4><hr class="bg-theme" width="30%"><br /><br />
-						<h5>Want to know more about me or just want to have a chat? <br /> Reach out to me on LinkedIn or send me an email.</h5><br />
-						<div class="row text-center">
-							<div class="col-4">
-								<a href="https://www.linkedin.com/in/aaronsuman" target="_blank" class="text-link">
-									<h5><i class="fab fa-linkedin fa-lg"></i> LinkedIn</h5>
-								</a>
-							</div>
-							<div class="col-4">
-								<a href="mailto:oneaaronsuman@gmail.com" class="text-success">
-									<h5><i class="fas fa-envelope fa-lg"></i> Email</h5>
-								</a>
-							</div>
-							<div class="col-4">
-								<a href="projects.html" class="text-theme">
-									<h5><i class="fas fa-code-branch fa-lg"></i> Projects</h5>
-								</a>
-							</div>
-						</div>
-					</div><br /><br /><br />
-				</div>
-
-			</div>
+			</div><br /><br /><br />
 		</div>
 
 		<div class="container" id="footer">
@@ -535,10 +489,20 @@
 	<script src="https://code.jquery.com/jquery-2.1.1.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
 		integrity="sha384b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
-		crossorigin="anonymous"></script>
+		crossorigin="anonymous"></script> 
 	<script src="js/bootstrap.js"></script>
 	<script src="js/script.js"></script>
-	
+	<script src="js/adjustSize.js"></script>
+	<script src="js/anime.min.js"></script>
+	<script src="js/circleCollision.js"></script>
+	<script>
+		circleManager = new CircleManager('yourID');
+		circleManager.add("Java");
+		circleManager.add("Python");
+		circleManager.add("Git");
+		circleManager.add("React Native");
+		circleManager.add("Ruby on Rails");
+	</script>
 </body>
 
 </html>

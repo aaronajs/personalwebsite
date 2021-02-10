@@ -430,7 +430,7 @@ h4, .h4 {
 }
 
 h5, .h5 {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
 }
 
 h6, .h6 {
@@ -3349,6 +3349,18 @@ tbody.collapse.show {
   background-color: #8b2a24;
 }
 
+.nav-case .nav-link {
+  border-color: #ffffff;
+  background-color: #8b2a24;
+}
+
+.nav-case .nav-link.active,
+.show > .nav-case .nav-link {
+  border-bottom: solid;
+  border-width: 1.5px;
+  border-color: #ffffff;
+}
+
 .nav-fill .nav-item {
   -ms-flex: 1 1 auto;
       flex: 1 1 auto;
@@ -5494,7 +5506,23 @@ a.bg-dark:focus, a.bg-dark:hover {
 }
 
 .bg-white {
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
   background-color: #fff !important;
+}
+
+.bg-dark {
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  background-color: #18191A !important;
+}
+
+.text-darkmode {
+  color: #cccccc !important;
 }
 
 .bg-grey {
