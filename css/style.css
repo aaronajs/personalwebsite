@@ -38,8 +38,8 @@
 }
 
 .controlledpadding {
-  padding-top: 45px !important;
-  padding-bottom: 35px !important;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
 }
 
 .backtotop {
@@ -211,7 +211,17 @@ a.text-git:focus, a.text-git:hover {
 .story {
   font-size: 1.1rem;
 }
+.skinny {
+  font-weight: 300;
+}
+.normalSize {
+  font-size: 1rem;
+}
 
+dl.sources dd, dl.sources dt{
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
 
 /* TIMELINE code -- modified from Clay Larson's original code: https://codepen.io/cjl750*/
 
@@ -358,7 +368,6 @@ a.text-git:focus, a.text-git:hover {
     justify-content: center;
     width: 100%;
     height: auto;
-    margin-top: 15vh;
   }
 
   .input {

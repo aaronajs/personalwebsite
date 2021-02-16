@@ -37,7 +37,7 @@
 	<link rel="stylesheet" href="css/hamburgers.css">
 </head>
 
-<body>
+<body data-spy="scroll">
 
 	<nav class="navbarPrime navbar navbar-expand-sm navbar-dark" id="top">
 		<div class="container">
@@ -63,7 +63,7 @@
 			<h1 class="text-white lobster text-center display-3">Aaron Suman</h1>
 			<hr class="bg-white" width="50%">
 			<div class="text-white text-center">
-				<h4>First Class Honours MSci Computer Science Graduate</h4>
+				<h4 class="skinny">First Class Honours MSci Computer Science Graduate</h4>
 			</div><br /><br />
 		</div><br />
 	</div>
@@ -73,316 +73,312 @@
 		<div class="bg-theme sticky-top" style="margin-top: -40px; padding-top: 10px; padding-bottom: 10px">
 			<nav class="navbar nav-fill justify-content-center" id="resumebar" style="padding-left: 20px; padding-right: 20px">
 				<ul class="nav nav-case row ">
-					<a class="nav-item nav-link text-white" id="exp" href="#about"><span class="d-none d-lg-block"><i class="fas fa-user"></i> About Me</span><span class="d-lg-none"><i class="fas fa-user fa-lg"></i></span></a>
-					<a class="nav-item nav-link text-white" id="exp" href="#experience"><span class="d-none d-lg-block"><i class="fas fa-laptop"></i> Experience</span><span class="d-lg-none"><i class="fas fa-laptop fa-lg"></i></span></a>
-					<a class="nav-item nav-link text-white" id="edu" href="#education"><span class="d-none d-lg-block"><i class="fas fa-graduation-cap"></i> Education</span><span class="d-lg-none"><i class="fas fa-graduation-cap fa-lg"></i></span></a>
-					<a class="nav-item nav-link text-white" id="dev" href="#development"><span class="d-none d-lg-block"><i class="fas fa-paper-plane"></i> Development</span><span class="d-lg-none"><i class="fas fa-paper-plane fa-lg"></i></span></a>
-					<a class="nav-item nav-link text-white" id="ski" href="#skills"><span class="d-none d-lg-block"><i class="fas fa-code"></i> Skills</span><span class="d-lg-none"><i class="fas fa-code fa-lg"></i></span></a>
-					<a class="nav-item nav-link text-white" id="int" href="#interests"><span class="d-none d-lg-block"><i class="fas fa-music"></i> Interests</span><span class="d-lg-none"><i class="fas fa-music fa-lg"></i></span></a>
-					<a class="nav-item nav-link text-white" id="con" href="#contactme"><span class="d-none d-lg-block"><i class="fas fa-comments"></i> Contact Me</span><span class="d-lg-none"><i class="fas fa-comments fa-lg"></i></span></a>
+					<a class="nav-item nav-link text-white" id="exp" href="#about"><span class="d-none d-lg-block"><i class="fas fa-user"></i> About Me</span><span class="d-lg-none"><i class="fas fa-user"></i></span></a>
+					<a class="nav-item nav-link text-white" id="exp" href="#experience"><span class="d-none d-lg-block"><i class="fas fa-laptop"></i> Experience</span><span class="d-lg-none"><i class="fas fa-laptop"></i></span></a>
+					<a class="nav-item nav-link text-white" id="edu" href="#education"><span class="d-none d-lg-block"><i class="fas fa-graduation-cap"></i> Education</span><span class="d-lg-none"><i class="fas fa-graduation-cap"></i></span></a>
+					<a class="nav-item nav-link text-white" id="dev" href="#development"><span class="d-none d-lg-block"><i class="fas fa-paper-plane"></i> Development</span><span class="d-lg-none"><i class="fas fa-paper-plane"></i></span></a>
+					<a class="nav-item nav-link text-white" id="ski" href="#skills"><span class="d-none d-lg-block"><i class="fas fa-code"></i> Skills</span><span class="d-lg-none"><i class="fas fa-code"></i></span></a>
+					<a class="nav-item nav-link text-white" id="int" href="#interests"><span class="d-none d-lg-block"><i class="fas fa-music"></i> Interests</span><span class="d-lg-none"><i class="fas fa-music"></i></span></a>
+					<a class="nav-item nav-link text-white" id="con" href="#contactme"><span class="d-none d-lg-block"><i class="fas fa-comments"></i> Contact Me</span><span class="d-lg-none"><i class="fas fa-comments"></i></span></a>
 				</ul>
 			</nav>
 		</div>
 
-		<div class="container" data-spy="scroll" data-target="#resumebar" data-offset="0">
-			<div class="tab-content" id="resume"><br /><br /><br />
+		<div class="container" data-target="#resumebar" data-offset="0">
+			<div class="tab-content" id="resume">
 
 				<!-- ABOUT -->
-				<h3 class="text-theme text-center" id="about"><i class="fas fa-user fa-lg"></i> About Me</h3><hr class="border-theme" width="30%">
-				<div class="controlledpadding">
-					<div class="row justify-content-center">
-						<div class="col-lg-2 col-md-3 col-12 centreright"><br />
-							<img class="circle" width="130px" src="resources/images/aaronsq1.jpg"><br />
-						</div>
-						<div class="col-lg-8 col-md-9 col-12"><br />
-							<p>I'm an ambitious and enthusiastic computer science graduate seeking a role to
-								employ my creative thinking, interpersonal and problem solving skills whilst further developing them
-								in an energetic and fast-paced environment. </p>
-							<p>My current career goal is to actively contribute to a competitive team with a passion for excellence
-								whilst continuing to explore my interests in technology. </p><br />
-							<p>I also have a more conventional <u><a href="resources/files/Aaron_Suman_CV.pdf" target="_blank" class="text-theme">Curriculum Vitae</a></u></p>
-						</div>
-					</div><br />
-				</div><br /><br /><br />
+				<div id="about"><br /><br /><br />
+					<h3 class="text-theme text-center"><i class="fas fa-user"></i> About Me</h3><hr class="border-theme" width="30%">
+					<div class="controlledpadding">
+						<div class="row justify-content-center">
+							<div class="col-lg-2 col-md-3 col-12 centreright"><br />
+								<img class="circle" width="130px" src="resources/images/aaronsq1.jpg"><br />
+							</div>
+							<div class="col-lg-8 col-md-9 col-12"><br />
+								<p>I'm an ambitious and enthusiastic computer science graduate seeking a role to
+									employ my creative thinking, interpersonal and problem solving skills whilst further developing them
+									in an energetic and fast-paced environment. </p>
+								<p>My current career goal is to actively contribute to a competitive team with a passion for excellence
+									whilst continuing to explore my interests in technology. </p><br />
+								<p>I also have a more conventional <u><a href="resources/files/Aaron_Suman_CV.pdf" target="_blank" class="text-theme">Curriculum Vitae</a></u></p>
+							</div>
+						</div><br />
+					</div>
+				</div>
 
 				<!-- EXPERIENCE -->
-				<h3 class="text-theme text-center" id="experience"><i class="fas fa-laptop fa-lg"></i> Experience</h3><hr class="border-theme" width="30%">
-
-				<div class="controlledpadding" id="KCLTA">
-					<div class="row">
-						<div class="col-lg-3 col-md-4 col-12">
-							<img class="curve" src="resources/icons/kclw2.jpg" width="100%" /><br /><br />
+				<div id="experience"><br /><br /><br />
+					<h3 class="text-theme text-center"><i class="fas fa-laptop"></i> Experience</h3><hr class="border-theme" width="30%">
+					<div class="controlledpadding" id="KCLTA">
+						<div class="row">
+							<div class="col-lg-3 col-md-4 col-12">
+								<img class="curve" src="resources/icons/kclw2.jpg" width="100%" /><br /><br />
+							</div>
+							<div class="col-lg-9 col-md-8 col-12">
+								<h4 class="text-kcl">Teaching Assistant</h4>
+								<h5 class="text-kcl">King's College London</h5>
+								<h6 class="lead text-muted">September 2018 - December 2020</h6>
+								<span class="badge badge-pill badge-secondary">Leadership</span>
+								<span class="badge badge-pill badge-secondary">Communication</span>
+								<span class="badge badge-pill badge-secondary">Adaptability</span>
+								<hr>
+								<dl class="row">
+									<dt class="col-sm-2 text-kcl">Topics</dt>
+									<dd class="col-sm-10">Programming, Software Engineering, Data Structures, Databases, Cryptography</dd>
+								</dl>
+								<p>I supervised students in over 300 practical sessions, coordinated group tasks and discussions
+									whilst evaluating their work and providing feedback. We worked with several different
+									languages and skills including Java, git and testing.</p>
+							</div>
 						</div>
-						<div class="col-lg-9 col-md-8 col-12">
-							<h4 class="text-kcl">Teaching Assistant</h4>
-							<h5 class="text-kcl">King's College London</h5>
-							<h6 class="lead text-muted">September 2018 - December 2020</h6>
-							<span class="badge badge-pill badge-secondary">Leadership</span>
-							<span class="badge badge-pill badge-secondary">Communication</span>
-							<span class="badge badge-pill badge-secondary">Adaptability</span>
-							<hr>
-							<p><span class="text-kcl">Topics:</span> Programming, Software Engineering, Data Structures,
-								Databases, Cryptography</p>
-							<p>I supervised students in over 300 practical sessions, coordinated group tasks and discussions
-								whilst evaluating their work and providing feedback. We worked with several different
-								languages and skills including Java, git and testing.</p>
+					</div>
+
+					<div class="controlledpadding" id="LSEG">
+						<div class="row">
+							<div class="col-lg-3 col-md-4 col-12">
+								<img class="curve" src="resources/icons/lsegw4.jpg" width="100%" /><br /><br />
+							</div>
+							<div class="col-lg-9 col-md-8 col-12">
+								<h4 class="text-lseg">Technology Intern</h4>
+								<h5 class="text-lseg">London Stock Exchange Group</h5>
+								<h6 class="lead text-muted">June 2019 - August 2019</h6>
+								<span class="badge badge-pill badge-secondary">Python</span>
+								<span class="badge badge-pill badge-secondary">TypeScript</span>
+								<span class="badge badge-pill badge-secondary">CI/CD</span>
+								<hr>
+								<p>I used TypeScript to solve develop a validation script to check code that was run
+									frequently on production servers. I used Jenkins to automate tasks and began the
+									transition of UI to scripted pipelines.
+									I developed a proof of concept Python algorithm to detect a specific form of orderbook
+									manipulation on cryptocurrency exchanges.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="controlledpadding" id="JOBLAB">
+						<div class="row">
+							<div class="col-lg-3 col-md-4 col-12">
+								<img class="curve" src="resources/icons/joblabw.jpg" width="100%" /><br /><br />
+							</div>
+							<div class="col-lg-9 col-md-8 col-12">
+								<h4 class="text-joblab">Student Ambassador</h4>
+								<h5 class="text-joblab">JobLab</h5>
+								<h6 class="lead text-muted">February 2018 - May 2018</h6>
+								<span class="badge badge-pill badge-secondary">Public Speaking</span>
+								<span class="badge badge-pill badge-secondary">Teamwork</span>
+								<span class="badge badge-pill badge-secondary">Marketing</span>
+								<hr>
+								<p>I worked in a team of three to advertise the startup at university by: organising pop up
+									stalls throughout campuses, creating social media posts to generate interest, and initiating
+									a society at university to promote startup culture.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="controlledpadding" id="NOTA">
+						<div class="row">
+							<div class="col-lg-3 col-md-4 col-12">
+								<img class="curve" src="resources/icons/notaw.jpg" width="100%" /><br /><br />
+							</div>
+							<div class="col-lg-9 col-md-8 col-12">
+								<h4 class="text-nota">Co-Founder | CTO & CDO</h4>
+								<h5 class="text-nota">NOTA</h5>
+								<h6 class="lead text-muted">October 2014 - January 2017</h6>
+								<span class="badge badge-pill badge-secondary">Organisation</span>
+								<span class="badge badge-pill badge-secondary">Creative Thinking</span>
+								<span class="badge badge-pill badge-secondary">Product Design</span>
+								<hr>
+								<p>Created a startup with a school colleague to provide a revision guide application for
+									GCSE students. I designed a responsive website and achieved over 3 million views on
+									social media. We also carried out public surveys to gain feedback and presented
+									prototypes to local high schools.</p>
+							</div>
 						</div>
 					</div>
 				</div>
-
-				<div class="controlledpadding" id="LSEG">
-					<div class="row">
-						<div class="col-lg-3 col-md-4 col-12">
-							<img class="curve" src="resources/icons/lsegw4.jpg" width="100%" /><br /><br />
-						</div>
-						<div class="col-lg-9 col-md-8 col-12">
-							<h4 class="text-lseg">Technology Intern</h4>
-							<h5 class="text-lseg">London Stock Exchange Group</h5>
-							<h6 class="lead text-muted">June 2019 - August 2019</h6>
-							<span class="badge badge-pill badge-secondary">Python</span>
-							<span class="badge badge-pill badge-secondary">TypeScript</span>
-							<span class="badge badge-pill badge-secondary">CI/CD</span>
-							<hr>
-							<p>I used TypeScript to solve develop a validation script to check code that was run
-								frequently on production servers. I used Jenkins to automate tasks and began the
-								transition of UI to scripted pipelines.
-								I developed a proof of concept Python algorithm to detect a specific form of orderbook
-								manipulation on cryptocurrency exchanges.</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="controlledpadding" id="JOBLAB">
-					<div class="row">
-						<div class="col-lg-3 col-md-4 col-12">
-							<img class="curve" src="resources/icons/joblabw.jpg" width="100%" /><br /><br />
-						</div>
-						<div class="col-lg-9 col-md-8 col-12">
-							<h4 class="text-joblab">Student Ambassador</h4>
-							<h5 class="text-joblab">JobLab</h5>
-							<h6 class="lead text-muted">February 2018 - May 2018</h6>
-							<span class="badge badge-pill badge-secondary">Public Speaking</span>
-							<span class="badge badge-pill badge-secondary">Teamwork</span>
-							<span class="badge badge-pill badge-secondary">Marketing</span>
-							<hr>
-							<p>I worked in a team of three to advertise the startup at university by: organising pop up
-								stalls throughout campuses, creating social media posts to generate interest, and initiating
-								a society at university to promote startup culture.</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="controlledpadding" id="NOTA">
-					<div class="row">
-						<div class="col-lg-3 col-md-4 col-12">
-							<img class="curve" src="resources/icons/notaw.jpg" width="100%" /><br /><br />
-						</div>
-						<div class="col-lg-9 col-md-8 col-12">
-							<h4 class="text-nota">Co-Founder | CTO & CDO</h4>
-							<h5 class="text-nota">NOTA</h5>
-							<h6 class="lead text-muted">October 2014 - January 2017</h6>
-							<span class="badge badge-pill badge-secondary">Organisation</span>
-							<span class="badge badge-pill badge-secondary">Creative Thinking</span>
-							<span class="badge badge-pill badge-secondary">Product Design</span>
-							<hr>
-							<p>Created a startup with a school colleague to provide a revision guide application for
-								GCSE students. I designed a responsive website and achieved over 3 million views on
-								social media. We also carried out public surveys to gain feedback and presented
-								prototypes to local high schools.</p>
-						</div>
-					</div>
-				</div>
-				<br /><br /><br />
-
 
 				<!-- EDUCATION -->
-				<h3 class="text-theme text-center" id="education"><i class="fas fa-university fa-lg"></i> Education</h3><hr class="border-theme" width="30%">
-
-				<div class="controlledpadding" id="KCL">
-					<div class="row">
-						<div class="col-lg-3 col-md-4 col-12">
-							<img class="curve" src="resources/icons/kclw2.jpg" width="100%" /><br /><br />
+				<div id="education"><br /><br /><br />
+					<h3 class="text-theme text-center"><i class="fas fa-graduation-cap"></i> Education</h3><hr class="border-theme" width="30%">
+					<div class="controlledpadding" id="KCL">
+						<div class="row">
+							<div class="col-lg-3 col-md-4 col-12">
+								<img class="curve" src="resources/icons/kclw2.jpg" width="100%" /><br /><br />
+							</div>
+							<div class="col-lg-9 col-md-8 col-12">
+								<h4 class="text-kcl">First Class Honours MSci Computer Science</h4>
+								<h5 class="text-kcl">King's College London</h5>
+								<h6 class="lead text-muted">September 2016 - June 2020</h6>
+								<span class="badge badge-pill badge-secondary">Software Engineering</span>
+								<span class="badge badge-pill badge-secondary">Data</span>
+								<span class="badge badge-pill badge-secondary">Artificial Intelligence</span>
+								<span class="badge badge-pill badge-secondary">Machine Learning</span>
+								<span class="badge badge-pill badge-secondary">Security</span>
+								<hr>
+								<dl class="row">
+									<dt class="col-sm-3 text-kcl">Notable Modules</dt>
+									<dd class="col-sm-9">Advanced Software Engineering, Big Data, Artificial Intelligence, Data Mining, Security Engineering</dd>
+								</dl>
+								<p> I undertook 28 modules and carried out many group and individal projects during my time
+									at King's. These include two <u><a class="text-kcl" href="portfolio.html#4prj">dissertations</a></u> on the topic of Argumentation
+									Theory. I worked with several languages and technologies including Java, Python, C++, SQL, and
+									Git. I participated in hackathons and other events ran by the tech and AI societies, and I
+									also served as a student representative and teaching assistant representative in my
+									final year.</p>
+							</div>
 						</div>
-						<div class="col-lg-9 col-md-8 col-12">
-							<h4 class="text-kcl">First Class Honours MSci Computer Science</h4>
-							<h5 class="text-kcl">King's College London</h5>
-							<h6 class="lead text-muted">September 2016 - June 2020</h6>
-							<span class="badge badge-pill badge-secondary">Software Engineering</span>
-							<span class="badge badge-pill badge-secondary">Data</span>
-							<span class="badge badge-pill badge-secondary">Artificial Intelligence</span>
-							<span class="badge badge-pill badge-secondary">Machine Learning</span>
-							<span class="badge badge-pill badge-secondary">Security</span>
-							<hr>
-							<p><span class="text-kcl">Notable Modules:</span> Advanced Software Engineering, Big Data,
-								Artificial Intelligence, Data Mining, Security Engineering</p>
-							<p> I undertook 28 modules and carried out many group and individal projects during my time
-								at King's. These include two <u><a class="text-kcl"
-										href="portfolio.html#4prj">dissertations</a></u> on the topic of Argumentation
-								Theory.
-								I worked with several languages and technologies including Java, Python, C++, SQL, and
-								Git.
-								I participated in hackathons and other events ran by the tech and AI societies, and I
-								also served as a student representative and teaching assistant representative in my
-								final year.</p>
+					</div>
+
+					<div class="controlledpadding" id="MGS">
+						<div class="row">
+							<div class="col-lg-3 col-md-4 col-12">
+								<img class="curve" src="resources/icons/mgsw.jpg" width="100%" /><br /><br />
+							</div>
+							<div class="col-lg-9 col-md-8 col-12">
+								<h4 class="text-mgs">A Levels, Level 3, (i)GCSEs</h4>
+								<h5 class="text-mgs">The Manchester Grammar School</h5>
+								<h6 class="lead text-muted">September 2009 - June 2016</h6>
+								<hr>
+								<dl class="row">
+									<dt class="col-sm-2 text-mgs">A-Levels</dt>
+									<dd class="col-sm-10">Mathematics, Physics, Chemistry, Further Mathematics, Biology (AS)</dd>
+									<dt class="col-sm-2 text-mgs">Level 3</dt>
+									<dd class="col-sm-10">Extended Project Qualification: "Steve Jobs: An Analysis of the technological and financial contributions he made to Apple and the cultural effect it generated."</dd>
+									<dt class="col-sm-2 text-mgs">(i)GCSEs</dt>
+									<dd class="col-sm-10">Mathematics, Sciences, Electronics, English Language & Literature, French, Greek, Latin</dd>
+								</dl>
+							</div>
 						</div>
 					</div>
 				</div>
-
-				<div class="controlledpadding" id="MGS">
-					<div class="row">
-						<div class="col-lg-3 col-md-4 col-12">
-							<img class="curve" src="resources/icons/mgsw.jpg" width="100%" /><br /><br />
-						</div>
-						<div class="col-lg-9 col-md-8 col-12">
-							<h4 class="text-mgs">A Levels, Level 3, (i)GCSEs</h4>
-							<h5 class="text-mgs">The Manchester Grammar School</h5>
-							<h6 class="lead text-muted">September 2009 - June 2016</h6>
-							<hr>
-							<p><span class="text-mgs">A-Levels:</span> Mathematics, Physics, Chemistry, Further
-								Mathematics and Biology</p>
-							<p><span class="text-mgs">Level 3:</span> Extended Project Qualification: "Steve Jobs: An
-								Analysis of the technological and financial contributions he made to Apple and the
-								cultural effect it generated."</p>
-							<p><span class="text-mgs">(i)GCSEs:</span> Mathematics, Sciences, Electronics, English
-								Language and Literature, French, Greek, Latin</p>
-						</div>
-					</div>
-				</div>
-				<br /><br /><br />
-
-
 
 				<!-- DEVELOPMENT -->
-				<h3 class="text-theme text-center" id="development"><i class="fas fa-paper-plane fa-lg"></i> Development</h3><hr class="border-theme" width="30%">
+				<div id="development"><br /><br /><br />
+					<h3 class="text-theme text-center"><i class="fas fa-paper-plane"></i> Development</h3><hr class="border-theme" width="30%">
+					<div class="controlledpadding" id="cvdcoursera">
+						<div class="row">
+							<div class="col-lg-3 col-md-4 col-12 text-center">
+								<img class="curve" src="resources/icons/jhw.png" width="100%" /><br /><br />
+								<a class="button btn btn-sm btn-theme text-white" href="resources/files/c19ct.pdf"
+									target="_blank">Certificate</a><br /><br />
+							</div>
+							<div class="col-lg-9 col-md-8 col-12">
+								<h4 class="text-jh">COVID-19 Contact Tracing (Coursera)</h4>
+								<h5 class="text-jh">Johns Hopkins University</h5>
+								<h6 class="lead text-muted">September 2020</h6>
+								<span class="badge badge-pill badge-secondary">COVID-19</span>
+								<span class="badge badge-pill badge-secondary">Communication</span>
+								<span class="badge badge-pill badge-secondary">Health & Safety</span>
+								<hr>
+								<p>This online course covered specific details of the virus COVID-19 and the disease it
+									causes, as well as the in depth protocols for contact tracing, self-isolation and
+									quarantining. I chose this course to educate myself effectively about how the pandemic was caused, the
+									dangers in presents to myself and others, and how to combat it.
+								</p>
+							</div>
+						</div><br />
+					</div>
 
-				<div class="controlledpadding" id="cvdcoursera">
-					<div class="row">
-						<div class="col-lg-3 col-md-4 col-12 text-center">
-							<img class="curve" src="resources/icons/jhw.png" width="100%" /><br /><br />
-							<a class="button btn btn-sm btn-theme text-white" href="resources/files/c19ct.pdf"
-								target="_blank">Certificate</a><br /><br />
-						</div>
-						<div class="col-lg-9 col-md-8 col-12">
-							<h4 class="text-jh">COVID-19 Contact Tracing (Coursera)</h4>
-							<h5 class="text-jh">Johns Hopkins University</h5>
-							<h6 class="lead text-muted">September 2020</h6>
-							<span class="badge badge-pill badge-secondary">COVID-19</span>
-							<span class="badge badge-pill badge-secondary">Communication</span>
-							<span class="badge badge-pill badge-secondary">Health and Safety</span>
-							<hr>
-							<p>This online course covered specific details of the virus COVID-19 and the disease it
-								causes, as well as the in depth protocols for contact tracing, self-isolation and
-								quarantining.
-								I chose this course to educate myself effectively about how the pandemic was caused, the
-								dangers in presents to myself and others, and how to combat it.
-							</p>
-						</div>
-					</div><br />
+					<div class="controlledpadding" id="bdcoursera">
+						<div class="row">
+							<div class="col-lg-3 col-md-4 col-12 text-center">
+								<img class="curve" src="resources/icons/ucw.jpg" width="100%" /><br /><br />
+								<a class="button btn btn-sm btn-theme text-white" href="resources/files/bdaie.pdf"
+									target="_blank">Certificate</a><br /><br />
+							</div>
+							<div class="col-lg-9 col-md-8 col-12">
+								<h4 class="text-uc">Big Data, Artificial Intelligence & Ethics (Coursera)</h4>
+								<h5 class="text-uc">University of California, Davis</h5>
+								<h6 class="lead text-muted">August 2020</h6>
+								<span class="badge badge-pill badge-secondary">Data</span>
+								<span class="badge badge-pill badge-secondary">Philosophy</span>
+								<span class="badge badge-pill badge-secondary">Critical Thinking</span>
+								<hr>
+								<p>This online course covered ethical use cases of big data and AI in modern times as well
+									as the dangers it presents. It also covered important scientific experiments conducted many 
+									years ago at a less than ethical standard. I chose to study this course as I had received a 
+									lower than expected mark in an Ethics of AI university module and I wanted to improve my understanding.
+								</p>
+							</div>
+						</div><br />
+					</div>
+
+					<div class="controlledpadding" id="softwarejpm">
+						<div class="row">
+							<div class="col-lg-3 col-md-4 col-12 text-center">
+								<img class="curve" src="resources/icons/jpm.jpg" width="100%" /><br /><br />
+								<a class="button btn btn-sm btn-theme text-white" href="resources/files/sevejpm.pdf"
+									target="_blank">Certificate</a><br /><br />
+							</div>
+							<div class="col-lg-9 col-md-8 col-12">
+								<h4>Software Engineering Virtual Experience (InsideSherpa)</h4>
+								<h5>JPMorgan Chase & Co.</h5>
+								<h6 class="lead text-muted">June 2020</h6>
+								<span class="badge badge-pill badge-secondary">Financial Analysis</span>
+								<span class="badge badge-pill badge-secondary">Web Development</span>
+								<span class="badge badge-pill badge-secondary">Technical Communication</span>
+								<hr>
+								<p>This virtual internship allowed me to applying my programming and analysis skills to
+									example financial scenarios provided by JPMorgan.
+									Several tasks were carried out such as the analysis of ask and bid prices of a stock and
+									the development of a graphical visualisation for a web application. </p>
+							</div>
+						</div><br />
+					</div>
+
+					<div class="controlledpadding" id="professionalskills">
+						<div class="row">
+							<div class="col-lg-3 col-md-4 col-12 text-center">
+								<img class="curve" src="resources/icons/kclw2.jpg" width="100%" /><br /><br />
+								<a class="button btn btn-sm btn-theme text-white" href="resources/files/psgw.pdf"
+									target="_blank">Certificate</a><br /><br />
+							</div>
+							<div class="col-lg-9 col-md-8 col-12">
+								<h4 class="text-kcl">Professional Skills for a Globalised World</h4>
+								<h5 class="text-kcl">King's College London</h5>
+								<h6 class="lead text-muted">December 2019</h6>
+								<span class="badge badge-pill badge-secondary">Management</span>
+								<span class="badge badge-pill badge-secondary">Diversity & Inclusion</span>
+								<span class="badge badge-pill badge-secondary">Equality & Bias</span>
+								<hr>
+								<p>This course allowed me to improve me to develop my professional skills by considering
+									common scenarios that require them.
+									The UK Equality act was followed, and the above topics were taken into consideration
+									throughout the course.</p>
+							</div>
+						</div><br />
+					</div>
+
+					<div class="controlledpadding" id="googledigitalgarage">
+						<div class="row">
+							<div class="col-lg-3 col-md-4 col-12 text-center">
+								<img class="curve" src="resources/icons/googledgw.jpg" width="100%" /><br /><br />
+								<a class="button btn btn-sm btn-theme text-white" href="resources/files/omf.pdf"
+									target="_blank">Certificate</a><br /><br />
+							</div>
+							<div class="col-lg-9 col-md-8 col-12">
+								<h4 class="text-google">The Online Marketing Fundamentals</h4>
+								<h5 class="text-google">Google Digital Garage</h5>
+								<h6 class="lead text-muted">October 2017</h6>
+								<span class="badge badge-pill badge-secondary">SEO</span>
+								<span class="badge badge-pill badge-secondary">Marketing</span>
+								<span class="badge badge-pill badge-secondary">Strategy</span>
+								<hr>
+								<p>This course allowed me to improve my digital skills and provide me with a thorough
+									understanding of online marketing which I hope to utilise in the future.</p>
+							</div>
+						</div><br />
+					</div>
 				</div>
-
-				<div class="controlledpadding" id="bdcoursera">
-					<div class="row">
-						<div class="col-lg-3 col-md-4 col-12 text-center">
-							<img class="curve" src="resources/icons/ucw.jpg" width="100%" /><br /><br />
-							<a class="button btn btn-sm btn-theme text-white" href="resources/files/bdaie.pdf"
-								target="_blank">Certificate</a><br /><br />
-						</div>
-						<div class="col-lg-9 col-md-8 col-12">
-							<h4 class="text-uc">Big Data, Artificial Intelligence & Ethics (Coursera)</h4>
-							<h5 class="text-uc">University of California, Davis</h5>
-							<h6 class="lead text-muted">August 2020</h6>
-							<span class="badge badge-pill badge-secondary">Data</span>
-							<span class="badge badge-pill badge-secondary">Philosophy</span>
-							<span class="badge badge-pill badge-secondary">Critical Thinking</span>
-							<hr>
-							<p>This online course covered ethical use cases of big data and AI in modern times as well
-								as the dangers it presents.
-								It also covered important scientific experiments conducted many years ago at a less than
-								ethical standard.
-								I chose to study this course as I had received a lower than expected mark in an Ethics
-								of AI university module and I wanted to improve my understanding.
-							</p>
-						</div>
-					</div><br />
-				</div>
-
-				<div class="controlledpadding" id="softwarejpm">
-					<div class="row">
-						<div class="col-lg-3 col-md-4 col-12 text-center">
-							<img class="curve" src="resources/icons/jpm.jpg" width="100%" /><br /><br />
-							<a class="button btn btn-sm btn-theme text-white" href="resources/files/sevejpm.pdf"
-								target="_blank">Certificate</a><br /><br />
-						</div>
-						<div class="col-lg-9 col-md-8 col-12">
-							<h4>Software Engineering Virtual Experience (InsideSherpa)</h4>
-							<h5>JPMorgan Chase & Co.</h5>
-							<h6 class="lead text-muted">June 2020</h6>
-							<span class="badge badge-pill badge-secondary">Financial Analysis</span>
-							<span class="badge badge-pill badge-secondary">Web Development</span>
-							<span class="badge badge-pill badge-secondary">Technical Communication</span>
-							<hr>
-							<p>This virtual internship allowed me to applying my programming and analysis skills to
-								example financial scenarios provided by JPMorgan.
-								Several tasks were carried out such as the analysis of ask and bid prices of a stock and
-								the development of a graphical visualisation for a web application. </p>
-						</div>
-					</div><br />
-				</div>
-
-				<div class="controlledpadding" id="professionalskills">
-					<div class="row">
-						<div class="col-lg-3 col-md-4 col-12 text-center">
-							<img class="curve" src="resources/icons/kclw2.jpg" width="100%" /><br /><br />
-							<a class="button btn btn-sm btn-theme text-white" href="resources/files/psgw.pdf"
-								target="_blank">Certificate</a><br /><br />
-						</div>
-						<div class="col-lg-9 col-md-8 col-12">
-							<h4 class="text-kcl">Professional Skills for a Globalised World</h4>
-							<h5 class="text-kcl">King's College London</h5>
-							<h6 class="lead text-muted">December 2019</h6>
-							<span class="badge badge-pill badge-secondary">Management</span>
-							<span class="badge badge-pill badge-secondary">Diversity and Inclusion</span>
-							<span class="badge badge-pill badge-secondary">Equality and Bias</span>
-							<hr>
-							<p>This course allowed me to improve me to develop my professional skills by considering
-								common scenarios that require them.
-								The UK Equality act was followed, and the above topics were taken into consideration
-								throughout the course.</p>
-						</div>
-					</div><br />
-				</div>
-
-				<div class="controlledpadding" id="googledigitalgarage">
-					<div class="row">
-						<div class="col-lg-3 col-md-4 col-12 text-center">
-							<img class="curve" src="resources/icons/googledgw.jpg" width="100%" /><br /><br />
-							<a class="button btn btn-sm btn-theme text-white" href="resources/files/omf.pdf"
-								target="_blank">Certificate</a><br /><br />
-						</div>
-						<div class="col-lg-9 col-md-8 col-12">
-							<h4 class="text-google">The Online Marketing Fundamentals</h4>
-							<h5 class="text-google">Google Digital Garage</h5>
-							<h6 class="lead text-muted">October 2017</h6>
-							<span class="badge badge-pill badge-secondary">SEO</span>
-							<span class="badge badge-pill badge-secondary">Marketing</span>
-							<span class="badge badge-pill badge-secondary">Strategy</span>
-							<hr>
-							<p>This course allowed me to improve my digital skills and provide me with a thorough
-								understanding of online marketing which I hope to utilise in the future.</p>
-						</div>
-					</div><br />
-				</div>
-				<br /><br /><br />
-
 
 				<!-- SKILLS -->
-				<h3 class="text-theme text-center" id="skills"><i class="fas fa-code fa-lg"></i> Skills</h3><hr class="border-theme" width="30%">
-
-				<div class="controlledpadding container crushed">
+				<div class="container crushed" id="skills"><br /><br /><br />
+					<h3 class="text-theme text-center"><i class="fas fa-code"></i> Skills</h3><hr class="border-theme" width="30%"><br />
 					<dl class="row">
 						<dt class="col-3 text-theme"><h5>Language</h5><hr></dt>
 						<dt class="col-4 text-theme text-center"><h5>Years of Experience</h5><hr></dt>
-						<dt class="col-5 text-theme text-right"><h5>Type</h5><hr></dt>
+						<dt class="col-5 text-theme text-right"><h5>Experience Type</h5><hr></dt>
 	
 						<dd class="col-3">Java</dd>
 						<dd class="col-4 text-center">5+</dd>
@@ -390,7 +386,7 @@
 	
 						<dd class="col-3">SQL</dd>
 						<dd class="col-4 text-center">5+</dd>
-						<dd class="col-5 text-right">University & Industry</dd>
+						<dd class="col-5 text-right">University & Professional</dd>
 	
 						<dd class="col-3">HTML + CSS</dd>
 						<dd class="col-4 text-center">5+</dd>
@@ -398,7 +394,7 @@
 	
 						<dd class="col-3">Python</dd>
 						<dd class="col-4 text-center">3</dd>
-						<dd class="col-5 text-right">Personal, University & Industry</dd>
+						<dd class="col-5 text-right">Personal, University & Professional</dd>
 	
 						<dd class="col-3">Ruby on Rails</dd>
 						<dd class="col-4 text-center">2</dd>
@@ -406,48 +402,39 @@
 	
 						<dd class="col-3">JavaScript</dd>
 						<dd class="col-4 text-center">2</dd>
-						<dd class="col-5 text-right">Industry</dd>
+						<dd class="col-5 text-right">Professional</dd>
 					</dl>
 
 					<p>I also have some experience with React Native, C++, Scala, PHP, Assembly and MATLAB.</p>
 					<br /><br />
 					<dl class="row">
-						<dt class="col-sm-3 text-theme">Software</dt>
-						<dd class="col-sm-9">Git, Bootstrap, Jira, Jenkins, GitHub, BitBucket, IntelliJ, VSCode</dd>
-						<dt class="col-sm-3 text-theme">Office</dt>
-						<dd class="col-sm-9">Microsoft Office Suite (Word, Excel, Powerpoint), iWork Suite, LaTeX</dd>
-						<dt class="col-sm-3 text-theme">OS</dt>
-						<dd class="col-sm-9">macOS, Linux</dd>
+						<dt class="col-sm-2 text-theme">Software</dt>
+						<dd class="col-sm-10">Git, Bootstrap, Jira, Jenkins, GitHub, BitBucket, IntelliJ, VSCode</dd>
+						<dt class="col-sm-2 text-theme">Office</dt>
+						<dd class="col-sm-10">Microsoft Office Suite (Word, Excel, Powerpoint), iWork Suite, LaTeX</dd>
+						<dt class="col-sm-2 text-theme">OS</dt>
+						<dd class="col-sm-10">macOS, Linux</dd>
 					</dl>
-					<!-- <p><span class="text-theme">Software: </span>Git, Bootstrap, Jira, Jenkins, GitHub, BitBucket, IntelliJ, VSCode</p>
-					<p><span class="text-theme">Office: </span>Microsoft Office Suite (Word, Excel, Powerpoint), iWork Suite, LaTeX</p>
-					<p><span class="text-theme">OS: </span>MacOS, Linux</p> -->
 				</div>
-				<br /><br /><br />
-
 
 				<!-- INTERESTS -->
-				<h3 class="text-theme text-center" id="interests"><i class="fas fa-music fa-lg"></i> Interests</h3><hr class="border-theme" width="30%">
-
-				<div class="controlledpadding">
+				<div id="interests"><br /><br /><br />
+					<h3 class="text-theme text-center"><i class="fas fa-music"></i> Interests</h3><hr class="border-theme" width="30%">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-6 col-md-6 col-sm-12"><br />
 								<h5 class="text-theme">Technology</h5>
 								<hr style="margin-top: 0">
 								<p>I’m enthusiastic about software and consumer technology. I attend hackathons and watch
-									keynote
-									speeches about the latest consumer technology such as WWDC and Google I/O.</p>
+									keynote speeches about the latest consumer technology such as WWDC and Google I/O.</p>
 							</div>
 		
 							<div class="col-lg-6 col-md-6 col-sm-12"><br />
 								<h5 class="text-theme">Music</h5>
 								<hr style="margin-top: 0">
 								<p>I clocked in over 50,000 minutes on Apple Music in 2018, listening to a variety of genres.
-									I'm
-									teaching myself how to play both acoustic and electric guitar and I can play the piano at
-									grade
-									5 standard.</p>
+									I'm teaching myself how to play both acoustic and electric guitar and I can play the piano at
+									grade 5 standard.</p>
 							</div>
 		
 							<div class="col-lg-6 col-md-6 col-sm-12"><br />
@@ -461,33 +448,31 @@
 								<h5 class="text-theme">Philosophy and Psychology</h5>
 								<hr style="margin-top: 0">
 								<p>I occasionally attend lectures on philosophy and psychology, two subjects that intrigue me
-									due to
-									their complexity and importance in modern day society.</p>
+									due to their complexity and importance in modern day society.</p>
 							</div>
-						</div><br /><br /><br />
+						</div>
 					</div>
 				</div>
 
-
 				<!-- CONTACT -->
 				<div class="text-center" id="contactme"><br /><br /><br />
+					<h3 class="text-theme"><i class="fas fa-comments"></i> Contact Me</h3><hr class="border-theme" width="30%"><br />
 					<div class="container">
-						<h3 class="text-theme"><i class="fas fa-comments fa-lg"></i> Contact Me</h3><hr class="border-theme" width="30%"><br /><br />
 						<p class="lead">Want to know more about me or just want to have a chat? <br /> Reach out to me on LinkedIn or send me an email.</p><br />
 						<div class="row text-center">
 							<div class="col-sm-4 col-6">
 								<a href="https://www.linkedin.com/in/aaronsuman" target="_blank" class="text-link">
-									<h5 class="lead"><i class="fab fa-linkedin fa-lg"></i> LinkedIn</h5>
+									<h5 class="lead"><i class="fab fa-linkedin"></i> LinkedIn</h5>
 								</a>
 							</div>
 							<div class="col-sm-4 col-6">
 								<a href="mailto:oneaaronsuman@gmail.com" class="text-success">
-									<h5 class="lead"><i class="fas fa-envelope fa-lg"></i> Email</h5>
+									<h5 class="lead"><i class="fas fa-envelope"></i> Email</h5>
 								</a>
 							</div>
 							<div class="col-sm-4 col-12">
 								<a href="portfolio.html" class="text-theme">
-									<h5 class="lead"><i class="fas fa-code-branch fa-lg"></i> Portfolio</h5>
+									<h5 class="lead"><i class="fas fa-code-branch"></i> Portfolio</h5>
 								</a>
 							</div>
 						</div>

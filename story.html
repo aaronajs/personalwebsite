@@ -37,7 +37,7 @@
 	<link rel="stylesheet" href="css/hamburgers.css">
 </head>
 
-<body>
+<body data-spy="scroll">
 
 	<nav class="navbarPrime navbar navbar-expand-sm navbar-dark" id="top">
 		<div class="container">
@@ -60,8 +60,8 @@
 
 	<div class="bg-theme" id="header">
 		<div class="container text-white text-center"><br />
-			<h1>Job Search 2: Electric Boogaloo</h1><br />
-			<h3>A guide to blah blah blah</h3><br />
+			<h1 class="skinny">Job Search 2: Electric Boogaloo</h1><br />
+			<h3 class="skinny">A guide to blah blah blah</h3><br />
 		</div><br /><br />
 	</div>
 
@@ -70,22 +70,22 @@
 		<div class="bg-theme sticky-top" style="margin-top: -40px; padding-top: 10px; padding-bottom: 10px">
 			<nav class="navbar nav-fill justify-content-center" id="resumebar" style="padding-left: 20px; padding-right: 20px">
 				<ul class="nav nav-case row ">
-					<a class="nav-item nav-link text-white" id="exp" href="#reason"><span class="d-none d-lg-block"><i class="fas fa-book-open"></i> The Reason</span><span class="d-lg-none"><i class="fas fa-book-open fa-lg"></i></span></a>
-					<a class="nav-item nav-link text-white" id="exp" href="#search"><span class="d-none d-lg-block"><i class="fas fa-search"></i> The Search</span><span class="d-lg-none"><i class="fas fa-search fa-lg"></i></span></a>
-					<a class="nav-item nav-link text-white" id="edu" href="#applications"><span class="d-none d-lg-block"><i class="fas fa-list-ul"></i> The Applications</span><span class="d-lg-none"><i class="fas fa-list-ul fa-lg"></i></span></a>
-					<a class="nav-item nav-link text-white" id="dev" href="#interviews"><span class="d-none d-lg-block"><i class="fas fa-handshake"></i> The Interviews</span><span class="d-lg-none"><i class="fas fa-handshake fa-lg"></i></span></a>
-					<a class="nav-item nav-link text-white" id="ski" href="#mental"><span class="d-none d-lg-block"><i class="fas fa-heart"></i> Mental Health</span><span class="d-lg-none"><i class="fas fa-heart fa-lg"></i></span></a>
-					<a class="nav-item nav-link text-white" id="con" href="#contactme"><span class="d-none d-lg-block"><i class="fas fa-comments"></i> Contact Me</span><span class="d-lg-none"><i class="fas fa-comments fa-lg"></i></span></a>
+					<a class="nav-item nav-link text-white" href="#intro"><span class="d-none d-lg-block"><i class="fas fa-book-open"></i> Introduction</span><span class="d-lg-none"><i class="fas fa-book-open"></i></span></a>
+					<a class="nav-item nav-link text-white" href="#search"><span class="d-none d-lg-block"><i class="fas fa-search"></i> The Search</span><span class="d-lg-none"><i class="fas fa-search"></i></span></a>
+					<a class="nav-item nav-link text-white" href="#applications"><span class="d-none d-lg-block"><i class="fas fa-list-ul"></i> The Applications</span><span class="d-lg-none"><i class="fas fa-list-ul"></i></span></a>
+					<a class="nav-item nav-link text-white" href="#interviews"><span class="d-none d-lg-block"><i class="fas fa-handshake"></i> The Interviews</span><span class="d-lg-none"><i class="fas fa-handshake"></i></span></a>
+					<a class="nav-item nav-link text-white" href="#mental"><span class="d-none d-lg-block"><i class="fas fa-heart"></i> Mental Health</span><span class="d-lg-none"><i class="fas fa-heart"></i></span></a>
+					<a class="nav-item nav-link text-white" href="#contactme"><span class="d-none d-lg-block"><i class="fas fa-comments"></i> Contact Me</span><span class="d-lg-none"><i class="fas fa-comments"></i></span></a>
 				</ul>
 			</nav>
 		</div>
 
-		<div class="container" data-spy="scroll" data-target="#resumebar" data-offset="0">
-			<div class="tab-content story" id="story"><br /><br /><br />
+		<div class="container" data-target="#resumebar" data-offset="0">
+			<div class="tab-content story" id="story">
 
-				<!-- REASON -->
-				<div class="controlledpadding container crushed">
-					<h4 id="reason"><i class="fas fa-book-open fa-lg"></i> The Reason</h4><hr class="border-theme" width="30%" align="left"><br />
+				<!-- INTRO -->
+				<div class="controlledpadding container crushed" id="intro"><br /><br />
+					<h4 class="text-theme"><i class="fas fa-book-open"></i> Introduction</h4><hr class="border-theme" width="30%" align="left">
 					<p>	I spent 2020 completing my degree and looking for my first real job. 
 					This pandemic made that far more difficult as my first choice graduate scheme went silent during the first lockdown. 
 					I withdrew my application in October, following which they sent me a generic rejection email. 
@@ -96,27 +96,27 @@
 							<div class="input"><span data-year="Feb 2020" data-info="1st choice interview"></span></div>
 							<div class="input"><span data-year="Mar" data-info="Positive feedback"></span></div>
 							<div class="input"><span data-year="Jun" data-info="Restarted search"></span></div>
-							<div class="input"><span data-year="Sept" data-info="Continued teaching"></span></div>
+							<!-- <div class="input"><span data-year="Sept" data-info="Continued teaching"></span></div> -->
 							<div class="input"><span data-year="Oct" data-info="Withdrew 1st choice"></span></div>
 							<div class="input"><span data-year="Nov" data-info="Active search"></span></div>
-							<div class="input"><span data-year="Dec" data-info="1st final stage interview"></span></div>
+							<div class="input"><span data-year="Dec" data-info="1st onsite"></span></div>
 							<div class="input"><span data-year="Jan 2021" data-info="1st offer"></span></div>
-							<div class="input active"><span data-year="Feb" data-info=" offer"></span></div>
-							<div class="input"><span data-year="Mar" data-info="1st day"></span></div>
+							<div class="input active"><span data-year="Feb" data-info="Preferred offer"></span></div>
+							<div class="input"><span data-year="Mar" data-info=""></span></div>
 						</div>
 					</div><br /><br />
 					<p>	But the reason I am writing this is to acknowledge that my initial job search wasn't productive. 
-						I had weak cover letters, limited interview practice and minimal experience. 
+						I had unconvincing cover letters, limited interview practice and minimal experience. 
 						While I was fortunate to receive three offers during my job search, I applied to over 100 different roles before reaching this point. 
 						Many companies sent instant rejections or didn't respond to me at all. </p>
 					<br /><hr class="border-theme">
 					<h5 class="text-theme">Some stats on my job search</h5>
 					<ul>
-						<li>I made 103 job applications in total.</li>
-						<li>Only 31 companies considered my application past the initial stage.</li>
-						<li>I was interviewed 17 times overall (excluding coding and prerecorded video interviews).</li>
-						<li>I reached the final interview stage 6 times.</li>
-						<li>I received 3 offers.</li>
+						<li>I made <b><span class="text-theme">103</span></b> job applications in total.</li>
+						<li>Only <b><span class="text-theme">31</span></b> companies considered my application past the initial stage.</li>
+						<li>I was interviewed <b><span class="text-theme">17</span></b> times overall (excluding coding and prerecorded video interviews).</li>
+						<li>I reached the final interview stage <b><span class="text-theme">6</span></b> times.</li>
+						<li>I received <b><span class="text-theme">3</span></b> offers.</li>
 					</ul><hr class="border-theme"><br />
 					<p>	It took me a while to refine my process, which I did by finding helpful resources online.  
 						I've benefitted immensely from those who were generous enough to share what they know.
@@ -126,27 +126,42 @@
 						These resources cover how to find jobs, apply to them, and improve interview technique. </p>
 					<p>	To those of you reading this, I hope you find it helpful. 
 						If you want to discuss this more, feel free to <u><a class="text-theme" href="#contactme">reach out</a></u> :)</p>
-				</div><br /><br /><br />
+				</div>
 
 				<!-- SEARCH -->
-				<div class="controlledpadding container crushed">
-					<h4 id="search"><i class="fas fa-search fa-lg"></i> The Search</h4><hr class="border-theme" width="30%" align="left"><br />
+				<div class="controlledpadding container crushed" id="search"><br /><br />
+					 <h4 class="text-theme"><i class="fas fa-search"></i> The Search</h4><hr class="border-theme" width="30%" align="left">
 					<p> I'm sure that many of you can find job postings easily. 
 						However, I've added this section if you're still struggling to find them. 
 						They can be found directly on a company website if you have particular ones in mind, but it's ideal to search through roles that are relevant to you. </p>
+					<p>	Whether you're looking for graduate roles or positions that require specific technologies, the resources below are excellent for finding jobs that suit you. </p>
 					<br /><hr class="border-theme">
 					<h5	class="text-theme">General search tips</h5>
 					<ul>
 						<li>Using a spreadsheet helps to keep track of the roles you are interested in and the stages you reach in each process.</li>
-						<li>Keep your information online up to date with detailed and relevant information – recruiters can find you too.</li>
-						<li>Be proactive – you should still apply to roles even if you're already at an interview stage.</li>
-					</ul><hr class="border-theme"><br />
-					<p>	Whether you're looking for graduate roles or positions that require specific technologies, the resources below are excellent for finding jobs that suit you. </p>
-				</div><br /><br /><br />
+						<li>Keep your information online up to date with detailed and relevant information so recruiters can find you too.</li>
+						<li>Be proactive: you should still apply to roles even if you're already at an interview stage.</li>
+					</ul><hr class="border-theme">
+					<h5	class="text-theme">Search Sources</h5>
+					<dl class="row normalSize sources">
+						<dt class="col-sm-4"><a class="text-theme" href="https://kcl.targetconnect.net/unauth" target="_blank">University Career Portal</a></dt>
+						<dd class="col-sm-8">Most universities advertise jobs on their career portals (KCL linked).</dd>
+						<dt class="col-sm-4"><a class="text-theme" href="https://otta.com" target="_blank">Otta</a></dt>
+						<dd class="col-sm-8">Technology roles in London from giants to startups.</dd>
+						<dt class="col-sm-4"><a class="text-theme" href="https://www.gradcracker.com" target="_blank">Gradcracker</a></dt>
+						<dd class="col-sm-8">Showcases STEM graduate roles.</dd>
+						<dt class="col-sm-4"><a class="text-theme" href="https://www.ratemyplacement.co.uk" target="_blank">Rate My Placement</a></dt>
+						<dd class="col-sm-8">Showcases and reviews graduate, placement and internship opportunities.</dd>
+						<dt class="col-sm-4"><a class="text-theme" href="https://www.prospects.ac.uk/graduate-jobs" target="_blank">Prospects</a></dt>
+						<dd class="col-sm-8">Contains roles from different sectors as internships, graduate schemes and further study.</dd>
+						<dt class="col-sm-4"><a class="text-theme" href="https://targetjobs.co.uk" target="_blank">Target Jobs</a></dt>
+						<dd class="col-sm-8">Showcases roles with company profiles and career advice.</dd>
+					</dl>
+				</div>
 
 				<!-- APPLICATION -->
-				<div class="controlledpadding container crushed">
-					<h4 id="applications"><i class="fas fa-list-ul fa-lg"></i> The Application</h4><hr class="border-theme" width="30%" align="left"><br />
+				<div class="controlledpadding container crushed" id="applications"><br /><br />
+					 <h4 class="text-theme"><i class="fas fa-list-ul"></i> The Application</h4><hr class="border-theme" width="30%" align="left">
 					<p>	As I mentioned earlier, it took me a while to improve the applications I made. 
 						The process won't be the same for everybody but making a good first impression helps.
 						Many companies screen their applicants using an automated system (<u><a class="text-theme" href="https://www.topresume.com/career-advice/what-is-an-ats-resume">ATS</a></u>), so it can help to make sure your CV is machine readable too.
@@ -157,17 +172,33 @@
 						<li>Know the company and role: who they are, what you will do, company values, recent news, etc.</li>
 						<li>Tailor your cover letter (and where needed your CV) to the role.</li>
 						<li>Reflect and adapt: if you're instantly rejected or ghosted, something might need to change. Try to get feedback, although not many companies provide it at this stage.</li>
-					</ul><hr class="border-theme"><br />
-				</div><br /><br /><br />
+					</ul><hr class="border-theme">
+					<h5	class="text-theme">Application Sources</h5>
+					<dl class="row normalSize sources">
+						<dt class="col-sm-4"><a class="text-theme" href="https://kcl.targetconnect.net/unauth" target="_blank">University Career Portal</a></dt>
+						<dd class="col-sm-8">Most universities provide career advice through their career portals (KCL linked).</dd>
+						<dt class="col-sm-4"><a class="text-theme" href="https://teamblind.com" target="_blank">Blind</a></dt>
+						<dd class="col-sm-8">An anonymous US based version of LinkedIn with a focus on being open and sharing detailed experiences.</dd>
+						<dt class="col-sm-4"><a class="text-theme" href="https://capd.mit.edu/jobs-and-internships/resumes-cvs-cover-letters-and-linkedin/resumes" target="_blank">MIT</a></dt>
+						<dd class="col-sm-8">MIT's guide to writing a good resumé.</dd>
+						<dt class="col-sm-4"><a class="text-theme" href="https://www.imperial.ac.uk/careers/applications-and-interviews/cv/" target="_blank">Imperial</a></dt>
+						<dd class="col-sm-8">Imperial's guide to writing a good CV.</dd>
+						<dt class="col-sm-4"><a class="text-theme" href="https://www.freecodecamp.org/news/how-to-improve-your-cover-letter/" target="_blank">FreeCodeCamp</a></dt>
+						<dd class="col-sm-8">A guide on improving your cover letter - Software Engineering</dd>
+						<dt class="col-sm-4"><a class="text-theme" href="https://www.grammarly.com" target="_blank">Grammarly</a></dt>
+						<dd class="col-sm-8">A free spelling and grammar checker. Useful to avoid the most basic mistakes in an application.</dd>
+					</dl>
+				</div>
 
 				<!-- INTERVIEWS -->
-				<div class="controlledpadding container crushed">
-					<h4 id="interviews"><i class="fas fa-handshake fa-lg"></i> The Interviews</h4><hr class="border-theme" width="30%" align="left"><br />
+				<div class="controlledpadding container crushed" id="interviews"><br /><br />
+					 <h4 class="text-theme"><i class="fas fa-handshake"></i> The Interviews</h4><hr class="border-theme" width="30%" align="left">
 					<p> Getting to this stage is an achievement itself. 
 						Depending on the role you applied for, there can be a whole range of interviews and assessments. 
-						I received my offer after eight interviews. 
+						How many you do largely depends on the role.
+						I received my offer after eight interviews but for my internship I was only interviewed twice.
 						These interviews can be carried out separately or at an onsite / assessment centre. </p>
-					<p>	The sources below focus on three different types of interview which I've marked with tags. 
+					<p>	The sources below focus on three different types of interview. 
 						These are behavioural and competency-based interviews, live coding and whiteboarding interviews, and system design interviews. 
 						Many of these sources are relevant for take-home tests and coding challenges. 
 						All of them are free or have a free trial. </p>
@@ -177,46 +208,94 @@
 						<li>Improving your technique will help more than memorising solutions and answers.</li>
 						<li>Practice as much as possible, even interviewing at companies you're not that interested in can be good practice for you.</li>
 						<li>Most interviewers are on your side. It can be easier to treat it as a conversation.</li>
-					</ul><hr class="border-theme"><br />
-				</div><br /><br /><br />
+						<li>It's normally your choice of language. A slow but correct, 2 line Python solution is probably better than a complex and incorrect 50 line C++ solution.</li>
+					</ul><hr class="border-theme">
+					<h5	class="text-theme">Interview Sources</h5>
+					<dl class="row normalSize sources">
+						<dt class="col-sm-4"><a class="text-theme" href="https://leetcode.com" target="_blank">LeetCode</a> & <a class="text-theme" href="https://www.hackerrank.com" target="_blank">HackerRank</a></dt>
+						<dd class="col-sm-8">Both provide many example coding problems often found in coding interviews. I'd favour LeetCode as its challenges are usually well explained.</dd>
+						<dt class="col-sm-4"><a class="text-theme" href="https://www.amazon.co.uk/Cracking-Coding-Interview-6th-Programming/dp/0984782850/ref=sr_1_1?crid=1IHV2WL83A48A&dchild=1&keywords=cracking+the+coding+interview&qid=1613503084&sprefix=cracking+the+codin%2Caps%2C155&sr=8-1" target="_blank">Cracking the Coding Interview</a> & 
+							<a class="text-theme" href="https://github.com/careercup/CtCI-6th-Edition" target="_blank">GitHub Repo</a></dt>
+						<dd class="col-sm-8">The 6th edition of the book is incredible useful and can be found in may university libraries and at a reasonable price on Amazon. I'd recommend going through it, but if you don't have time I've linked a GitHub repo containing crowdsourced answers to the book's example challenges in many languages.</dd>
+						<dt class="col-sm-4"><a class="text-theme" href="https://www.interviewcake.com/table-of-contents" target="_blank">Interview Cake</a></dt>
+						<dd class="col-sm-8">Explores common algorithms for specific data structures often found in coding interviews. Provides example code.</dd>
+						<dt class="col-sm-4"><a class="text-theme" href="https://www.pramp.com" target="_blank">Pramp</a> & <a class="text-theme" href="https://interviewing.io" target="_blank">interviewing.io</a></dt>
+						<dd class="col-sm-8">Two websites providing mock interviews with experienced engineers. Disclaimer: I didn't need to use these, but they would have been my next steps if I was still struggling with coding interviews.</dd>
+						<dt class="col-sm-4"><a class="text-theme" href="https://rafal.io/posts/assorted-notes" target="_blank">Rafal's Assorted Notes</a></dt>
+						<dd class="col-sm-8">A comprehensive guide on common algorithms including sorting, graphs and backtracking algorithms.</dd>
+						<dt class="col-sm-4"><a class="text-theme" href="https://yangshun.github.io/tech-interview-handbook/introduction" target="_blank">Tech Interview Handbook</a></dt>
+						<dd class="col-sm-8">A handbook covering data structures, algorithms and tips for coding. Also includes advice on applications, general interviews and even offer negotiation.</dd>
+						<dt class="col-sm-4"><a class="text-theme" href="https://www.byte-by-byte.com" target="_blank">Byte by Byte</a></dt>
+						<dd class="col-sm-8">A detailed course on technical interviews. I used the free recommended resources and blog entries for guidance.</dd>
+						<dt class="col-sm-4"><a class="text-theme" href="https://www.geeksforgeeks.org/practice-for-cracking-any-coding-interview/" target="_blank">Geeks for Geeks</a></dt>
+						<dd class="col-sm-8">Contains coding guides, practice information and general advice (linked).</dd>
+						<dt class="col-sm-4"><a class="text-theme" href="https://educative.io" target="_blank">educative</a></dt>
+						<dd class="col-sm-8">An immense collection of coding and interview guides, along with dedicated learning paths. I used the free sources and articles.</dd>
+						<dt class="col-sm-4 text-theme">YouTube (for System Design)</dt>
+						<dd class="col-sm-8">I primarily used YouTube to learn how to approach system design interviews. I used three channels in particular: 
+							<a class="text-theme" href="https://www.youtube.com/channel/UCZLJf_R2sWyUtXSKiKlyvAw" target="_blank">Coding Made Simple</a>,
+							<a class="text-theme" href="https://www.youtube.com/channel/UCn1XnDWhsLS5URXTi5wtFTA" target="_blank">Tech Dummies</a> and
+							<a class="text-theme" href="https://www.youtube.com/channel/UCaO6VoaYJv4kS-TQO_M-N_g" target="_blank">AlgoExpert's channel</a>.</dd>
+						<dt class="col-sm-4"><a class="text-theme" href="https://www.codinginterview.com" target="_blank">Coding Interview</a></dt>
+						<dd class="col-sm-8">Made by the educative team, this website provides in depth guides for interviewing at specific companies (including <u><a class="text-theme" href="https://hourspent.com/insights/what-are-faang-and-big-n-companies-all-about/" target="_blank">FAANG and other Big N</a></u>) and previous interview questions.</dd>
+						<dt class="col-sm-4"><a class="text-theme" href="https://www.thebalancecareers.com/what-is-the-star-interview-response-technique-2061629" target="_blank">The Balance Careers</a></dt>
+						<dd class="col-sm-8">Covers many different career topics including the STAR answer technique (linked).</dd>
+						<dt class="col-sm-4"><a class="text-theme" href="https://targetjobs.co.uk/careers-advice/assessment-centres" target="_blank">Target Jobs</a></dt>
+						<dd class="col-sm-8">As mentioned before, this website provides lots of general advice, including an assessment centre guide (linked).</dd>
+					</dl>
+				</div>
 
 				<!-- MENTAL HEALTH -->
-				<div class="controlledpadding container crushed">
-					<h4 id="mental"><i class="fas fa-heart fa-lg"></i> Mental Health</h4><hr class="border-theme" width="30%" align="left"><br />
-					<p>	If you're neurotypical or uncomfortable talking about mental health, feel free to scroll on! 
-						But if you're more neurodiverse, like me, or merely curious, I've added this section specifically for you. 
+				<div class="controlledpadding container crushed" id="mental"><br /><br />
+					 <h4 class="text-theme"><i class="fas fa-heart"></i> Mental Health</h4><hr class="border-theme" width="30%" align="left">
+					<p>	If you're neurodiverse, like me, or merely curious, I've added this section specifically for you. 
 						I could go on and on about the stigma around mental health or its importance in modern society. 
 						Instead, I'd like to be direct. </p>
-					<p>	Having companies go back on their word, being suddenly ghosted by them, and the numerous application processes took a toll on my mental health — stress, anxiety and depression (SAD). 
+					<p>	Having companies go back on their word, being suddenly ghosted by them, and the numerous application processes took a toll on my mental health — stress, anxiety and depression. 
 						These consequences are increasingly common. 
-						So if you're searching for a job and feel SAD, the resources below may help. 
-						It's ok to feel SAD, but it can be better to acknowledge this or even attempt to heal. </p>
-					<p>	You are more important than any job out there :)</p>
-				</div><br /><br /><br />
+						So if you're searching for a job and feel like this, the resources below may help.</p>
+					<p>	You are more important than any job out there :)</p><br />
+					<hr class="border-theme">
+					<h5	class="text-theme">Mental Health Sources</h5>
+					<dl class="row normalSize sources">
+						<dt class="col-sm-4"><a class="text-theme" href="https://www.kcl.ac.uk/counselling" target="_blank">University Support</a></dt>
+						<dd class="col-sm-8">Most universities offer a form of counselling and support (KCL linked).</dd>
+						<dt class="col-sm-4"><a class="text-theme" href="https://otta.com" target="_blank">Headstrong Counselling</a></dt>
+						<dd class="col-sm-8">An affordable and high quality counselling service in London.</dd>
+						<dt class="col-sm-4"><a class="text-theme" href="https://www.mind.org.uk/information-support/a-z-mental-health/" target="_blank">Mind</a></dt>
+						<dd class="col-sm-8">Provides support and general advice about specific topics (A-Z guide linked).</dd>
+						<dt class="col-sm-4"><a class="text-theme" href="https://www.nhs.uk/using-the-nhs/nhs-services/mental-health-services/how-to-access-mental-health-services/" target="_blank">NHS</a></dt>
+						<dd class="col-sm-8">The brief NHS guide to accessing mental health services.</dd>
+						<dt class="col-sm-4"><a class="text-theme" href="https://www.bacp.co.uk/search/Therapists" target="_blank">British Association for Counselling and Psychotherapy</a></dt>
+						<dd class="col-sm-8">Search for BACP accredited counsellors and therapists.</dd>
+						<dt class="col-sm-4"><a class="text-theme" href="https://targetjobs.co.uk" target="_blank">Counselling Directory</a></dt>
+						<dd class="col-sm-8">Search for a counsellor or therapist.</dd>
+					</dl>
+				</div>
 
 				<!-- CONTACT -->
-				<div class="controlledpadding container crushed">
-					<h4 id="contactme"><i class="fas fa-comments fa-lg"></i> Contact Me</h4><hr class="border-theme" width="30%" align="left"><br />
-					<p>Want to know more about me or just want to have a chat? <br /> Reach out to me on LinkedIn or send me an email.</p><br />
-					<div class="row text-center justify-content-center">
-						<div class="col-4">
+				<div class="controlledpadding container crushed" id="contactme"><br /><br />
+					 <h4 class="text-theme"><i class="fas fa-comments"></i> Contact Me</h4><hr class="border-theme" width="30%" align="left">
+					<p>Want to know more about me or have any sources that I may have missed? <br /> Reach out to me on LinkedIn or send me an email.</p><br />
+					<div class="row">
+						<div class="col-sm-3 col-6">
 							<a href="https://www.linkedin.com/in/aaronsuman" target="_blank" class="text-link">
-								<h5 class="lead"><i class="fab fa-linkedin fa-lg"></i> LinkedIn</h5>
+								<h5 class="lead"><i class="fab fa-linkedin"></i> LinkedIn</h5>
 							</a>
 						</div>
-						<div class="col-4">
+						<div class="col-sm-3 col-6">
 							<a href="mailto:oneaaronsuman@gmail.com" class="text-success">
-								<h5 class="lead"><i class="fas fa-envelope fa-lg"></i> Email</h5>
+								<h5 class="lead"><i class="fas fa-envelope"></i> Email</h5>
 							</a>
 						</div>
 					</div>
-				</div><br /><br /><br />
+				</div>
 
 			</div>
 		</div>
 
 		<div class="container" id="footer">
-			<hr class="border-theme">
+			<hr>
 			<div class="row">
 				<div class="col-8">
 					<p class="text-muted text-left small">&copy;

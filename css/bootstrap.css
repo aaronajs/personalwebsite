@@ -5490,7 +5490,7 @@ a.bg-light:focus, a.bg-light:hover {
   background-color: #dae0e5 !important;
 }
 
-.bg-dark {
+a.bg-dark {
   background-color: #2f353a !important;
 }
 
@@ -5521,7 +5521,7 @@ a.bg-dark:focus, a.bg-dark:hover {
   -o-transition: all .2s ease-in;
   -webkit-transition: all .2s ease-in;
   transition: all .2s ease-in;
-  background-color: #18191A !important;
+  background-color: #161618 !important;
 }
 
 .text-darkmode {
@@ -5538,6 +5538,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 
 .border-theme {
   border-color: #8b2a24 !important;
+  border-width: 2px;
 }
 
 .bg-translucent {
