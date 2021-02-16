@@ -36,7 +36,7 @@ btn.addEventListener("click", function () {
     theme = "dark";
     icon.innerHTML = "<i class=\"fas fa-moon\"></i> Dark Mode";
   } else {
-    icon.innerHTML = "<i class=\"far fa-moon\"></i> Light Mode";
+    icon.innerHTML = "<i class=\"fas fa-sun\"></i> Light Mode";
   }
   localStorage.setItem("theme", theme);
 });
