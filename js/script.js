@@ -18,25 +18,36 @@ $('body').scrollspy({ target: '#resumebar' })
 const btn = document.querySelector(".darkmodeToggle");
 const currentTheme = localStorage.getItem("theme");
 const main = document.getElementById("main");
+const banner = document.getElementById("banner");
 const icon = document.getElementById("darkicon");
+const light = "<i class=\"fas fa-sun\"></i> Light Mode";
+const dark = "<i class=\"fas fa-moon\"></i> Dark Mode";
 
 if (currentTheme == "dark") {
   main.classList.remove("bg-white");
   main.classList.add("bg-dark");
   main.classList.add("text-darkmode");
-  icon.innerHTML = "<i class=\"fas fa-moon\"></i> Dark Mode";
+  icon.innerHTML = dark;
+  if (banner) {
+    banner.classList.remove("bg-grey");
+    banner.classList.add("bg-darkgrey");
+  }
 }
 
 btn.addEventListener("click", function () {
   main.classList.toggle("bg-white");
   main.classList.toggle("bg-dark");
   main.classList.toggle("text-darkmode");
+  if (banner) {
+    banner.classList.toggle("bg-grey");
+    banner.classList.toggle("bg-darkgrey");
+  }
   let theme = "light";
   if (main.classList.contains("bg-dark")) {
     theme = "dark";
-    icon.innerHTML = "<i class=\"fas fa-moon\"></i> Dark Mode";
+    icon.innerHTML = dark;
   } else {
-    icon.innerHTML = "<i class=\"fas fa-sun\"></i> Light Mode";
+    icon.innerHTML = light;
   }
   localStorage.setItem("theme", theme);
 });

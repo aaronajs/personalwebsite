@@ -4264,15 +4264,18 @@ tbody.collapse.show {
 }
 
 .jumbotron {
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
   margin-bottom: 0rem;
-  background-color: #fff;
-  /* border-radius: 0.3rem; */
+  margin-top: 2rem;
+  border-radius: 0.8rem;
 }
 
 @media (min-width: 576px) {
   .jumbotron {
-    padding: 0rem 2rem;
+    padding: 2rem 5rem;
+    margin-top: 5rem;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 }
 
@@ -5521,7 +5524,7 @@ a.bg-dark:focus, a.bg-dark:hover {
   -o-transition: all .2s ease-in;
   -webkit-transition: all .2s ease-in;
   transition: all .2s ease-in;
-  background-color: #161618 !important;
+  background-color: #0A0A0A !important;
 }
 
 .text-darkmode {
@@ -5529,7 +5532,11 @@ a.bg-dark:focus, a.bg-dark:hover {
 }
 
 .bg-grey {
-  background-color: #f0f3f6 !important;
+  background-color: #e0e3e6 !important;
+}
+
+.bg-darkgrey {
+  background-color: #202326 !important;
 }
 
 .bg-theme {
